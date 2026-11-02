@@ -25,7 +25,7 @@ Four raw files exceed GitHub's 100 MB limit and are not in this repo (see `.giti
 Restore them with:
 
 ```bash
-"$HOME/.venvs/iehp-access/bin/python" -I scripts/download_data.py --only E X
+"$HOME/.venvs/iehp-access/bin/python" -I scripts/download_data.py --only E X_acs
 ```
 
 Files already on disk are skipped. Publishers update their files, so compare a re-download against the SHA-256
