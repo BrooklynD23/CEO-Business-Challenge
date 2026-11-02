@@ -36,11 +36,11 @@ ALL_MONTHS = [PRIMARY_MONTH] + SENS_MONTHS
 # IEHP / scenario constants
 IEHP_MEDICAL_FACTSHEET = 1_321_983          # [VERIFIED: C fact sheet Oct 2026]
 IEHP_ALL_PROGRAMS = 1_394_246
-# Primary scenario set (policy_verification.md section 2): IEHP Governing Board 2026-08-10
-SCEN_PRIMARY = {"Low (IEHP 'more than 100,000')": 100_000,
+# COMPARISON set (policy_verification.md section 2): IEHP Governing Board 2026-08-10. Owner chose SCEN_GUIDE as primary on 2026-11-02.
+SCEN_IEHP = {"Low (IEHP 'more than 100,000')": 100_000,
                 "Mid (IEHP 'about 10%' of Medi-Cal)": 132_000,
                 "High (10% of all members + ~15k QNC; may double count)": 155_000}
-# Guide's illustrative set (exceeds IEHP's stated figure)
+# PRIMARY set (owner decision 2026-11-02): student guide scenarios (14% and 18% exceed IEHP stated figure)
 SCEN_GUIDE = {"Guide low 10%": 0.10, "Guide mid 14.0%": 0.14, "Guide mid 1-in-7": 1 / 7, "Guide high 18%": 0.18}
 
 ACCEPT_LO, ACCEPT_HI = 0.40, 0.65     # research/intervention_evidence.md section 2.2

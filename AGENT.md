@@ -61,8 +61,10 @@ Data flow: `scripts/download_data.py` -> `data/raw/<source_key>/` (immutable) ->
   -> s02b diagnostics -> s03 providers per 1,000 eligibles + E2SFCA catchment (straight-line distance, a travel-time proxy)
   -> s04 scenarios -> s05a covariates -> s05b correlations (Spearman + BH, count models, Moran's I/LISA) -> s06 gap ranking
   + stability tests -> s08 figures -> s07 quality report (runs last).
-- **Scenarios**: primary set is IEHP Governing Board figures (100k / 132k / 155k). The student guide's 10/14/18% set is a
-  comparison only; it exceeds IEHP's own statement.
+- **Scenarios** (owner decision 2026-11-02): primary set is the student guide's 10/14/18% of 1,321,983 (`SCEN_GUIDE`,
+  tagged `guide_primary`; 1-in-7 kept as a variant). IEHP Governing Board 100k / 132k / 155k (`SCEN_IEHP`, tagged
+  `iehp_comparison`) stays alongside. The guide's 14% and 18% exceed IEHP's own statement; that misalignment is documented
+  in `research/analysis_findings.md` ("Scenario alignment") and must stay visible in any output.
 - The s06 ranking is "general FFS supply shortfall among all Medi-Cal eligibles", not where transitioning members lose access.
 - `tests/test_analysis_outputs.py` asserts on committed outputs (e.g. 169 ZCTAs, 1,871,886 eligibles for 2026-09, no
   provider names/phones in processed files). Rerunning the pipeline must keep these passing.

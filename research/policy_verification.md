@@ -123,6 +123,8 @@ DHCS's "2.8-fold increase" (S01 p.15) matches 2 million divided by 702,547, whic
 
 **An anomaly worth asking about.** IEHP has 10.0% of statewide plan enrollment but reports only 5% to 7% of the 2 million movers [ESTIMATE: arithmetic]. Yet Riverside ranks fourth and San Bernardino sixth among counties by affected enrollees (S35). Molina and Kaiser members are outside IEHP's figure, and Kaiser and Molina together hold about 20% of plan enrollment in the region at December 2024 (S32). The figures can be reconciled only with data nobody has published. **Ask IEHP directly.**
 
+**Scenario choice (2026-11-02).** The owner chose the student guide's scenarios (10%, 14%, 18% of IEHP Medi-Cal 1,321,983 = 132,198 / 185,078 / 237,957, plus the 1-in-7 variant at 188,855) as the PRIMARY set in the analysis. The IEHP Governing Board figures above (100,000 / 132,000 / 155,000) are kept as a labelled comparison set. The guide's 14% and 18% exceed IEHP's own statement; this is a known misalignment, documented rather than hidden. [COMPUTED: scripts/analysis/s04_scenarios.py]
+
 ### County level
 **No published count of UIS enrollees for Riverside or San Bernardino was found.** The only county fact is the rank order: "Los Angeles County has the largest number of affected Medi-Cal enrollees, followed by Orange, Santa Clara, Riverside, San Diego and San Bernardino" (S35, reporting DHCS's Sept 30 webinar). San Bernardino County's own notice gives no count (S49). DHCS has said it prioritized "Los Angeles County and Southern California, where the UIS population is most concentrated" (S31).
 

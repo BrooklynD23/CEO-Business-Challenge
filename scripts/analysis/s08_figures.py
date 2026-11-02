@@ -142,7 +142,7 @@ save(fig, "f6_rank_stability.png")
 ep = pd.read_csv(TAB / "s04_extra_patients_per_ffs_provider.csv")
 q = ep[(ep.group == "pcp") & (ep.definition.isin(["a", "b", "e"])) & (ep.dormancy.isin([0.0, 0.344]))]
 fig, ax = plt.subplots(figsize=(10.5, 5.0))
-scen_order = list(SCEN_PRIMARY.keys()) + ["Guide mid 14.0%", "Guide mid 1-in-7", "Guide high 18%"]
+scen_order = list(SCEN_GUIDE.keys()) + list(SCEN_IEHP.keys())
 yy = 0; yt, yl = [], []
 for sc in scen_order:
     for d_, dc in [("a", "#9cc3f0"), ("b", C1), ("e", "#c98500")]:
@@ -212,7 +212,7 @@ ax.set_title("Figure 10. 'FFS-enrolled' is nearly the whole physician workforce:
 
 # ---- F11 all-plan movers
 ap = pd.read_csv(TAB / "s04_all_plan_mover_scenarios.csv")
-fig, ax = plt.subplots(figsize=(9.6, 4.8)); names = list(SCEN_PRIMARY.keys()) + ["Guide mid 14.0%", "Guide high 18%"]
+fig, ax = plt.subplots(figsize=(9.6, 4.8)); names = [k for k in SCEN_GUIDE if k != "Guide mid 1-in-7"] + list(SCEN_IEHP.keys())
 for i, nme in enumerate(names):
     r = ap[ap.scenario == nme]
     base_m = r.iloc[0].iucw if False else r.iehp_movers.iloc[0]

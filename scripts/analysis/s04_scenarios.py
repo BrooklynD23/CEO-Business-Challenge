@@ -26,9 +26,9 @@ chk = {}
 BASE = IEHP_MEDICAL_FACTSHEET
 iehp_b = b[(b.month == "2026-09") & b.county.isin(["Riverside", "San Bernardino"]) & b.plan.str.startswith("Inland Empire Health Plan", na=False)]
 IEHP_B = float(iehp_b.n.sum())
-prim = [(k, v, v / BASE, v / IEHP_B, v / IEHP_ALL_PROGRAMS) for k, v in SCEN_PRIMARY.items()]
+prim = [(k, v, v / BASE, v / IEHP_B, v / IEHP_ALL_PROGRAMS) for k, v in SCEN_IEHP.items()]
 guide = [(k, round(BASE * s), s, round(BASE * s) / IEHP_B, round(BASE * s) / IEHP_ALL_PROGRAMS) for k, s in SCEN_GUIDE.items()]
-sc = pd.DataFrame([("primary (IEHP board 2026-08-10)", *r) for r in prim] + [("guide illustrative (exceeds IEHP statement)", *r) for r in guide],
+sc = pd.DataFrame([("guide_primary (owner decision 2026-11-02)", *r) for r in guide] + [("iehp_comparison (IEHP board 2026-08-10)", *r) for r in prim],
                   columns=["set", "scenario", "movers", "share_of_1321983_factsheet_medical", "share_of_B_iehp_members_2026_09", "share_of_all_programs_1394246"])
 guide_check = dict(
     guide_text="about 190,000 at about 14% (1 in 7)", at_14_0_pct=round(BASE * 0.14), at_1_in_7=round(BASE / 7), guide_190k_implies_share=190_000 / BASE,
@@ -70,10 +70,10 @@ prof.to_csv(TAB / "s04_statewide_ffs_recency_profile.csv")
 
 # FFS growth in each scenario (two counties). FFS base 1: as published; base 2: lag-adjusted estimate.
 rows = []
-for name, M in list(SCEN_PRIMARY.items()) + [(k, round(BASE * s)) for k, s in SCEN_GUIDE.items()]:
+for name, M in [(k, round(BASE * s)) for k, s in SCEN_GUIDE.items()] + list(SCEN_IEHP.items()):
     for lab, base_ffs in [("as published 2026-09 (prelim.)", ffs_sep), ("lag-adjusted (mean 2026-06..08) [ESTIMATE]", mature)]:
         rows.append(dict(scenario=name, movers=M, existing_ffs_base=lab, existing_ffs=base_ffs, movers_per_existing_ffs=M / base_ffs, ffs_population_multiple=(base_ffs + M) / base_ffs,
-                         set="primary" if name in SCEN_PRIMARY else "guide"))
+                         set="guide_primary" if name in SCEN_GUIDE else "iehp_comparison"))
 growth = pd.DataFrame(rows)
 growth.to_csv(TAB / "s04_ffs_growth_iehp_only.csv", index=False)
 
@@ -103,12 +103,12 @@ for sh in (0.05, 0.07):
     impl[f"iehp_mover_share_{int(sh*100)}pct"] = (1 - sh) / 0.90 / (sh / 0.10)     # non-IEHP rate / IEHP rate, per member, statewide
 mults = [0.5, 1.0, 1.5, 2.0]
 rows = []
-for name, M in list(SCEN_PRIMARY.items()) + [(k, round(BASE * s)) for k, s in SCEN_GUIDE.items()]:
+for name, M in [(k, round(BASE * s)) for k, s in SCEN_GUIDE.items()] + list(SCEN_IEHP.items()):
     r = M / BASE
     for m in mults:
         non = non_iehp_exposed * r * m
         tot = M + non
-        rows.append(dict(set="primary" if name in SCEN_PRIMARY else "guide", scenario=name, iehp_movers=M, iehp_rate=r, non_iehp_rate_multiple_of_iehp=m,
+        rows.append(dict(set="guide_primary" if name in SCEN_GUIDE else "iehp_comparison", scenario=name, iehp_movers=M, iehp_rate=r, non_iehp_rate_multiple_of_iehp=m,
                          non_iehp_movers=non, all_plan_movers=tot, understatement_pct_of_all_plan=100 * non / tot, all_plan_over_iehp_only_pct=100 * non / M,
                          ffs_multiple_all_plan_published_base=(ffs_sep + tot) / ffs_sep, ffs_multiple_all_plan_lag_adj_base=(mature + tot) / mature))
 allplan = pd.DataFrame(rows)
@@ -124,7 +124,7 @@ DEFN = {"a": "broad", "b": "deduped", "c": "strict", "d": "billable at site", "e
 N = {(g, d): float(ie[f"w_{g}__{d}"].sum()) for g in GROUPS for d in DEFN}
 DORM = [0.0, 0.20, 0.344, 0.45]     # 0.344 = 45,000 / (45,000+86,000) statewide plan-serving enrolled providers [ESTIMATE: S35 arithmetic; different population]
 rows = []
-scen_all = list(SCEN_PRIMARY.items()) + [(k, round(BASE * s)) for k, s in SCEN_GUIDE.items()]
+scen_all = [(k, round(BASE * s)) for k, s in SCEN_GUIDE.items()] + list(SCEN_IEHP.items())
 for (g, d), n in N.items():
     for name, M in scen_all:
         for dorm in DORM:
@@ -132,7 +132,7 @@ for (g, d), n in N.items():
             hi = M / (n * (1 - dorm) * ACCEPT_LO)
             mid = M / (n * (1 - dorm) * 0.525)
             rows.append(dict(group=g, group_label=GROUPS[g], definition=d, definition_label=DEFN[d], providers=n, dormancy=dorm, scenario=name, movers=M,
-                             set="primary" if name in SCEN_PRIMARY else "guide", extra_per_provider_all_accept=M / n, extra_per_accepting_provider_lo=lo, extra_per_accepting_provider_mid=mid,
+                             set="guide_primary" if name in SCEN_GUIDE else "iehp_comparison", extra_per_provider_all_accept=M / n, extra_per_accepting_provider_lo=lo, extra_per_accepting_provider_mid=mid,
                              extra_per_accepting_provider_hi=hi,
                              extra_per_provider_if_quarter_carry=M / (n * (1 - dorm) * 0.25)))
 epp = pd.DataFrame(rows)
@@ -150,7 +150,7 @@ for (g, d), n in N.items():
     for name, M in scen_all:
         for h in H:
             need = M / (n * h)
-            rows.append(dict(group=g, definition=d, scenario=name, set="primary" if name in SCEN_PRIMARY else "guide", movers=M, providers=n, added_panel_per_accepting_provider=h,
+            rows.append(dict(group=g, definition=d, scenario=name, set="guide_primary" if name in SCEN_GUIDE else "iehp_comparison", movers=M, providers=n, added_panel_per_accepting_provider=h,
                              required_acceptance_rate=need, feasible_at_65pct=bool(need <= ACCEPT_HI), feasible_at_100pct=bool(need <= 1.0),
                              h_as_pct_of_panel_1387=100 * h / 1387, h_as_pct_of_panel_1947=100 * h / 1947, h_as_pct_of_panel_2300=100 * h / 2300))
 req = pd.DataFrame(rows)
@@ -162,7 +162,7 @@ for (g, d), n in N.items():
     for name, M in scen_all:
         for a in (0.40, 0.525, 0.65, 1.0):
             h = M / (n * a)
-            rows.append(dict(group=g, definition=d, scenario=name, set="primary" if name in SCEN_PRIMARY else "guide", acceptance=a, added_panel_needed=h,
+            rows.append(dict(group=g, definition=d, scenario=name, set="guide_primary" if name in SCEN_GUIDE else "iehp_comparison", acceptance=a, added_panel_needed=h,
                              pct_of_panel_1387=100 * h / 1387, pct_of_panel_1947=100 * h / 1947, pct_of_panel_2300=100 * h / 2300))
 pd.DataFrame(rows).to_csv(TAB / "s04_added_panel_vs_benchmark.csv", index=False)
 
@@ -238,7 +238,7 @@ write_json(PROC / "scenario_summary.json", dict(guide_check=guide_check, **chk))
 update_checks("scenarios", dict(guide_check=guide_check, iehp_B_members=IEHP_B, **chk))
 pd.set_option("display.width", 230); pd.set_option("display.max_columns", 30)
 print(sc.round(3).to_string()); print(guide_check); print(vint); print(growth[growth.existing_ffs_base.str.startswith("as")].round(2).to_string())
-print(plan_tab.round(0).to_string()); print(allplan[(allplan.non_iehp_rate_multiple_of_iehp.isin([0.5, 1, 2])) & (allplan.set == "primary")].round(2).to_string())
-print(epp[(epp.group == "pcp") & (epp.definition.isin(["a", "b", "c"])) & (epp.dormancy == 0) & (epp.set == "primary")].round(1).to_string())
+print(plan_tab.round(0).to_string()); print(allplan[(allplan.non_iehp_rate_multiple_of_iehp.isin([0.5, 1, 2])) & (allplan.set == "guide_primary")].round(2).to_string())
+print(epp[(epp.group == "pcp") & (epp.definition.isin(["a", "b", "c"])) & (epp.dormancy == 0) & (epp.set == "guide_primary")].round(1).to_string())
 print(fl_stat)
 print(lgt.round(3))

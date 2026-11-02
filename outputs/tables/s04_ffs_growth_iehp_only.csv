@@ -1,15 +1,15 @@
 scenario,movers,existing_ffs_base,existing_ffs,movers_per_existing_ffs,ffs_population_multiple,set
-"Low (IEHP 'more than 100,000')",100000,as published 2026-09 (prelim.),99206.0,1.0080035481724896,2.0080035481724896,primary
-"Low (IEHP 'more than 100,000')",100000,lag-adjusted (mean 2026-06..08) [ESTIMATE],112539.0,0.8885808475284124,1.8885808475284123,primary
-Mid (IEHP 'about 10%' of Medi-Cal),132000,as published 2026-09 (prelim.),99206.0,1.3305646835876863,2.3305646835876863,primary
-Mid (IEHP 'about 10%' of Medi-Cal),132000,lag-adjusted (mean 2026-06..08) [ESTIMATE],112539.0,1.1729267187375043,2.1729267187375045,primary
-High (10% of all members + ~15k QNC; may double count),155000,as published 2026-09 (prelim.),99206.0,1.5624054996673589,2.5624054996673586,primary
-High (10% of all members + ~15k QNC; may double count),155000,lag-adjusted (mean 2026-06..08) [ESTIMATE],112539.0,1.3773003136690392,2.377300313669039,primary
-Guide low 10%,132198,as published 2026-09 (prelim.),99206.0,1.3325605306130677,2.3325605306130677,guide
-Guide low 10%,132198,lag-adjusted (mean 2026-06..08) [ESTIMATE],112539.0,1.1746861088156106,2.1746861088156106,guide
-Guide mid 14.0%,185078,as published 2026-09 (prelim.),99206.0,1.8655928068866803,2.86559280688668,guide
-Guide mid 14.0%,185078,lag-adjusted (mean 2026-06..08) [ESTIMATE],112539.0,1.644567660988635,2.6445676609886353,guide
-Guide mid 1-in-7,188855,as published 2026-09 (prelim.),99206.0,1.9036651009011551,2.903665100901155,guide
-Guide mid 1-in-7,188855,lag-adjusted (mean 2026-06..08) [ESTIMATE],112539.0,1.6781293595997833,2.678129359599783,guide
-Guide high 18%,237957,as published 2026-09 (prelim.),99206.0,2.398615003124811,3.398615003124811,guide
-Guide high 18%,237957,lag-adjusted (mean 2026-06..08) [ESTIMATE],112539.0,2.114440327353184,3.114440327353184,guide
+Guide low 10%,132198,as published 2026-09 (prelim.),99206.0,1.3325605306130677,2.3325605306130677,guide_primary
+Guide low 10%,132198,lag-adjusted (mean 2026-06..08) [ESTIMATE],112539.0,1.1746861088156106,2.1746861088156106,guide_primary
+Guide mid 14.0%,185078,as published 2026-09 (prelim.),99206.0,1.8655928068866803,2.86559280688668,guide_primary
+Guide mid 14.0%,185078,lag-adjusted (mean 2026-06..08) [ESTIMATE],112539.0,1.644567660988635,2.6445676609886353,guide_primary
+Guide mid 1-in-7,188855,as published 2026-09 (prelim.),99206.0,1.9036651009011551,2.903665100901155,guide_primary
+Guide mid 1-in-7,188855,lag-adjusted (mean 2026-06..08) [ESTIMATE],112539.0,1.6781293595997833,2.678129359599783,guide_primary
+Guide high 18%,237957,as published 2026-09 (prelim.),99206.0,2.398615003124811,3.398615003124811,guide_primary
+Guide high 18%,237957,lag-adjusted (mean 2026-06..08) [ESTIMATE],112539.0,2.114440327353184,3.114440327353184,guide_primary
+"Low (IEHP 'more than 100,000')",100000,as published 2026-09 (prelim.),99206.0,1.0080035481724896,2.0080035481724896,iehp_comparison
+"Low (IEHP 'more than 100,000')",100000,lag-adjusted (mean 2026-06..08) [ESTIMATE],112539.0,0.8885808475284124,1.8885808475284123,iehp_comparison
+Mid (IEHP 'about 10%' of Medi-Cal),132000,as published 2026-09 (prelim.),99206.0,1.3305646835876863,2.3305646835876863,iehp_comparison
+Mid (IEHP 'about 10%' of Medi-Cal),132000,lag-adjusted (mean 2026-06..08) [ESTIMATE],112539.0,1.1729267187375043,2.1729267187375045,iehp_comparison
+High (10% of all members + ~15k QNC; may double count),155000,as published 2026-09 (prelim.),99206.0,1.5624054996673589,2.5624054996673586,iehp_comparison
+High (10% of all members + ~15k QNC; may double count),155000,lag-adjusted (mean 2026-06..08) [ESTIMATE],112539.0,1.3773003136690392,2.377300313669039,iehp_comparison

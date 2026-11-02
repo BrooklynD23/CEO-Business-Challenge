@@ -27,7 +27,7 @@ Analysis workstream, 2026-11-02. Labels: `[COMPUTED: script]`, `[VERIFIED: sourc
 
 ## 1. How large FFS becomes, and what IEHP-only framing leaves out
 
-**Question and method.** How many members move, how much does FFS grow in the two counties, and what do Molina, Kaiser and other plans add? Arithmetic on IEHP Medi-Cal 1,321,983 (fact sheet), B 2026-09 delivery system by plan, and the scenarios in `policy_verification.md` (IEHP Governing Board 2026-08-10: "more than 100,000 ... about 10%") [VERIFIED: S22]. Existing FFS = Riverside 52,453 + San Bernardino 46,753 = 99,206 (preliminary). Lag-adjusted base = mean of 2026-06 to 08 = 112,539 [ESTIMATE].
+**Question and method.** How many members move, how much does FFS grow in the two counties, and what do Molina, Kaiser and other plans add? Arithmetic on IEHP Medi-Cal 1,321,983 (fact sheet), B 2026-09 delivery system by plan, and the scenarios in `policy_verification.md` (primary: the guide's 10/14/18%; comparison: IEHP Governing Board 2026-08-10, "more than 100,000 ... about 10%") [VERIFIED: S22]. Existing FFS = Riverside 52,453 + San Bernardino 46,753 = 99,206 (preliminary). Lag-adjusted base = mean of 2026-06 to 08 = 112,539 [ESTIMATE].
 
 Non-IEHP exposed members in B 2026-09 are 374,181:
 - Kaiser 189,300
@@ -41,17 +41,33 @@ Non-IEHP mover rate = IEHP's rate x 0.5, 1.0 or 2.0. The statewide pattern (IEHP
 
 | Scenario | IEHP movers | Share of 1,321,983 | FFS multiple (99,206 base / 112,539 lag-adj.) | All-plan movers, other plans at 0.5x / 1x / 2x | Extra pts per accepting PC record (b), 65% to 40% acceptance | same, 34% dormant |
 |---|---|---|---|---|---|---|
-| Low (IEHP ">100,000") | 100,000 | 7.6% | 2.01x / 1.89x | 114,152 / 128,305 / 156,609 | 25-40 | 38-61 |
-| Mid (IEHP "about 10%") | 132,000 | 10.0% | 2.33x / 2.17x | 150,681 / 169,362 / 206,724 | 32-53 | 49-80 |
-| High (+~15k QNC, may double count) | 155,000 | 11.7% | 2.56x / 2.38x | 176,936 / 198,872 / 242,744 | 38-62 | 58-94 |
-| Guide 10% | 132,198 | 10.0% | 2.33x / 2.17x | 150,907 / 169,616 / 207,034 | 32-53 | 49-80 |
-| Guide 14.0% | 185,078 | 14.0% | 2.87x / 2.64x | 211,271 / 237,463 / 289,849 | 45-74 | 69-113 |
-| Guide 1-in-7 | 188,855 | 14.3% | 2.90x / 2.68x | 215,582 / 242,310 / 295,764 | 46-75 | 71-115 |
-| Guide 18% | 237,957 | 18.0% | 3.40x / 3.11x | 271,633 / 305,310 / 372,662 | 58-95 | 89-145 |
+| PRIMARY: Guide 10% | 132,198 | 10.0% | 2.33x / 2.17x | 150,907 / 169,616 / 207,034 | 32-53 | 49-80 |
+| PRIMARY: Guide 14.0% | 185,078 | 14.0% | 2.87x / 2.64x | 211,271 / 237,463 / 289,849 | 45-74 | 69-113 |
+| PRIMARY: Guide 1-in-7 | 188,855 | 14.3% | 2.90x / 2.68x | 215,582 / 242,310 / 295,764 | 46-75 | 71-115 |
+| PRIMARY: Guide 18% | 237,957 | 18.0% | 3.40x / 3.11x | 271,633 / 305,310 / 372,662 | 58-95 | 89-145 |
+| Comparison: IEHP Low (">100,000") | 100,000 | 7.6% | 2.01x / 1.89x | 114,152 / 128,305 / 156,609 | 25-40 | 38-61 |
+| Comparison: IEHP Mid ("about 10%") | 132,000 | 10.0% | 2.33x / 2.17x | 150,681 / 169,362 / 206,724 | 32-53 | 49-80 |
+| Comparison: IEHP High (+~15k QNC, may double count) | 155,000 | 11.7% | 2.56x / 2.38x | 176,936 / 198,872 / 242,744 | 38-62 | 58-94 |
 
-The guide rows exceed IEHP's own figure and are comparison only.
+Rows 1-4 are the PRIMARY set (owner decision 2026-11-02: the student guide's 10%, 14%, 18% of 1,321,983, plus the 1-in-7 variant) [COMPUTED: scripts/analysis/s04_scenarios.py]. Rows 5-7 are the IEHP Governing Board comparison set [COMPUTED: scripts/analysis/s04_scenarios.py]. The guide's 14% and 18% exceed IEHP's own public statement; see "Scenario alignment" below.
 
 **Guide rounding.** "About 190,000 at about 14%" is 14.37%. 14.0% gives 185,078 and 1/7 gives 188,855. The guide's middle row is overstated by 1,100 to 4,900. Its 132,000 and 238,000 rows are fine.
+
+### Scenario alignment: guide vs IEHP
+
+1. **The guide's upper rows exceed IEHP's statement.** IEHP's Governing Board said "more than 100,000 ... about 10% of our membership" (S22 p.31, 2026-08-10) [VERIFIED: S22, 2026-11-02; see `policy_verification.md` section 2]. That is 100,000 to 139,000. The guide's 14% (185,078) and 18% (237,957) are 1.3x and 1.7x the top of that range [COMPUTED: scripts/analysis/s04_scenarios.py].
+2. **"About 190,000" is not 14%.** It implies 14.37% of 1,321,983; 14.0% gives 185,078 and 1-in-7 gives 188,855 (`data/processed/scenario_summary.json`, `guide_check`) [COMPUTED: scripts/analysis/s04_scenarios.py].
+3. **The guide calls its ratios illustrative.** The statewide 1-in-7 is a statewide ratio (2 million of about 14 million), not an IEHP-specific one [ESTIMATE: arithmetic on S01].
+4. **Consequence for load per accepting PC record (definition b, 65% to 40% acceptance, no dormancy)** [COMPUTED: scripts/analysis/s04_scenarios.py]:
+
+| Scenario | Movers | Extra pts per accepting PC record |
+|---|---|---|
+| Guide 10% | 132,198 | 32-53 |
+| Guide 14.0% | 185,078 | 45-74 |
+| Guide 18% | 237,957 | 58-95 |
+| IEHP comparison, low / mid / high | 100,000 / 132,000 / 155,000 | 25-40 / 32-53 / 38-62 |
+
+Guide 18% puts about 1.5x the patients on each accepting record as the IEHP high figure (95 vs 62 at 40% acceptance, 58 vs 38 at 65%). Treat guide 14% and 18% as stress cases, not forecasts. Figures lead with guide scenarios and still show the IEHP set.
 
 **Effect.** At IEHP's mid figure, movers are 1.33x existing FFS (FFS 2.33x). All-plan adds 28% at IEHP's rate, 14% at half, 57% at double. All-plan FFS multiples are 2.2x to 3.5x on the published base. DHCS's statewide figure is 3.85x [VERIFIED: S01].
 
@@ -61,7 +77,7 @@ The guide rows exceed IEHP's own figure and are comparison only.
 - **Older vintages could not be compared.** Only the 2026-10-07 snapshot was obtained, and the Internet Archive was offline on 2026-11-02.
 - Eligibles in the two counties fell 8.0% from 2025-09 (1,974,108, final) to 2026-09 (1,817,228). Managed care fell 7.7%; mature FFS was flat (113,401 vs about 112,500). Use date-stamped denominators.
 
-**Age.** No age restriction. Applying statewide shares only (251,000 of 1.9 million under 21; 28.8% age 50+ of the expansion group) gives roughly 13,000 to 20,500 under 21 and 29,000 to 45,000 aged 50+ for IEHP's primary range [ESTIMATE].
+**Age.** No age restriction. Applying statewide shares only (251,000 of 1.9 million under 21; 28.8% age 50+ of the expansion group) gives roughly 13,000 to 20,500 under 21 and 29,000 to 45,000 aged 50+ for the IEHP comparison range [ESTIMATE].
 
 **Limits.** IEHP's figure may or may not include QNC. Other plans' rates and Kaiser/SCAN exposure are unknown. The IEHP county split (about 50/50 by membership) is uniform. The lag base is borrowed. Sources: `policy_verification.md` (S22, S35, S31, S32, S01), B table 2, C fact sheet. [COMPUTED: s04_scenarios.py]
 
