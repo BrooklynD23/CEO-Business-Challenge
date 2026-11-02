@@ -1,0 +1,6870 @@
+{
+  "id" : "kee5-23sr",
+  "name" : "PLACES: ZCTA Data (GIS Friendly Format), 2025 release",
+  "assetType" : "dataset",
+  "attribution" : "Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Division of Population Health",
+  "attributionLink" : "http://www.cdc.gov/nccdphp/dph/",
+  "averageRating" : 0,
+  "category" : "500 Cities & Places",
+  "createdAt" : 1603213712,
+  "description" : "This dataset contains model-based ZIP Code Tabulation Area (ZCTA) level estimates in GIS-friendly format. PLACES covers the entire United States—50 states and the District of Columbia—at county, place, census tract, and ZIP Code Tabulation Area levels. It provides information uniformly on this large scale for local areas at four geographic levels. Estimates were provided by the Centers for Disease Control and Prevention (CDC), Division of Population Health, Epidemiology and Surveillance Branch. PLACES was funded by the Robert Wood Johnson Foundation in conjunction with the CDC Foundation. Data sources used to generate these model-based estimates are Behavioral Risk Factor Surveillance System (BRFSS) 2023 or 2022 data, Census Bureau 2020 population data, and American Community Survey (ACS) 2019-2023 or 2018–2022 estimates. The 2025 release uses 2023 BRFSS data for 35 measures and 2022 BRFSS data for 5 measures (all teeth lost, dental visits, mammograms, colorectal cancer screening, and short sleep duration) that the survey collects data on every other year. These data can be joined with the Census 2020 ZCTA boundary file in a GIS system to produce maps for 40 measures at the ZCTA level. An ArcGIS Online feature service is also available for users to make maps online or to add data to desktop GIS software.\nhttps://cdcarcgis.maps.arcgis.com/home/item.html?id=3b7221d4e47740cab9235b839fa55cd7",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 10036,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "licenseId" : "PUBLIC_DOMAIN",
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 41783827,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1764844677,
+  "publicationGroup" : 17688886,
+  "publicationStage" : "published",
+  "rowsUpdatedAt" : 1764844640,
+  "rowsUpdatedBy" : "fjjr-gap9",
+  "tableId" : 20189638,
+  "totalTimesRated" : 0,
+  "viewCount" : 33223,
+  "viewLastModified" : 1790121235,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1690285924,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 7238212,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1690285924,
+    "targetAudience" : "public",
+    "workflowId" : 2100,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "endedAt" : 1690285924,
+      "failureCount" : 0,
+      "startedAt" : 1690285924,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "fjjr-gap9",
+      "displayName" : "CDC UserSA"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 622300598,
+    "name" : "ZCTA5",
+    "dataTypeName" : "text",
+    "description" : "5 digits ZIP Code Tabulation Area (ZCTA) Code",
+    "fieldName" : "zcta5",
+    "position" : 1,
+    "renderTypeName" : "text",
+    "tableColumnId" : 124716489,
+    "width" : 81,
+    "cachedContents" : {
+      "non_null" : "32520",
+      "largest" : "99929",
+      "null" : "0",
+      "top" : [ {
+        "item" : "32514",
+        "count" : "1"
+      }, {
+        "item" : "29365",
+        "count" : "1"
+      }, {
+        "item" : "15352",
+        "count" : "1"
+      }, {
+        "item" : "30543",
+        "count" : "1"
+      }, {
+        "item" : "40442",
+        "count" : "1"
+      }, {
+        "item" : "46227",
+        "count" : "1"
+      }, {
+        "item" : "42722",
+        "count" : "1"
+      }, {
+        "item" : "73947",
+        "count" : "1"
+      }, {
+        "item" : "47586",
+        "count" : "1"
+      }, {
+        "item" : "07109",
+        "count" : "1"
+      }, {
+        "item" : "95762",
+        "count" : "1"
+      }, {
+        "item" : "35080",
+        "count" : "1"
+      }, {
+        "item" : "96008",
+        "count" : "1"
+      }, {
+        "item" : "16328",
+        "count" : "1"
+      }, {
+        "item" : "68832",
+        "count" : "1"
+      }, {
+        "item" : "37857",
+        "count" : "1"
+      }, {
+        "item" : "61482",
+        "count" : "1"
+      }, {
+        "item" : "59257",
+        "count" : "1"
+      }, {
+        "item" : "97391",
+        "count" : "1"
+      }, {
+        "item" : "98830",
+        "count" : "1"
+      } ],
+      "smallest" : "01001",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300599,
+    "name" : "TotalPopulation",
+    "dataTypeName" : "number",
+    "description" : "Total population of Census 2020 ",
+    "fieldName" : "totalpopulation",
+    "position" : 2,
+    "renderTypeName" : "number",
+    "tableColumnId" : 124716488,
+    "width" : 167,
+    "cachedContents" : {
+      "non_null" : "32520",
+      "largest" : "135256",
+      "null" : "0",
+      "top" : [ {
+        "item" : "133",
+        "count" : "27"
+      }, {
+        "item" : "305",
+        "count" : "27"
+      }, {
+        "item" : "213",
+        "count" : "25"
+      }, {
+        "item" : "92",
+        "count" : "24"
+      }, {
+        "item" : "176",
+        "count" : "24"
+      }, {
+        "item" : "148",
+        "count" : "24"
+      }, {
+        "item" : "259",
+        "count" : "24"
+      }, {
+        "item" : "100",
+        "count" : "24"
+      }, {
+        "item" : "137",
+        "count" : "23"
+      }, {
+        "item" : "157",
+        "count" : "23"
+      }, {
+        "item" : "90",
+        "count" : "23"
+      }, {
+        "item" : "138",
+        "count" : "22"
+      }, {
+        "item" : "243",
+        "count" : "22"
+      }, {
+        "item" : "103",
+        "count" : "22"
+      }, {
+        "item" : "119",
+        "count" : "22"
+      }, {
+        "item" : "329",
+        "count" : "22"
+      }, {
+        "item" : "80",
+        "count" : "22"
+      }, {
+        "item" : "399",
+        "count" : "22"
+      }, {
+        "item" : "101",
+        "count" : "21"
+      }, {
+        "item" : "73",
+        "count" : "21"
+      } ],
+      "smallest" : "52",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300600,
+    "name" : "TotalPop18plus",
+    "dataTypeName" : "number",
+    "description" : "Total population 18 and plus of Census 2020",
+    "fieldName" : "totalpop18plus",
+    "position" : 3,
+    "renderTypeName" : "number",
+    "tableColumnId" : 154610026,
+    "cachedContents" : {
+      "non_null" : "32520",
+      "largest" : "91068",
+      "null" : "0",
+      "top" : [ {
+        "item" : "72",
+        "count" : "32"
+      }, {
+        "item" : "111",
+        "count" : "31"
+      }, {
+        "item" : "116",
+        "count" : "31"
+      }, {
+        "item" : "60",
+        "count" : "31"
+      }, {
+        "item" : "159",
+        "count" : "30"
+      }, {
+        "item" : "112",
+        "count" : "30"
+      }, {
+        "item" : "97",
+        "count" : "29"
+      }, {
+        "item" : "149",
+        "count" : "29"
+      }, {
+        "item" : "59",
+        "count" : "29"
+      }, {
+        "item" : "100",
+        "count" : "28"
+      }, {
+        "item" : "65",
+        "count" : "28"
+      }, {
+        "item" : "239",
+        "count" : "27"
+      }, {
+        "item" : "394",
+        "count" : "27"
+      }, {
+        "item" : "177",
+        "count" : "27"
+      }, {
+        "item" : "53",
+        "count" : "27"
+      }, {
+        "item" : "156",
+        "count" : "27"
+      }, {
+        "item" : "155",
+        "count" : "27"
+      }, {
+        "item" : "89",
+        "count" : "27"
+      }, {
+        "item" : "51",
+        "count" : "27"
+      }, {
+        "item" : "256",
+        "count" : "26"
+      } ],
+      "smallest" : "50",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300601,
+    "name" : "ACCESS2_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of lack of health insurance among adults aged 18-64 years, 2023",
+    "fieldName" : "access2_crudeprev",
+    "position" : 4,
+    "renderTypeName" : "number",
+    "tableColumnId" : 124716512,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "49.5",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "7.1",
+        "count" : "467"
+      }, {
+        "item" : "7.3",
+        "count" : "456"
+      }, {
+        "item" : "7.4",
+        "count" : "454"
+      }, {
+        "item" : "7.7",
+        "count" : "448"
+      }, {
+        "item" : "6.6",
+        "count" : "444"
+      }, {
+        "item" : "8.2",
+        "count" : "443"
+      }, {
+        "item" : "7.0",
+        "count" : "429"
+      }, {
+        "item" : "7.8",
+        "count" : "428"
+      }, {
+        "item" : "8.3",
+        "count" : "423"
+      }, {
+        "item" : "7.6",
+        "count" : "422"
+      }, {
+        "item" : "7.5",
+        "count" : "422"
+      }, {
+        "item" : "6.7",
+        "count" : "421"
+      }, {
+        "item" : "8.0",
+        "count" : "420"
+      }, {
+        "item" : "6.8",
+        "count" : "411"
+      }, {
+        "item" : "8.4",
+        "count" : "411"
+      }, {
+        "item" : "7.2",
+        "count" : "407"
+      }, {
+        "item" : "7.9",
+        "count" : "399"
+      }, {
+        "item" : "6.9",
+        "count" : "393"
+      }, {
+        "item" : "8.5",
+        "count" : "383"
+      }, {
+        "item" : "8.1",
+        "count" : "379"
+      } ],
+      "smallest" : "1.8",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : {
+      "precision" : "1"
+    }
+  }, {
+    "id" : 622300602,
+    "name" : "ACCESS2_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of lack of health insurance among adults aged 18-64 years",
+    "fieldName" : "access2_crude95ci",
+    "position" : 5,
+    "renderTypeName" : "text",
+    "tableColumnId" : 124716498,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "( 9.9, 21.1)",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "( 5.6,  8.6)",
+        "count" : "40"
+      }, {
+        "item" : "( 6.0,  8.8)",
+        "count" : "37"
+      }, {
+        "item" : "( 5.9,  8.3)",
+        "count" : "36"
+      }, {
+        "item" : "( 6.1,  8.6)",
+        "count" : "36"
+      }, {
+        "item" : "( 6.8,  9.9)",
+        "count" : "35"
+      }, {
+        "item" : "( 5.4,  8.1)",
+        "count" : "35"
+      }, {
+        "item" : "( 5.9,  8.9)",
+        "count" : "35"
+      }, {
+        "item" : "( 5.5,  8.2)",
+        "count" : "34"
+      }, {
+        "item" : "( 5.3,  8.2)",
+        "count" : "34"
+      }, {
+        "item" : "( 5.5,  7.8)",
+        "count" : "34"
+      }, {
+        "item" : "( 5.8,  8.8)",
+        "count" : "33"
+      }, {
+        "item" : "( 5.9,  8.6)",
+        "count" : "33"
+      }, {
+        "item" : "( 6.1,  9.2)",
+        "count" : "33"
+      }, {
+        "item" : "( 5.4,  8.4)",
+        "count" : "33"
+      }, {
+        "item" : "( 5.5,  8.4)",
+        "count" : "33"
+      }, {
+        "item" : "( 6.0,  9.0)",
+        "count" : "32"
+      }, {
+        "item" : "( 5.6,  8.7)",
+        "count" : "32"
+      }, {
+        "item" : "( 6.1,  9.3)",
+        "count" : "32"
+      }, {
+        "item" : "( 5.8,  8.6)",
+        "count" : "31"
+      }, {
+        "item" : "( 5.8,  8.9)",
+        "count" : "31"
+      } ],
+      "smallest" : "(10.0, 12.4)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300603,
+    "name" : "ARTHRITIS_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of arthritis among adults, 2023",
+    "fieldName" : "arthritis_crudeprev",
+    "position" : 6,
+    "renderTypeName" : "number",
+    "tableColumnId" : 124716487,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "62.4",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "31.3",
+        "count" : "259"
+      }, {
+        "item" : "29.5",
+        "count" : "248"
+      }, {
+        "item" : "31.0",
+        "count" : "245"
+      }, {
+        "item" : "31.1",
+        "count" : "245"
+      }, {
+        "item" : "30.7",
+        "count" : "243"
+      }, {
+        "item" : "31.7",
+        "count" : "242"
+      }, {
+        "item" : "30.9",
+        "count" : "241"
+      }, {
+        "item" : "30.5",
+        "count" : "241"
+      }, {
+        "item" : "32.4",
+        "count" : "240"
+      }, {
+        "item" : "29.2",
+        "count" : "240"
+      }, {
+        "item" : "30.2",
+        "count" : "239"
+      }, {
+        "item" : "29.8",
+        "count" : "237"
+      }, {
+        "item" : "31.5",
+        "count" : "236"
+      }, {
+        "item" : "31.4",
+        "count" : "235"
+      }, {
+        "item" : "31.8",
+        "count" : "232"
+      }, {
+        "item" : "31.2",
+        "count" : "231"
+      }, {
+        "item" : "32.2",
+        "count" : "229"
+      }, {
+        "item" : "32.7",
+        "count" : "228"
+      }, {
+        "item" : "30.6",
+        "count" : "226"
+      }, {
+        "item" : "30.4",
+        "count" : "225"
+      } ],
+      "smallest" : "2.0",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : {
+      "precision" : "1"
+    }
+  }, {
+    "id" : 622300604,
+    "name" : "ARTHRITIS_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of arthritis among adults",
+    "fieldName" : "arthritis_crude95ci",
+    "position" : 7,
+    "renderTypeName" : "text",
+    "tableColumnId" : 124716520,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "( 9.9, 13.1)",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "(28.9, 35.9)",
+        "count" : "22"
+      }, {
+        "item" : "(28.0, 34.7)",
+        "count" : "21"
+      }, {
+        "item" : "(26.8, 33.7)",
+        "count" : "20"
+      }, {
+        "item" : "(25.7, 32.5)",
+        "count" : "20"
+      }, {
+        "item" : "(28.5, 35.4)",
+        "count" : "20"
+      }, {
+        "item" : "(27.4, 34.2)",
+        "count" : "19"
+      }, {
+        "item" : "(27.5, 34.4)",
+        "count" : "19"
+      }, {
+        "item" : "(28.8, 35.8)",
+        "count" : "19"
+      }, {
+        "item" : "(26.5, 33.5)",
+        "count" : "19"
+      }, {
+        "item" : "(26.9, 33.8)",
+        "count" : "19"
+      }, {
+        "item" : "(29.2, 36.4)",
+        "count" : "19"
+      }, {
+        "item" : "(27.0, 33.7)",
+        "count" : "19"
+      }, {
+        "item" : "(25.8, 32.5)",
+        "count" : "19"
+      }, {
+        "item" : "(27.7, 34.5)",
+        "count" : "19"
+      }, {
+        "item" : "(27.2, 33.9)",
+        "count" : "18"
+      }, {
+        "item" : "(26.1, 32.9)",
+        "count" : "18"
+      }, {
+        "item" : "(28.4, 35.1)",
+        "count" : "18"
+      }, {
+        "item" : "(27.2, 34.1)",
+        "count" : "18"
+      }, {
+        "item" : "(29.7, 36.9)",
+        "count" : "18"
+      }, {
+        "item" : "(28.6, 35.6)",
+        "count" : "18"
+      } ],
+      "smallest" : "(10.0, 13.1)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300605,
+    "name" : "BINGE_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of binge drinking among adults, 2023",
+    "fieldName" : "binge_crudeprev",
+    "position" : 8,
+    "renderTypeName" : "number",
+    "tableColumnId" : 124716515,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "41.7",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "15.9",
+        "count" : "525"
+      }, {
+        "item" : "16.1",
+        "count" : "519"
+      }, {
+        "item" : "16.5",
+        "count" : "512"
+      }, {
+        "item" : "15.7",
+        "count" : "499"
+      }, {
+        "item" : "15.4",
+        "count" : "494"
+      }, {
+        "item" : "15.1",
+        "count" : "489"
+      }, {
+        "item" : "15.2",
+        "count" : "484"
+      }, {
+        "item" : "16.6",
+        "count" : "483"
+      }, {
+        "item" : "15.5",
+        "count" : "481"
+      }, {
+        "item" : "15.6",
+        "count" : "475"
+      }, {
+        "item" : "16.0",
+        "count" : "474"
+      }, {
+        "item" : "16.4",
+        "count" : "469"
+      }, {
+        "item" : "15.8",
+        "count" : "462"
+      }, {
+        "item" : "16.3",
+        "count" : "461"
+      }, {
+        "item" : "16.2",
+        "count" : "457"
+      }, {
+        "item" : "15.3",
+        "count" : "455"
+      }, {
+        "item" : "16.7",
+        "count" : "443"
+      }, {
+        "item" : "14.7",
+        "count" : "430"
+      }, {
+        "item" : "14.9",
+        "count" : "426"
+      }, {
+        "item" : "14.5",
+        "count" : "419"
+      } ],
+      "smallest" : "2.9",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : {
+      "precision" : "1"
+    }
+  }, {
+    "id" : 622300606,
+    "name" : "BINGE_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of binge drinking among adults",
+    "fieldName" : "binge_crude95ci",
+    "position" : 9,
+    "renderTypeName" : "text",
+    "tableColumnId" : 124716475,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "( 9.9, 15.4)",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "(11.6, 17.2)",
+        "count" : "47"
+      }, {
+        "item" : "(11.3, 16.8)",
+        "count" : "46"
+      }, {
+        "item" : "(13.7, 19.8)",
+        "count" : "46"
+      }, {
+        "item" : "(13.4, 19.3)",
+        "count" : "42"
+      }, {
+        "item" : "(12.6, 18.4)",
+        "count" : "42"
+      }, {
+        "item" : "(13.5, 19.6)",
+        "count" : "41"
+      }, {
+        "item" : "(11.8, 17.5)",
+        "count" : "41"
+      }, {
+        "item" : "(11.5, 17.0)",
+        "count" : "40"
+      }, {
+        "item" : "(12.5, 18.0)",
+        "count" : "39"
+      }, {
+        "item" : "(12.1, 17.7)",
+        "count" : "39"
+      }, {
+        "item" : "(12.3, 18.0)",
+        "count" : "39"
+      }, {
+        "item" : "(10.5, 15.7)",
+        "count" : "39"
+      }, {
+        "item" : "(13.1, 18.9)",
+        "count" : "39"
+      }, {
+        "item" : "(11.2, 16.6)",
+        "count" : "38"
+      }, {
+        "item" : "(12.0, 17.6)",
+        "count" : "38"
+      }, {
+        "item" : "(13.0, 18.6)",
+        "count" : "38"
+      }, {
+        "item" : "(12.4, 18.2)",
+        "count" : "37"
+      }, {
+        "item" : "(11.8, 17.3)",
+        "count" : "37"
+      }, {
+        "item" : "(12.6, 18.2)",
+        "count" : "37"
+      }, {
+        "item" : "(12.3, 18.1)",
+        "count" : "37"
+      } ],
+      "smallest" : "(10.0, 12.6)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300607,
+    "name" : "BPHIGH_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of high blood pressure among adults, 2023",
+    "fieldName" : "bphigh_crudeprev",
+    "position" : 10,
+    "renderTypeName" : "number",
+    "tableColumnId" : 124716504,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "71.8",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "38.7",
+        "count" : "221"
+      }, {
+        "item" : "38.1",
+        "count" : "217"
+      }, {
+        "item" : "37.4",
+        "count" : "217"
+      }, {
+        "item" : "38.0",
+        "count" : "213"
+      }, {
+        "item" : "37.9",
+        "count" : "213"
+      }, {
+        "item" : "38.6",
+        "count" : "211"
+      }, {
+        "item" : "37.6",
+        "count" : "211"
+      }, {
+        "item" : "37.7",
+        "count" : "211"
+      }, {
+        "item" : "36.2",
+        "count" : "208"
+      }, {
+        "item" : "38.9",
+        "count" : "208"
+      }, {
+        "item" : "36.0",
+        "count" : "207"
+      }, {
+        "item" : "35.6",
+        "count" : "205"
+      }, {
+        "item" : "38.8",
+        "count" : "204"
+      }, {
+        "item" : "38.3",
+        "count" : "204"
+      }, {
+        "item" : "38.2",
+        "count" : "204"
+      }, {
+        "item" : "35.0",
+        "count" : "203"
+      }, {
+        "item" : "37.3",
+        "count" : "202"
+      }, {
+        "item" : "38.4",
+        "count" : "202"
+      }, {
+        "item" : "39.3",
+        "count" : "202"
+      }, {
+        "item" : "37.0",
+        "count" : "200"
+      } ],
+      "smallest" : "5.7",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : {
+      "precision" : "1"
+    }
+  }, {
+    "id" : 622300608,
+    "name" : "BPHIGH_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of high blood pressure among adults",
+    "fieldName" : "bphigh_crude95ci",
+    "position" : 11,
+    "renderTypeName" : "text",
+    "tableColumnId" : 124716473,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "( 9.9, 14.7)",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "(33.9, 42.3)",
+        "count" : "19"
+      }, {
+        "item" : "(34.5, 42.8)",
+        "count" : "16"
+      }, {
+        "item" : "(32.8, 41.3)",
+        "count" : "15"
+      }, {
+        "item" : "(36.2, 44.9)",
+        "count" : "15"
+      }, {
+        "item" : "(32.9, 41.4)",
+        "count" : "15"
+      }, {
+        "item" : "(35.2, 43.7)",
+        "count" : "15"
+      }, {
+        "item" : "(34.6, 43.4)",
+        "count" : "15"
+      }, {
+        "item" : "(33.3, 41.8)",
+        "count" : "15"
+      }, {
+        "item" : "(33.6, 41.8)",
+        "count" : "15"
+      }, {
+        "item" : "(33.8, 42.5)",
+        "count" : "14"
+      }, {
+        "item" : "(32.7, 40.9)",
+        "count" : "14"
+      }, {
+        "item" : "(33.3, 41.7)",
+        "count" : "14"
+      }, {
+        "item" : "(33.2, 41.9)",
+        "count" : "14"
+      }, {
+        "item" : "(35.4, 43.8)",
+        "count" : "14"
+      }, {
+        "item" : "(34.8, 43.6)",
+        "count" : "14"
+      }, {
+        "item" : "(34.1, 42.7)",
+        "count" : "14"
+      }, {
+        "item" : "(32.7, 41.3)",
+        "count" : "13"
+      }, {
+        "item" : "(35.1, 44.0)",
+        "count" : "13"
+      }, {
+        "item" : "(29.6, 36.0)",
+        "count" : "13"
+      }, {
+        "item" : "(33.4, 41.7)",
+        "count" : "13"
+      } ],
+      "smallest" : "(10.0, 14.5)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300609,
+    "name" : "BPMED_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of taking medicine to control high blood pressure among adults with high blood pressure, 2023",
+    "fieldName" : "bpmed_crudeprev",
+    "position" : 12,
+    "renderTypeName" : "number",
+    "tableColumnId" : 124716478,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "93.5",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "79.1",
+        "count" : "404"
+      }, {
+        "item" : "78.8",
+        "count" : "392"
+      }, {
+        "item" : "78.5",
+        "count" : "388"
+      }, {
+        "item" : "79.3",
+        "count" : "388"
+      }, {
+        "item" : "78.9",
+        "count" : "384"
+      }, {
+        "item" : "79.5",
+        "count" : "380"
+      }, {
+        "item" : "79.0",
+        "count" : "378"
+      }, {
+        "item" : "77.9",
+        "count" : "377"
+      }, {
+        "item" : "78.7",
+        "count" : "377"
+      }, {
+        "item" : "79.8",
+        "count" : "373"
+      }, {
+        "item" : "78.6",
+        "count" : "369"
+      }, {
+        "item" : "79.2",
+        "count" : "368"
+      }, {
+        "item" : "78.3",
+        "count" : "365"
+      }, {
+        "item" : "78.2",
+        "count" : "364"
+      }, {
+        "item" : "80.1",
+        "count" : "363"
+      }, {
+        "item" : "79.4",
+        "count" : "362"
+      }, {
+        "item" : "78.4",
+        "count" : "355"
+      }, {
+        "item" : "80.4",
+        "count" : "351"
+      }, {
+        "item" : "79.9",
+        "count" : "344"
+      }, {
+        "item" : "77.8",
+        "count" : "341"
+      } ],
+      "smallest" : "10.7",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : {
+      "precision" : "1"
+    }
+  }, {
+    "id" : 622300610,
+    "name" : "BPMED_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of taking medicine to control high blood pressure among adults with high blood pressure",
+    "fieldName" : "bpmed_crude95ci",
+    "position" : 13,
+    "renderTypeName" : "text",
+    "tableColumnId" : 124716484,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "( 9.9, 14.6)",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "(74.6, 80.2)",
+        "count" : "45"
+      }, {
+        "item" : "(77.7, 82.8)",
+        "count" : "36"
+      }, {
+        "item" : "(77.6, 82.8)",
+        "count" : "36"
+      }, {
+        "item" : "(76.8, 82.1)",
+        "count" : "36"
+      }, {
+        "item" : "(76.4, 81.8)",
+        "count" : "36"
+      }, {
+        "item" : "(76.0, 81.2)",
+        "count" : "36"
+      }, {
+        "item" : "(77.0, 82.1)",
+        "count" : "35"
+      }, {
+        "item" : "(75.5, 81.1)",
+        "count" : "35"
+      }, {
+        "item" : "(77.4, 82.6)",
+        "count" : "35"
+      }, {
+        "item" : "(77.1, 82.4)",
+        "count" : "35"
+      }, {
+        "item" : "(76.2, 81.6)",
+        "count" : "34"
+      }, {
+        "item" : "(75.1, 80.6)",
+        "count" : "33"
+      }, {
+        "item" : "(76.1, 81.5)",
+        "count" : "33"
+      }, {
+        "item" : "(76.4, 81.5)",
+        "count" : "33"
+      }, {
+        "item" : "(76.6, 82.1)",
+        "count" : "33"
+      }, {
+        "item" : "(75.6, 81.1)",
+        "count" : "33"
+      }, {
+        "item" : "(76.4, 81.7)",
+        "count" : "33"
+      }, {
+        "item" : "(76.8, 82.0)",
+        "count" : "32"
+      }, {
+        "item" : "(75.6, 81.0)",
+        "count" : "32"
+      }, {
+        "item" : "(75.7, 81.2)",
+        "count" : "32"
+      } ],
+      "smallest" : "(10.4, 14.9)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300611,
+    "name" : "CANCER_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of cancer (non-skin) or melanoma among adults, 2023",
+    "fieldName" : "cancer_crudeprev",
+    "position" : 14,
+    "renderTypeName" : "number",
+    "tableColumnId" : 124716514,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "26.1",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "9.5",
+        "count" : "794"
+      }, {
+        "item" : "9.6",
+        "count" : "766"
+      }, {
+        "item" : "9.9",
+        "count" : "735"
+      }, {
+        "item" : "9.8",
+        "count" : "723"
+      }, {
+        "item" : "9.3",
+        "count" : "717"
+      }, {
+        "item" : "10.0",
+        "count" : "715"
+      }, {
+        "item" : "9.4",
+        "count" : "713"
+      }, {
+        "item" : "9.7",
+        "count" : "694"
+      }, {
+        "item" : "10.1",
+        "count" : "692"
+      }, {
+        "item" : "9.2",
+        "count" : "689"
+      }, {
+        "item" : "10.2",
+        "count" : "626"
+      }, {
+        "item" : "9.0",
+        "count" : "625"
+      }, {
+        "item" : "10.3",
+        "count" : "621"
+      }, {
+        "item" : "9.1",
+        "count" : "612"
+      }, {
+        "item" : "10.4",
+        "count" : "598"
+      }, {
+        "item" : "10.5",
+        "count" : "570"
+      }, {
+        "item" : "8.9",
+        "count" : "561"
+      }, {
+        "item" : "8.8",
+        "count" : "534"
+      }, {
+        "item" : "8.7",
+        "count" : "516"
+      }, {
+        "item" : "10.6",
+        "count" : "487"
+      } ],
+      "smallest" : "0.5",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300612,
+    "name" : "CANCER_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of cancer (non-skin) or melanoma among adults ",
+    "fieldName" : "cancer_crude95ci",
+    "position" : 15,
+    "renderTypeName" : "text",
+    "tableColumnId" : 124716482,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "( 9.9, 12.8)",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "( 8.5, 10.3)",
+        "count" : "194"
+      }, {
+        "item" : "( 8.6, 10.4)",
+        "count" : "184"
+      }, {
+        "item" : "( 8.6, 10.5)",
+        "count" : "182"
+      }, {
+        "item" : "( 8.7, 10.6)",
+        "count" : "182"
+      }, {
+        "item" : "( 8.9, 10.9)",
+        "count" : "180"
+      }, {
+        "item" : "( 8.1,  9.8)",
+        "count" : "173"
+      }, {
+        "item" : "( 9.0, 11.0)",
+        "count" : "169"
+      }, {
+        "item" : "( 8.4, 10.2)",
+        "count" : "165"
+      }, {
+        "item" : "( 8.3, 10.1)",
+        "count" : "165"
+      }, {
+        "item" : "( 9.1, 11.1)",
+        "count" : "162"
+      }, {
+        "item" : "( 8.8, 10.7)",
+        "count" : "161"
+      }, {
+        "item" : "( 8.9, 10.8)",
+        "count" : "161"
+      }, {
+        "item" : "( 9.2, 11.2)",
+        "count" : "158"
+      }, {
+        "item" : "( 9.3, 11.3)",
+        "count" : "153"
+      }, {
+        "item" : "( 9.0, 10.9)",
+        "count" : "153"
+      }, {
+        "item" : "( 9.1, 11.0)",
+        "count" : "150"
+      }, {
+        "item" : "( 8.1,  9.9)",
+        "count" : "149"
+      }, {
+        "item" : "( 8.5, 10.4)",
+        "count" : "148"
+      }, {
+        "item" : "( 8.8, 10.8)",
+        "count" : "148"
+      }, {
+        "item" : "( 8.7, 10.5)",
+        "count" : "144"
+      } ],
+      "smallest" : "( 0.4,  0.5)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300613,
+    "name" : "CASTHMA_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of current asthma among adults, 2023",
+    "fieldName" : "casthma_crudeprev",
+    "position" : 16,
+    "renderTypeName" : "number",
+    "tableColumnId" : 124716517,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "19.4",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "10.8",
+        "count" : "1203"
+      }, {
+        "item" : "10.5",
+        "count" : "1155"
+      }, {
+        "item" : "10.2",
+        "count" : "1145"
+      }, {
+        "item" : "10.3",
+        "count" : "1143"
+      }, {
+        "item" : "10.4",
+        "count" : "1143"
+      }, {
+        "item" : "10.7",
+        "count" : "1125"
+      }, {
+        "item" : "11.0",
+        "count" : "1098"
+      }, {
+        "item" : "10.6",
+        "count" : "1083"
+      }, {
+        "item" : "10.9",
+        "count" : "1065"
+      }, {
+        "item" : "11.2",
+        "count" : "1056"
+      }, {
+        "item" : "10.1",
+        "count" : "1045"
+      }, {
+        "item" : "10.0",
+        "count" : "998"
+      }, {
+        "item" : "11.1",
+        "count" : "991"
+      }, {
+        "item" : "11.3",
+        "count" : "924"
+      }, {
+        "item" : "9.9",
+        "count" : "924"
+      }, {
+        "item" : "11.4",
+        "count" : "844"
+      }, {
+        "item" : "11.5",
+        "count" : "797"
+      }, {
+        "item" : "9.8",
+        "count" : "775"
+      }, {
+        "item" : "11.6",
+        "count" : "711"
+      }, {
+        "item" : "9.7",
+        "count" : "643"
+      } ],
+      "smallest" : "5.5",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300614,
+    "name" : "CASTHMA_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of current asthma among adults",
+    "fieldName" : "casthma_crude95ci",
+    "position" : 17,
+    "renderTypeName" : "text",
+    "tableColumnId" : 124716509,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "( 9.9, 13.9)",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "( 9.2, 11.8)",
+        "count" : "268"
+      }, {
+        "item" : "( 9.4, 12.0)",
+        "count" : "265"
+      }, {
+        "item" : "( 9.1, 11.6)",
+        "count" : "253"
+      }, {
+        "item" : "( 9.0, 11.5)",
+        "count" : "244"
+      }, {
+        "item" : "( 9.2, 11.7)",
+        "count" : "234"
+      }, {
+        "item" : "( 9.3, 11.8)",
+        "count" : "234"
+      }, {
+        "item" : "( 9.3, 11.9)",
+        "count" : "233"
+      }, {
+        "item" : "( 8.8, 11.2)",
+        "count" : "233"
+      }, {
+        "item" : "( 9.5, 12.1)",
+        "count" : "227"
+      }, {
+        "item" : "( 9.6, 12.2)",
+        "count" : "226"
+      }, {
+        "item" : "( 9.5, 12.2)",
+        "count" : "224"
+      }, {
+        "item" : "( 8.9, 11.3)",
+        "count" : "222"
+      }, {
+        "item" : "( 9.0, 11.4)",
+        "count" : "221"
+      }, {
+        "item" : "( 9.1, 11.5)",
+        "count" : "219"
+      }, {
+        "item" : "( 9.7, 12.3)",
+        "count" : "219"
+      }, {
+        "item" : "( 9.9, 12.6)",
+        "count" : "217"
+      }, {
+        "item" : "( 8.9, 11.4)",
+        "count" : "213"
+      }, {
+        "item" : "( 9.8, 12.4)",
+        "count" : "212"
+      }, {
+        "item" : "( 9.8, 12.5)",
+        "count" : "211"
+      }, {
+        "item" : "( 9.1, 11.7)",
+        "count" : "211"
+      } ],
+      "smallest" : "(10.0, 11.6)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300615,
+    "name" : "CHD_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of coronary heart disease among adults, 2023",
+    "fieldName" : "chd_crudeprev",
+    "position" : 18,
+    "renderTypeName" : "number",
+    "tableColumnId" : 124716491,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "29.1",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "7.7",
+        "count" : "663"
+      }, {
+        "item" : "7.8",
+        "count" : "633"
+      }, {
+        "item" : "7.5",
+        "count" : "629"
+      }, {
+        "item" : "7.2",
+        "count" : "627"
+      }, {
+        "item" : "7.6",
+        "count" : "624"
+      }, {
+        "item" : "8.0",
+        "count" : "615"
+      }, {
+        "item" : "7.9",
+        "count" : "614"
+      }, {
+        "item" : "8.1",
+        "count" : "603"
+      }, {
+        "item" : "7.3",
+        "count" : "599"
+      }, {
+        "item" : "7.4",
+        "count" : "595"
+      }, {
+        "item" : "8.3",
+        "count" : "592"
+      }, {
+        "item" : "6.7",
+        "count" : "586"
+      }, {
+        "item" : "7.0",
+        "count" : "583"
+      }, {
+        "item" : "7.1",
+        "count" : "581"
+      }, {
+        "item" : "8.2",
+        "count" : "579"
+      }, {
+        "item" : "6.8",
+        "count" : "577"
+      }, {
+        "item" : "6.9",
+        "count" : "576"
+      }, {
+        "item" : "8.4",
+        "count" : "542"
+      }, {
+        "item" : "6.4",
+        "count" : "528"
+      }, {
+        "item" : "8.6",
+        "count" : "524"
+      } ],
+      "smallest" : "0.4",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : {
+      "precision" : "1"
+    }
+  }, {
+    "id" : 622300616,
+    "name" : "CHD_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of coronary heart disease among adults",
+    "fieldName" : "chd_crude95ci",
+    "position" : 19,
+    "renderTypeName" : "text",
+    "tableColumnId" : 124716467,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "( 9.9, 14.3)",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "( 5.2,  6.4)",
+        "count" : "141"
+      }, {
+        "item" : "( 5.3,  6.5)",
+        "count" : "140"
+      }, {
+        "item" : "( 5.1,  6.3)",
+        "count" : "137"
+      }, {
+        "item" : "( 4.9,  6.0)",
+        "count" : "136"
+      }, {
+        "item" : "( 4.8,  5.9)",
+        "count" : "134"
+      }, {
+        "item" : "( 5.4,  6.6)",
+        "count" : "129"
+      }, {
+        "item" : "( 6.2,  7.6)",
+        "count" : "128"
+      }, {
+        "item" : "( 4.7,  5.8)",
+        "count" : "128"
+      }, {
+        "item" : "( 5.0,  6.1)",
+        "count" : "124"
+      }, {
+        "item" : "( 5.7,  7.0)",
+        "count" : "123"
+      }, {
+        "item" : "( 6.4,  8.0)",
+        "count" : "122"
+      }, {
+        "item" : "( 5.5,  6.8)",
+        "count" : "122"
+      }, {
+        "item" : "( 6.9,  8.6)",
+        "count" : "119"
+      }, {
+        "item" : "( 5.6,  6.9)",
+        "count" : "118"
+      }, {
+        "item" : "( 6.5,  8.0)",
+        "count" : "116"
+      }, {
+        "item" : "( 6.1,  7.5)",
+        "count" : "114"
+      }, {
+        "item" : "( 5.4,  6.7)",
+        "count" : "114"
+      }, {
+        "item" : "( 5.0,  6.2)",
+        "count" : "113"
+      }, {
+        "item" : "( 6.5,  8.2)",
+        "count" : "110"
+      }, {
+        "item" : "( 5.9,  7.2)",
+        "count" : "108"
+      } ],
+      "smallest" : "( 0.3,  0.5)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300617,
+    "name" : "CHECKUP_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of routine checkup within the past year among adults, 2023",
+    "fieldName" : "checkup_crudeprev",
+    "position" : 20,
+    "renderTypeName" : "number",
+    "tableColumnId" : 124716470,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "94.5",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "79.1",
+        "count" : "427"
+      }, {
+        "item" : "80.1",
+        "count" : "409"
+      }, {
+        "item" : "79.2",
+        "count" : "407"
+      }, {
+        "item" : "79.8",
+        "count" : "407"
+      }, {
+        "item" : "79.5",
+        "count" : "405"
+      }, {
+        "item" : "79.9",
+        "count" : "398"
+      }, {
+        "item" : "79.0",
+        "count" : "397"
+      }, {
+        "item" : "80.0",
+        "count" : "397"
+      }, {
+        "item" : "79.6",
+        "count" : "396"
+      }, {
+        "item" : "80.2",
+        "count" : "393"
+      }, {
+        "item" : "78.7",
+        "count" : "390"
+      }, {
+        "item" : "79.7",
+        "count" : "388"
+      }, {
+        "item" : "79.3",
+        "count" : "379"
+      }, {
+        "item" : "78.5",
+        "count" : "375"
+      }, {
+        "item" : "78.3",
+        "count" : "373"
+      }, {
+        "item" : "78.6",
+        "count" : "367"
+      }, {
+        "item" : "78.4",
+        "count" : "364"
+      }, {
+        "item" : "80.4",
+        "count" : "363"
+      }, {
+        "item" : "80.6",
+        "count" : "362"
+      }, {
+        "item" : "78.9",
+        "count" : "362"
+      } ],
+      "smallest" : "50.8",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : {
+      "precision" : "1"
+    }
+  }, {
+    "id" : 622300618,
+    "name" : "CHECKUP_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of routine checkup within the past year among adults ",
+    "fieldName" : "checkup_crude95ci",
+    "position" : 21,
+    "renderTypeName" : "text",
+    "tableColumnId" : 124716495,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "(93.1, 95.6)",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "(76.7, 83.2)",
+        "count" : "39"
+      }, {
+        "item" : "(76.0, 82.7)",
+        "count" : "35"
+      }, {
+        "item" : "(76.3, 83.0)",
+        "count" : "34"
+      }, {
+        "item" : "(76.8, 83.0)",
+        "count" : "34"
+      }, {
+        "item" : "(76.4, 83.1)",
+        "count" : "33"
+      }, {
+        "item" : "(75.7, 82.3)",
+        "count" : "32"
+      }, {
+        "item" : "(75.8, 82.6)",
+        "count" : "32"
+      }, {
+        "item" : "(77.3, 83.7)",
+        "count" : "32"
+      }, {
+        "item" : "(75.8, 82.5)",
+        "count" : "31"
+      }, {
+        "item" : "(75.6, 82.5)",
+        "count" : "31"
+      }, {
+        "item" : "(74.8, 81.7)",
+        "count" : "31"
+      }, {
+        "item" : "(76.5, 83.1)",
+        "count" : "30"
+      }, {
+        "item" : "(76.6, 83.3)",
+        "count" : "30"
+      }, {
+        "item" : "(75.3, 82.1)",
+        "count" : "30"
+      }, {
+        "item" : "(77.6, 83.8)",
+        "count" : "30"
+      }, {
+        "item" : "(76.9, 83.5)",
+        "count" : "30"
+      }, {
+        "item" : "(76.1, 82.8)",
+        "count" : "30"
+      }, {
+        "item" : "(75.2, 81.9)",
+        "count" : "29"
+      }, {
+        "item" : "(75.5, 82.4)",
+        "count" : "29"
+      }, {
+        "item" : "(77.0, 83.5)",
+        "count" : "29"
+      } ],
+      "smallest" : "(45.9, 55.6)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300619,
+    "name" : "CHOLSCREEN_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of cholesterol screening within the past 5 years among adults, 2023",
+    "fieldName" : "cholscreen_crudeprev",
+    "position" : 22,
+    "renderTypeName" : "number",
+    "tableColumnId" : 124716503,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "98.2",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "86.1",
+        "count" : "491"
+      }, {
+        "item" : "86.6",
+        "count" : "487"
+      }, {
+        "item" : "86.7",
+        "count" : "479"
+      }, {
+        "item" : "86.8",
+        "count" : "469"
+      }, {
+        "item" : "86.3",
+        "count" : "467"
+      }, {
+        "item" : "87.0",
+        "count" : "466"
+      }, {
+        "item" : "87.1",
+        "count" : "456"
+      }, {
+        "item" : "86.0",
+        "count" : "446"
+      }, {
+        "item" : "86.9",
+        "count" : "440"
+      }, {
+        "item" : "87.5",
+        "count" : "436"
+      }, {
+        "item" : "86.4",
+        "count" : "431"
+      }, {
+        "item" : "85.5",
+        "count" : "431"
+      }, {
+        "item" : "86.2",
+        "count" : "431"
+      }, {
+        "item" : "86.5",
+        "count" : "428"
+      }, {
+        "item" : "87.2",
+        "count" : "428"
+      }, {
+        "item" : "87.4",
+        "count" : "427"
+      }, {
+        "item" : "85.9",
+        "count" : "422"
+      }, {
+        "item" : "85.7",
+        "count" : "409"
+      }, {
+        "item" : "85.8",
+        "count" : "405"
+      }, {
+        "item" : "87.6",
+        "count" : "396"
+      } ],
+      "smallest" : "47.5",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : {
+      "precision" : "1"
+    }
+  }, {
+    "id" : 622300620,
+    "name" : "CHOLSCREEN_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of cholesterol screening within the past 5 years among adults ",
+    "fieldName" : "cholscreen_crude95ci",
+    "position" : 23,
+    "renderTypeName" : "text",
+    "tableColumnId" : 124716505,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "(97.7, 98.6)",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "(84.3, 87.8)",
+        "count" : "55"
+      }, {
+        "item" : "(85.4, 88.7)",
+        "count" : "51"
+      }, {
+        "item" : "(85.0, 88.5)",
+        "count" : "51"
+      }, {
+        "item" : "(84.5, 88.1)",
+        "count" : "49"
+      }, {
+        "item" : "(84.7, 88.3)",
+        "count" : "48"
+      }, {
+        "item" : "(84.9, 88.3)",
+        "count" : "48"
+      }, {
+        "item" : "(84.8, 88.4)",
+        "count" : "47"
+      }, {
+        "item" : "(85.8, 89.0)",
+        "count" : "47"
+      }, {
+        "item" : "(84.2, 87.7)",
+        "count" : "46"
+      }, {
+        "item" : "(85.0, 88.4)",
+        "count" : "46"
+      }, {
+        "item" : "(85.4, 88.8)",
+        "count" : "46"
+      }, {
+        "item" : "(85.2, 88.4)",
+        "count" : "46"
+      }, {
+        "item" : "(84.0, 87.6)",
+        "count" : "46"
+      }, {
+        "item" : "(84.9, 88.4)",
+        "count" : "46"
+      }, {
+        "item" : "(85.7, 89.2)",
+        "count" : "46"
+      }, {
+        "item" : "(85.2, 88.7)",
+        "count" : "46"
+      }, {
+        "item" : "(84.3, 88.1)",
+        "count" : "45"
+      }, {
+        "item" : "(86.0, 89.2)",
+        "count" : "45"
+      }, {
+        "item" : "(84.8, 88.3)",
+        "count" : "45"
+      }, {
+        "item" : "(85.1, 88.4)",
+        "count" : "45"
+      } ],
+      "smallest" : "(37.9, 58.1)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300621,
+    "name" : "COLON_SCREEN_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of colorectal cancer screening among adults aged 45–75 years, 2022",
+    "fieldName" : "colon_screen_crudeprev",
+    "position" : 24,
+    "renderTypeName" : "number",
+    "tableColumnId" : 124716496,
+    "cachedContents" : {
+      "non_null" : "32495",
+      "largest" : "86.0",
+      "null" : "25",
+      "top" : [ {
+        "item" : "66.4",
+        "count" : "290"
+      }, {
+        "item" : "67.0",
+        "count" : "282"
+      }, {
+        "item" : "65.9",
+        "count" : "282"
+      }, {
+        "item" : "65.8",
+        "count" : "282"
+      }, {
+        "item" : "66.6",
+        "count" : "274"
+      }, {
+        "item" : "65.6",
+        "count" : "272"
+      }, {
+        "item" : "68.2",
+        "count" : "263"
+      }, {
+        "item" : "67.7",
+        "count" : "261"
+      }, {
+        "item" : "68.7",
+        "count" : "261"
+      }, {
+        "item" : "66.0",
+        "count" : "260"
+      }, {
+        "item" : "66.2",
+        "count" : "260"
+      }, {
+        "item" : "67.4",
+        "count" : "260"
+      }, {
+        "item" : "66.3",
+        "count" : "258"
+      }, {
+        "item" : "67.6",
+        "count" : "258"
+      }, {
+        "item" : "66.1",
+        "count" : "257"
+      }, {
+        "item" : "68.0",
+        "count" : "255"
+      }, {
+        "item" : "67.1",
+        "count" : "255"
+      }, {
+        "item" : "66.7",
+        "count" : "254"
+      }, {
+        "item" : "65.2",
+        "count" : "252"
+      }, {
+        "item" : "65.4",
+        "count" : "250"
+      } ],
+      "smallest" : "16.0",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : {
+      "precision" : "1"
+    }
+  }, {
+    "id" : 622300622,
+    "name" : "COLON_SCREEN_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of colorectal cancer screening among adults aged 45–75 years",
+    "fieldName" : "colon_screen_crude95ci",
+    "position" : 25,
+    "renderTypeName" : "text",
+    "tableColumnId" : 124716479,
+    "cachedContents" : {
+      "non_null" : "32495",
+      "largest" : "(83.0, 88.5)",
+      "null" : "25",
+      "top" : [ {
+        "item" : "(60.8, 70.6)",
+        "count" : "19"
+      }, {
+        "item" : "(58.9, 69.2)",
+        "count" : "18"
+      }, {
+        "item" : "(60.4, 70.6)",
+        "count" : "17"
+      }, {
+        "item" : "(61.5, 71.1)",
+        "count" : "17"
+      }, {
+        "item" : "(61.4, 71.0)",
+        "count" : "17"
+      }, {
+        "item" : "(64.1, 73.2)",
+        "count" : "17"
+      }, {
+        "item" : "(62.9, 72.1)",
+        "count" : "16"
+      }, {
+        "item" : "(59.9, 70.1)",
+        "count" : "16"
+      }, {
+        "item" : "(58.3, 68.5)",
+        "count" : "16"
+      }, {
+        "item" : "(61.4, 71.4)",
+        "count" : "16"
+      }, {
+        "item" : "(61.9, 71.8)",
+        "count" : "16"
+      }, {
+        "item" : "(61.7, 71.5)",
+        "count" : "16"
+      }, {
+        "item" : "(60.8, 70.5)",
+        "count" : "16"
+      }, {
+        "item" : "(60.7, 70.5)",
+        "count" : "15"
+      }, {
+        "item" : "(59.5, 69.5)",
+        "count" : "15"
+      }, {
+        "item" : "(60.9, 71.2)",
+        "count" : "15"
+      }, {
+        "item" : "(62.0, 71.6)",
+        "count" : "15"
+      }, {
+        "item" : "(60.4, 70.5)",
+        "count" : "15"
+      }, {
+        "item" : "(65.1, 73.6)",
+        "count" : "15"
+      }, {
+        "item" : "(58.2, 68.4)",
+        "count" : "15"
+      } ],
+      "smallest" : "(12.4, 19.8)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300623,
+    "name" : "COPD_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of chronic obstructive pulmonary disease among adults, 2023",
+    "fieldName" : "copd_crudeprev",
+    "position" : 26,
+    "renderTypeName" : "number",
+    "tableColumnId" : 124716508,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "29.9",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "7.8",
+        "count" : "499"
+      }, {
+        "item" : "7.7",
+        "count" : "498"
+      }, {
+        "item" : "8.1",
+        "count" : "487"
+      }, {
+        "item" : "7.0",
+        "count" : "471"
+      }, {
+        "item" : "8.4",
+        "count" : "465"
+      }, {
+        "item" : "7.5",
+        "count" : "460"
+      }, {
+        "item" : "7.2",
+        "count" : "458"
+      }, {
+        "item" : "7.6",
+        "count" : "458"
+      }, {
+        "item" : "7.3",
+        "count" : "455"
+      }, {
+        "item" : "8.0",
+        "count" : "454"
+      }, {
+        "item" : "8.6",
+        "count" : "453"
+      }, {
+        "item" : "8.5",
+        "count" : "452"
+      }, {
+        "item" : "8.2",
+        "count" : "452"
+      }, {
+        "item" : "7.9",
+        "count" : "446"
+      }, {
+        "item" : "8.3",
+        "count" : "445"
+      }, {
+        "item" : "8.7",
+        "count" : "445"
+      }, {
+        "item" : "9.4",
+        "count" : "441"
+      }, {
+        "item" : "9.0",
+        "count" : "434"
+      }, {
+        "item" : "6.8",
+        "count" : "431"
+      }, {
+        "item" : "8.9",
+        "count" : "428"
+      } ],
+      "smallest" : "0.6",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : {
+      "precision" : "1"
+    }
+  }, {
+    "id" : 622300624,
+    "name" : "COPD_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of chronic obstructive pulmonary disease among adults",
+    "fieldName" : "copd_crude95ci",
+    "position" : 27,
+    "renderTypeName" : "text",
+    "tableColumnId" : 124716490,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "( 9.9, 17.5)",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "( 4.3,  5.4)",
+        "count" : "76"
+      }, {
+        "item" : "( 4.9,  6.2)",
+        "count" : "65"
+      }, {
+        "item" : "( 4.2,  5.3)",
+        "count" : "62"
+      }, {
+        "item" : "( 4.8,  6.0)",
+        "count" : "60"
+      }, {
+        "item" : "( 5.0,  6.2)",
+        "count" : "60"
+      }, {
+        "item" : "( 4.1,  5.1)",
+        "count" : "58"
+      }, {
+        "item" : "( 3.8,  4.8)",
+        "count" : "58"
+      }, {
+        "item" : "( 4.9,  6.1)",
+        "count" : "57"
+      }, {
+        "item" : "( 5.7,  7.1)",
+        "count" : "57"
+      }, {
+        "item" : "( 4.7,  6.0)",
+        "count" : "56"
+      }, {
+        "item" : "( 4.5,  5.6)",
+        "count" : "56"
+      }, {
+        "item" : "( 4.0,  5.0)",
+        "count" : "56"
+      }, {
+        "item" : "( 4.8,  6.1)",
+        "count" : "55"
+      }, {
+        "item" : "( 4.5,  5.7)",
+        "count" : "55"
+      }, {
+        "item" : "( 5.0,  6.3)",
+        "count" : "54"
+      }, {
+        "item" : "( 4.4,  5.5)",
+        "count" : "54"
+      }, {
+        "item" : "( 5.6,  7.0)",
+        "count" : "54"
+      }, {
+        "item" : "( 5.1,  6.4)",
+        "count" : "54"
+      }, {
+        "item" : "( 5.4,  6.8)",
+        "count" : "52"
+      }, {
+        "item" : "( 5.7,  7.2)",
+        "count" : "51"
+      } ],
+      "smallest" : "( 0.4,  0.9)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300625,
+    "name" : "CSMOKING_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of current cigarette smoking among adults, 2023",
+    "fieldName" : "csmoking_crudeprev",
+    "position" : 28,
+    "renderTypeName" : "number",
+    "tableColumnId" : 124716463,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "47.6",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "14.6",
+        "count" : "340"
+      }, {
+        "item" : "15.8",
+        "count" : "329"
+      }, {
+        "item" : "14.4",
+        "count" : "325"
+      }, {
+        "item" : "15.5",
+        "count" : "312"
+      }, {
+        "item" : "14.1",
+        "count" : "308"
+      }, {
+        "item" : "14.2",
+        "count" : "308"
+      }, {
+        "item" : "14.8",
+        "count" : "308"
+      }, {
+        "item" : "15.1",
+        "count" : "308"
+      }, {
+        "item" : "15.7",
+        "count" : "307"
+      }, {
+        "item" : "15.6",
+        "count" : "306"
+      }, {
+        "item" : "15.0",
+        "count" : "306"
+      }, {
+        "item" : "14.5",
+        "count" : "303"
+      }, {
+        "item" : "15.3",
+        "count" : "300"
+      }, {
+        "item" : "16.3",
+        "count" : "297"
+      }, {
+        "item" : "15.2",
+        "count" : "297"
+      }, {
+        "item" : "16.2",
+        "count" : "294"
+      }, {
+        "item" : "14.3",
+        "count" : "294"
+      }, {
+        "item" : "15.9",
+        "count" : "290"
+      }, {
+        "item" : "16.1",
+        "count" : "284"
+      }, {
+        "item" : "16.8",
+        "count" : "282"
+      } ],
+      "smallest" : "2.0",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : {
+      "precision" : "1"
+    }
+  }, {
+    "id" : 622300626,
+    "name" : "CSMOKING_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of current cigarette smoking among adults",
+    "fieldName" : "csmoking_crude95ci",
+    "position" : 29,
+    "renderTypeName" : "text",
+    "tableColumnId" : 124716516,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "( 9.9, 18.1)",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "(12.5, 16.4)",
+        "count" : "23"
+      }, {
+        "item" : "(14.1, 19.5)",
+        "count" : "23"
+      }, {
+        "item" : "(11.7, 16.6)",
+        "count" : "22"
+      }, {
+        "item" : "( 9.4, 12.7)",
+        "count" : "22"
+      }, {
+        "item" : "(13.3, 17.9)",
+        "count" : "22"
+      }, {
+        "item" : "(12.1, 16.8)",
+        "count" : "20"
+      }, {
+        "item" : "(11.6, 15.2)",
+        "count" : "20"
+      }, {
+        "item" : "(12.6, 17.7)",
+        "count" : "20"
+      }, {
+        "item" : "(13.2, 18.0)",
+        "count" : "20"
+      }, {
+        "item" : "( 8.2, 10.9)",
+        "count" : "20"
+      }, {
+        "item" : "(13.4, 18.0)",
+        "count" : "20"
+      }, {
+        "item" : "(10.4, 13.9)",
+        "count" : "20"
+      }, {
+        "item" : "(12.3, 17.4)",
+        "count" : "20"
+      }, {
+        "item" : "(12.4, 17.0)",
+        "count" : "20"
+      }, {
+        "item" : "(10.2, 13.5)",
+        "count" : "19"
+      }, {
+        "item" : "(14.1, 18.7)",
+        "count" : "19"
+      }, {
+        "item" : "(10.8, 15.5)",
+        "count" : "19"
+      }, {
+        "item" : "(12.5, 16.3)",
+        "count" : "19"
+      }, {
+        "item" : "(12.0, 15.9)",
+        "count" : "19"
+      }, {
+        "item" : "(13.0, 17.3)",
+        "count" : "19"
+      } ],
+      "smallest" : "(10.0, 12.1)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300627,
+    "name" : "DENTAL_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of visited dentist or dental clinic in the past year among adults, 2022",
+    "fieldName" : "dental_crudeprev",
+    "position" : 30,
+    "renderTypeName" : "number",
+    "tableColumnId" : 124716521,
+    "cachedContents" : {
+      "non_null" : "32520",
+      "largest" : "84.1",
+      "null" : "0",
+      "top" : [ {
+        "item" : "65.0",
+        "count" : "192"
+      }, {
+        "item" : "65.6",
+        "count" : "192"
+      }, {
+        "item" : "64.2",
+        "count" : "188"
+      }, {
+        "item" : "63.7",
+        "count" : "184"
+      }, {
+        "item" : "65.9",
+        "count" : "179"
+      }, {
+        "item" : "63.1",
+        "count" : "177"
+      }, {
+        "item" : "63.8",
+        "count" : "177"
+      }, {
+        "item" : "65.2",
+        "count" : "176"
+      }, {
+        "item" : "63.2",
+        "count" : "175"
+      }, {
+        "item" : "64.5",
+        "count" : "173"
+      }, {
+        "item" : "63.0",
+        "count" : "170"
+      }, {
+        "item" : "64.0",
+        "count" : "170"
+      }, {
+        "item" : "64.6",
+        "count" : "169"
+      }, {
+        "item" : "61.0",
+        "count" : "169"
+      }, {
+        "item" : "62.8",
+        "count" : "167"
+      }, {
+        "item" : "64.7",
+        "count" : "166"
+      }, {
+        "item" : "65.7",
+        "count" : "165"
+      }, {
+        "item" : "60.9",
+        "count" : "164"
+      }, {
+        "item" : "62.5",
+        "count" : "163"
+      }, {
+        "item" : "64.1",
+        "count" : "163"
+      } ],
+      "smallest" : "2.5",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : {
+      "precision" : "1"
+    }
+  }, {
+    "id" : 622300628,
+    "name" : "DENTAL_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of visited dentist or dental clinic in the past year among adults",
+    "fieldName" : "dental_crude95ci",
+    "position" : 31,
+    "renderTypeName" : "text",
+    "tableColumnId" : 124716486,
+    "cachedContents" : {
+      "non_null" : "32520",
+      "largest" : "( 9.9, 13.6)",
+      "null" : "0",
+      "top" : [ {
+        "item" : "(62.3, 69.3)",
+        "count" : "18"
+      }, {
+        "item" : "(59.9, 67.0)",
+        "count" : "18"
+      }, {
+        "item" : "(60.7, 67.5)",
+        "count" : "17"
+      }, {
+        "item" : "(59.6, 66.6)",
+        "count" : "17"
+      }, {
+        "item" : "(61.0, 68.1)",
+        "count" : "16"
+      }, {
+        "item" : "(56.6, 63.8)",
+        "count" : "16"
+      }, {
+        "item" : "(64.3, 70.9)",
+        "count" : "16"
+      }, {
+        "item" : "(56.7, 64.2)",
+        "count" : "15"
+      }, {
+        "item" : "(57.8, 65.2)",
+        "count" : "15"
+      }, {
+        "item" : "(61.8, 68.8)",
+        "count" : "15"
+      }, {
+        "item" : "(62.2, 68.9)",
+        "count" : "15"
+      }, {
+        "item" : "(51.7, 59.3)",
+        "count" : "15"
+      }, {
+        "item" : "(58.2, 65.2)",
+        "count" : "15"
+      }, {
+        "item" : "(59.5, 66.6)",
+        "count" : "15"
+      }, {
+        "item" : "(60.9, 68.0)",
+        "count" : "15"
+      }, {
+        "item" : "(60.8, 68.0)",
+        "count" : "15"
+      }, {
+        "item" : "(57.1, 64.4)",
+        "count" : "15"
+      }, {
+        "item" : "(58.8, 66.1)",
+        "count" : "15"
+      }, {
+        "item" : "(62.0, 69.1)",
+        "count" : "15"
+      }, {
+        "item" : "(59.1, 66.2)",
+        "count" : "15"
+      } ],
+      "smallest" : "(10.0, 13.1)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300629,
+    "name" : "DEPRESSION_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of depression among adults, 2023",
+    "fieldName" : "depression_crudeprev",
+    "position" : 32,
+    "renderTypeName" : "number",
+    "tableColumnId" : 140173168,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "45.9",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "23.3",
+        "count" : "360"
+      }, {
+        "item" : "22.2",
+        "count" : "352"
+      }, {
+        "item" : "22.7",
+        "count" : "352"
+      }, {
+        "item" : "20.7",
+        "count" : "345"
+      }, {
+        "item" : "22.8",
+        "count" : "344"
+      }, {
+        "item" : "23.4",
+        "count" : "342"
+      }, {
+        "item" : "24.7",
+        "count" : "337"
+      }, {
+        "item" : "23.2",
+        "count" : "337"
+      }, {
+        "item" : "22.6",
+        "count" : "334"
+      }, {
+        "item" : "21.3",
+        "count" : "334"
+      }, {
+        "item" : "21.6",
+        "count" : "333"
+      }, {
+        "item" : "23.6",
+        "count" : "331"
+      }, {
+        "item" : "23.7",
+        "count" : "329"
+      }, {
+        "item" : "22.9",
+        "count" : "323"
+      }, {
+        "item" : "20.8",
+        "count" : "319"
+      }, {
+        "item" : "21.7",
+        "count" : "317"
+      }, {
+        "item" : "21.0",
+        "count" : "317"
+      }, {
+        "item" : "23.9",
+        "count" : "315"
+      }, {
+        "item" : "23.0",
+        "count" : "314"
+      }, {
+        "item" : "23.8",
+        "count" : "313"
+      } ],
+      "smallest" : "7.4",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300630,
+    "name" : "DEPRESSION_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of depression among adults",
+    "fieldName" : "depression_crude95ci",
+    "position" : 33,
+    "renderTypeName" : "text",
+    "tableColumnId" : 140173167,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "( 9.9, 14.3)",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "(17.5, 24.1)",
+        "count" : "29"
+      }, {
+        "item" : "(19.6, 26.8)",
+        "count" : "29"
+      }, {
+        "item" : "(17.7, 24.3)",
+        "count" : "28"
+      }, {
+        "item" : "(20.2, 27.5)",
+        "count" : "28"
+      }, {
+        "item" : "(18.8, 25.4)",
+        "count" : "27"
+      }, {
+        "item" : "(18.0, 24.7)",
+        "count" : "26"
+      }, {
+        "item" : "(19.8, 27.0)",
+        "count" : "25"
+      }, {
+        "item" : "(17.0, 23.7)",
+        "count" : "25"
+      }, {
+        "item" : "(19.9, 27.2)",
+        "count" : "24"
+      }, {
+        "item" : "(20.0, 27.1)",
+        "count" : "24"
+      }, {
+        "item" : "(17.9, 24.5)",
+        "count" : "24"
+      }, {
+        "item" : "(21.5, 28.9)",
+        "count" : "24"
+      }, {
+        "item" : "(20.7, 28.2)",
+        "count" : "24"
+      }, {
+        "item" : "(21.1, 28.5)",
+        "count" : "24"
+      }, {
+        "item" : "(21.5, 29.2)",
+        "count" : "23"
+      }, {
+        "item" : "(19.5, 26.7)",
+        "count" : "23"
+      }, {
+        "item" : "(18.5, 25.3)",
+        "count" : "23"
+      }, {
+        "item" : "(17.2, 23.8)",
+        "count" : "23"
+      }, {
+        "item" : "(17.9, 24.7)",
+        "count" : "23"
+      }, {
+        "item" : "(20.6, 28.0)",
+        "count" : "23"
+      } ],
+      "smallest" : "(10.0, 13.1)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300631,
+    "name" : "DIABETES_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of diagnosed diabetes among adults, 2023",
+    "fieldName" : "diabetes_crudeprev",
+    "position" : 34,
+    "renderTypeName" : "number",
+    "tableColumnId" : 124716476,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "40.7",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "12.7",
+        "count" : "440"
+      }, {
+        "item" : "12.2",
+        "count" : "440"
+      }, {
+        "item" : "12.5",
+        "count" : "430"
+      }, {
+        "item" : "12.1",
+        "count" : "422"
+      }, {
+        "item" : "11.7",
+        "count" : "419"
+      }, {
+        "item" : "12.4",
+        "count" : "419"
+      }, {
+        "item" : "12.8",
+        "count" : "418"
+      }, {
+        "item" : "13.1",
+        "count" : "414"
+      }, {
+        "item" : "12.3",
+        "count" : "404"
+      }, {
+        "item" : "13.5",
+        "count" : "404"
+      }, {
+        "item" : "11.5",
+        "count" : "402"
+      }, {
+        "item" : "11.8",
+        "count" : "399"
+      }, {
+        "item" : "11.9",
+        "count" : "397"
+      }, {
+        "item" : "13.0",
+        "count" : "394"
+      }, {
+        "item" : "11.0",
+        "count" : "387"
+      }, {
+        "item" : "13.2",
+        "count" : "384"
+      }, {
+        "item" : "11.1",
+        "count" : "379"
+      }, {
+        "item" : "12.9",
+        "count" : "378"
+      }, {
+        "item" : "13.4",
+        "count" : "377"
+      }, {
+        "item" : "11.6",
+        "count" : "376"
+      } ],
+      "smallest" : "0.6",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : {
+      "precision" : "1"
+    }
+  }, {
+    "id" : 622300632,
+    "name" : "DIABETES_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of diagnosed diabetes among adults",
+    "fieldName" : "diabetes_crude95ci",
+    "position" : 35,
+    "renderTypeName" : "text",
+    "tableColumnId" : 124716481,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "( 9.9, 15.7)",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "(10.5, 14.0)",
+        "count" : "55"
+      }, {
+        "item" : "(10.0, 13.4)",
+        "count" : "53"
+      }, {
+        "item" : "(10.8, 14.3)",
+        "count" : "52"
+      }, {
+        "item" : "(11.0, 14.6)",
+        "count" : "51"
+      }, {
+        "item" : "(10.3, 13.5)",
+        "count" : "51"
+      }, {
+        "item" : "(10.7, 13.9)",
+        "count" : "51"
+      }, {
+        "item" : "(10.1, 13.4)",
+        "count" : "50"
+      }, {
+        "item" : "( 9.6, 12.7)",
+        "count" : "50"
+      }, {
+        "item" : "(11.6, 15.2)",
+        "count" : "50"
+      }, {
+        "item" : "(11.0, 14.5)",
+        "count" : "50"
+      }, {
+        "item" : "( 9.5, 12.7)",
+        "count" : "50"
+      }, {
+        "item" : "(11.4, 15.0)",
+        "count" : "49"
+      }, {
+        "item" : "(10.3, 13.7)",
+        "count" : "48"
+      }, {
+        "item" : "( 9.9, 13.2)",
+        "count" : "48"
+      }, {
+        "item" : "(10.4, 13.9)",
+        "count" : "48"
+      }, {
+        "item" : "(10.1, 13.3)",
+        "count" : "48"
+      }, {
+        "item" : "( 9.2, 12.1)",
+        "count" : "46"
+      }, {
+        "item" : "( 9.7, 12.9)",
+        "count" : "46"
+      }, {
+        "item" : "(10.3, 13.4)",
+        "count" : "46"
+      }, {
+        "item" : "(10.8, 14.5)",
+        "count" : "46"
+      } ],
+      "smallest" : "( 0.5,  0.8)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300633,
+    "name" : "GHLTH_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of fair or poor health among adults, 2023",
+    "fieldName" : "ghlth_crudeprev",
+    "position" : 36,
+    "renderTypeName" : "number",
+    "tableColumnId" : 140173166,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "58.2",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "18.4",
+        "count" : "268"
+      }, {
+        "item" : "18.5",
+        "count" : "262"
+      }, {
+        "item" : "18.1",
+        "count" : "253"
+      }, {
+        "item" : "18.0",
+        "count" : "245"
+      }, {
+        "item" : "17.9",
+        "count" : "245"
+      }, {
+        "item" : "19.8",
+        "count" : "244"
+      }, {
+        "item" : "17.6",
+        "count" : "243"
+      }, {
+        "item" : "19.3",
+        "count" : "243"
+      }, {
+        "item" : "17.3",
+        "count" : "241"
+      }, {
+        "item" : "18.6",
+        "count" : "241"
+      }, {
+        "item" : "17.0",
+        "count" : "240"
+      }, {
+        "item" : "18.8",
+        "count" : "237"
+      }, {
+        "item" : "17.7",
+        "count" : "235"
+      }, {
+        "item" : "18.7",
+        "count" : "233"
+      }, {
+        "item" : "19.1",
+        "count" : "231"
+      }, {
+        "item" : "17.8",
+        "count" : "231"
+      }, {
+        "item" : "20.5",
+        "count" : "228"
+      }, {
+        "item" : "19.6",
+        "count" : "228"
+      }, {
+        "item" : "20.8",
+        "count" : "227"
+      }, {
+        "item" : "20.3",
+        "count" : "226"
+      } ],
+      "smallest" : "4.9",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300634,
+    "name" : "GHLTH_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of fair or poor health among adults",
+    "fieldName" : "ghlth_crude95ci",
+    "position" : 37,
+    "renderTypeName" : "text",
+    "tableColumnId" : 140173165,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "( 9.9, 16.7)",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "(17.9, 23.5)",
+        "count" : "21"
+      }, {
+        "item" : "(15.8, 21.4)",
+        "count" : "19"
+      }, {
+        "item" : "(15.5, 20.7)",
+        "count" : "18"
+      }, {
+        "item" : "(15.1, 20.4)",
+        "count" : "18"
+      }, {
+        "item" : "(17.6, 22.7)",
+        "count" : "16"
+      }, {
+        "item" : "(16.6, 22.5)",
+        "count" : "16"
+      }, {
+        "item" : "(13.2, 17.1)",
+        "count" : "16"
+      }, {
+        "item" : "(18.0, 23.8)",
+        "count" : "16"
+      }, {
+        "item" : "(14.6, 18.7)",
+        "count" : "16"
+      }, {
+        "item" : "(15.7, 20.8)",
+        "count" : "16"
+      }, {
+        "item" : "(15.8, 21.3)",
+        "count" : "16"
+      }, {
+        "item" : "(16.0, 21.4)",
+        "count" : "16"
+      }, {
+        "item" : "(16.0, 21.1)",
+        "count" : "16"
+      }, {
+        "item" : "(16.6, 21.9)",
+        "count" : "15"
+      }, {
+        "item" : "(16.0, 21.6)",
+        "count" : "15"
+      }, {
+        "item" : "(14.7, 19.7)",
+        "count" : "15"
+      }, {
+        "item" : "(15.7, 21.3)",
+        "count" : "15"
+      }, {
+        "item" : "(17.2, 22.7)",
+        "count" : "15"
+      }, {
+        "item" : "(15.2, 20.7)",
+        "count" : "15"
+      }, {
+        "item" : "(16.2, 21.6)",
+        "count" : "15"
+      } ],
+      "smallest" : "(10.0, 12.1)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300635,
+    "name" : "HIGHCHOL_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of high cholesterol among adults who have ever been screened, 2023",
+    "fieldName" : "highchol_crudeprev",
+    "position" : 38,
+    "renderTypeName" : "number",
+    "tableColumnId" : 124716465,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "58.6",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "38.9",
+        "count" : "358"
+      }, {
+        "item" : "39.1",
+        "count" : "350"
+      }, {
+        "item" : "38.3",
+        "count" : "338"
+      }, {
+        "item" : "39.3",
+        "count" : "330"
+      }, {
+        "item" : "38.5",
+        "count" : "329"
+      }, {
+        "item" : "39.4",
+        "count" : "326"
+      }, {
+        "item" : "38.1",
+        "count" : "325"
+      }, {
+        "item" : "38.8",
+        "count" : "321"
+      }, {
+        "item" : "37.7",
+        "count" : "319"
+      }, {
+        "item" : "38.7",
+        "count" : "316"
+      }, {
+        "item" : "39.7",
+        "count" : "314"
+      }, {
+        "item" : "37.9",
+        "count" : "312"
+      }, {
+        "item" : "38.6",
+        "count" : "312"
+      }, {
+        "item" : "36.8",
+        "count" : "310"
+      }, {
+        "item" : "37.5",
+        "count" : "310"
+      }, {
+        "item" : "37.8",
+        "count" : "308"
+      }, {
+        "item" : "39.2",
+        "count" : "306"
+      }, {
+        "item" : "38.0",
+        "count" : "303"
+      }, {
+        "item" : "38.2",
+        "count" : "302"
+      }, {
+        "item" : "40.0",
+        "count" : "302"
+      } ],
+      "smallest" : "9.7",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : {
+      "precision" : "1"
+    }
+  }, {
+    "id" : 622300636,
+    "name" : "HIGHCHOL_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of high cholesterol among adults who have ever been screened",
+    "fieldName" : "highchol_crude95ci",
+    "position" : 39,
+    "renderTypeName" : "text",
+    "tableColumnId" : 124716485,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "( 9.9, 14.3)",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "(34.1, 42.9)",
+        "count" : "23"
+      }, {
+        "item" : "(34.4, 43.4)",
+        "count" : "20"
+      }, {
+        "item" : "(34.6, 43.3)",
+        "count" : "20"
+      }, {
+        "item" : "(35.1, 43.8)",
+        "count" : "19"
+      }, {
+        "item" : "(34.7, 43.6)",
+        "count" : "18"
+      }, {
+        "item" : "(34.3, 43.5)",
+        "count" : "18"
+      }, {
+        "item" : "(33.9, 42.8)",
+        "count" : "18"
+      }, {
+        "item" : "(35.2, 44.2)",
+        "count" : "18"
+      }, {
+        "item" : "(32.8, 41.4)",
+        "count" : "17"
+      }, {
+        "item" : "(33.7, 42.5)",
+        "count" : "17"
+      }, {
+        "item" : "(35.6, 44.2)",
+        "count" : "17"
+      }, {
+        "item" : "(35.3, 44.3)",
+        "count" : "17"
+      }, {
+        "item" : "(35.1, 43.6)",
+        "count" : "17"
+      }, {
+        "item" : "(36.1, 44.7)",
+        "count" : "17"
+      }, {
+        "item" : "(34.2, 43.2)",
+        "count" : "17"
+      }, {
+        "item" : "(34.6, 43.4)",
+        "count" : "17"
+      }, {
+        "item" : "(35.4, 44.0)",
+        "count" : "17"
+      }, {
+        "item" : "(35.0, 43.9)",
+        "count" : "16"
+      }, {
+        "item" : "(35.9, 44.6)",
+        "count" : "16"
+      }, {
+        "item" : "(33.6, 42.3)",
+        "count" : "16"
+      } ],
+      "smallest" : "(10.0, 13.4)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300637,
+    "name" : "LPA_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of no leisure-time physical activity among adults, 2023",
+    "fieldName" : "lpa_crudeprev",
+    "position" : 40,
+    "renderTypeName" : "number",
+    "tableColumnId" : 124716510,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "64.9",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "25.8",
+        "count" : "224"
+      }, {
+        "item" : "25.2",
+        "count" : "216"
+      }, {
+        "item" : "27.0",
+        "count" : "210"
+      }, {
+        "item" : "27.1",
+        "count" : "208"
+      }, {
+        "item" : "26.3",
+        "count" : "208"
+      }, {
+        "item" : "25.7",
+        "count" : "205"
+      }, {
+        "item" : "25.5",
+        "count" : "202"
+      }, {
+        "item" : "25.1",
+        "count" : "202"
+      }, {
+        "item" : "27.5",
+        "count" : "201"
+      }, {
+        "item" : "27.7",
+        "count" : "200"
+      }, {
+        "item" : "26.7",
+        "count" : "200"
+      }, {
+        "item" : "24.5",
+        "count" : "199"
+      }, {
+        "item" : "26.6",
+        "count" : "198"
+      }, {
+        "item" : "25.3",
+        "count" : "197"
+      }, {
+        "item" : "23.9",
+        "count" : "195"
+      }, {
+        "item" : "28.7",
+        "count" : "193"
+      }, {
+        "item" : "24.6",
+        "count" : "193"
+      }, {
+        "item" : "26.0",
+        "count" : "192"
+      }, {
+        "item" : "24.9",
+        "count" : "191"
+      }, {
+        "item" : "27.4",
+        "count" : "190"
+      } ],
+      "smallest" : "5.6",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : {
+      "precision" : "1"
+    }
+  }, {
+    "id" : 622300638,
+    "name" : "LPA_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of no leisure-time physical activity among adults",
+    "fieldName" : "lpa_crude95ci",
+    "position" : 41,
+    "renderTypeName" : "text",
+    "tableColumnId" : 124716507,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "( 9.9, 17.4)",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "(22.6, 31.3)",
+        "count" : "14"
+      }, {
+        "item" : "(22.7, 31.9)",
+        "count" : "14"
+      }, {
+        "item" : "(21.1, 29.5)",
+        "count" : "13"
+      }, {
+        "item" : "(24.1, 33.8)",
+        "count" : "13"
+      }, {
+        "item" : "(20.7, 30.0)",
+        "count" : "12"
+      }, {
+        "item" : "(21.8, 31.4)",
+        "count" : "12"
+      }, {
+        "item" : "(22.8, 31.7)",
+        "count" : "12"
+      }, {
+        "item" : "(19.4, 27.7)",
+        "count" : "12"
+      }, {
+        "item" : "(21.6, 31.3)",
+        "count" : "11"
+      }, {
+        "item" : "(21.3, 30.6)",
+        "count" : "11"
+      }, {
+        "item" : "(19.1, 27.0)",
+        "count" : "11"
+      }, {
+        "item" : "(19.7, 27.2)",
+        "count" : "11"
+      }, {
+        "item" : "(21.5, 30.5)",
+        "count" : "11"
+      }, {
+        "item" : "(21.6, 30.1)",
+        "count" : "11"
+      }, {
+        "item" : "(21.8, 30.5)",
+        "count" : "11"
+      }, {
+        "item" : "(21.0, 30.0)",
+        "count" : "11"
+      }, {
+        "item" : "(22.8, 31.9)",
+        "count" : "11"
+      }, {
+        "item" : "(21.5, 30.7)",
+        "count" : "11"
+      }, {
+        "item" : "(24.4, 33.7)",
+        "count" : "10"
+      }, {
+        "item" : "(22.3, 30.9)",
+        "count" : "10"
+      } ],
+      "smallest" : "(10.0, 12.3)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300639,
+    "name" : "MAMMOUSE_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of mammography use among women aged 50–74 years, 2022",
+    "fieldName" : "mammouse_crudeprev",
+    "position" : 42,
+    "renderTypeName" : "number",
+    "tableColumnId" : 124716464,
+    "cachedContents" : {
+      "non_null" : "32429",
+      "largest" : "88.7",
+      "null" : "91",
+      "top" : [ {
+        "item" : "77.7",
+        "count" : "331"
+      }, {
+        "item" : "76.8",
+        "count" : "320"
+      }, {
+        "item" : "76.5",
+        "count" : "315"
+      }, {
+        "item" : "75.7",
+        "count" : "311"
+      }, {
+        "item" : "77.6",
+        "count" : "307"
+      }, {
+        "item" : "76.6",
+        "count" : "306"
+      }, {
+        "item" : "77.1",
+        "count" : "301"
+      }, {
+        "item" : "74.7",
+        "count" : "301"
+      }, {
+        "item" : "77.2",
+        "count" : "300"
+      }, {
+        "item" : "77.9",
+        "count" : "300"
+      }, {
+        "item" : "76.3",
+        "count" : "298"
+      }, {
+        "item" : "76.0",
+        "count" : "297"
+      }, {
+        "item" : "75.8",
+        "count" : "296"
+      }, {
+        "item" : "76.7",
+        "count" : "293"
+      }, {
+        "item" : "74.6",
+        "count" : "292"
+      }, {
+        "item" : "77.4",
+        "count" : "292"
+      }, {
+        "item" : "75.6",
+        "count" : "291"
+      }, {
+        "item" : "78.1",
+        "count" : "290"
+      }, {
+        "item" : "74.2",
+        "count" : "289"
+      }, {
+        "item" : "74.5",
+        "count" : "288"
+      } ],
+      "smallest" : "45.9",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : {
+      "precision" : "1"
+    }
+  }, {
+    "id" : 622300640,
+    "name" : "MAMMOUSE_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of mammography use among women aged 50–74 years",
+    "fieldName" : "mammouse_crude95ci",
+    "position" : 43,
+    "renderTypeName" : "text",
+    "tableColumnId" : 124716511,
+    "cachedContents" : {
+      "non_null" : "32429",
+      "largest" : "(85.0, 91.4)",
+      "null" : "91",
+      "top" : [ {
+        "item" : "(68.3, 82.6)",
+        "count" : "19"
+      }, {
+        "item" : "(64.9, 80.1)",
+        "count" : "18"
+      }, {
+        "item" : "(67.6, 82.0)",
+        "count" : "16"
+      }, {
+        "item" : "(66.8, 81.8)",
+        "count" : "15"
+      }, {
+        "item" : "(70.5, 83.9)",
+        "count" : "15"
+      }, {
+        "item" : "(68.4, 82.6)",
+        "count" : "15"
+      }, {
+        "item" : "(67.8, 82.4)",
+        "count" : "15"
+      }, {
+        "item" : "(65.5, 80.4)",
+        "count" : "15"
+      }, {
+        "item" : "(67.6, 82.4)",
+        "count" : "15"
+      }, {
+        "item" : "(69.4, 83.6)",
+        "count" : "15"
+      }, {
+        "item" : "(66.9, 81.5)",
+        "count" : "15"
+      }, {
+        "item" : "(66.9, 81.6)",
+        "count" : "15"
+      }, {
+        "item" : "(68.6, 82.9)",
+        "count" : "14"
+      }, {
+        "item" : "(66.9, 81.2)",
+        "count" : "14"
+      }, {
+        "item" : "(69.4, 83.3)",
+        "count" : "14"
+      }, {
+        "item" : "(69.2, 83.1)",
+        "count" : "14"
+      }, {
+        "item" : "(67.8, 82.1)",
+        "count" : "14"
+      }, {
+        "item" : "(68.7, 82.8)",
+        "count" : "14"
+      }, {
+        "item" : "(74.0, 84.4)",
+        "count" : "14"
+      }, {
+        "item" : "(68.5, 82.2)",
+        "count" : "14"
+      } ],
+      "smallest" : "(36.6, 55.8)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300641,
+    "name" : "MHLTH_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of frequent mental distress among adults, 2023",
+    "fieldName" : "mhlth_crudeprev",
+    "position" : 44,
+    "renderTypeName" : "number",
+    "tableColumnId" : 124716500,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "38.3",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "17.6",
+        "count" : "531"
+      }, {
+        "item" : "17.0",
+        "count" : "513"
+      }, {
+        "item" : "17.9",
+        "count" : "512"
+      }, {
+        "item" : "16.6",
+        "count" : "504"
+      }, {
+        "item" : "16.4",
+        "count" : "500"
+      }, {
+        "item" : "16.9",
+        "count" : "499"
+      }, {
+        "item" : "17.3",
+        "count" : "498"
+      }, {
+        "item" : "17.8",
+        "count" : "488"
+      }, {
+        "item" : "17.2",
+        "count" : "488"
+      }, {
+        "item" : "16.7",
+        "count" : "488"
+      }, {
+        "item" : "17.1",
+        "count" : "488"
+      }, {
+        "item" : "17.4",
+        "count" : "487"
+      }, {
+        "item" : "16.5",
+        "count" : "487"
+      }, {
+        "item" : "16.3",
+        "count" : "486"
+      }, {
+        "item" : "17.5",
+        "count" : "471"
+      }, {
+        "item" : "15.9",
+        "count" : "470"
+      }, {
+        "item" : "17.7",
+        "count" : "468"
+      }, {
+        "item" : "18.0",
+        "count" : "467"
+      }, {
+        "item" : "16.2",
+        "count" : "462"
+      }, {
+        "item" : "16.8",
+        "count" : "459"
+      } ],
+      "smallest" : "5.8",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : {
+      "precision" : "1"
+    }
+  }, {
+    "id" : 622300642,
+    "name" : "MHLTH_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of frequent mental distress  among adults ",
+    "fieldName" : "mhlth_crude95ci",
+    "position" : 45,
+    "renderTypeName" : "text",
+    "tableColumnId" : 124716502,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "( 9.9, 13.8)",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "(16.0, 20.2)",
+        "count" : "63"
+      }, {
+        "item" : "(15.7, 19.8)",
+        "count" : "57"
+      }, {
+        "item" : "(14.9, 19.1)",
+        "count" : "57"
+      }, {
+        "item" : "(14.2, 18.3)",
+        "count" : "56"
+      }, {
+        "item" : "(15.6, 19.7)",
+        "count" : "56"
+      }, {
+        "item" : "(14.0, 17.9)",
+        "count" : "55"
+      }, {
+        "item" : "(14.6, 18.5)",
+        "count" : "55"
+      }, {
+        "item" : "(14.6, 18.4)",
+        "count" : "54"
+      }, {
+        "item" : "(15.9, 20.0)",
+        "count" : "54"
+      }, {
+        "item" : "(15.2, 19.1)",
+        "count" : "53"
+      }, {
+        "item" : "(15.9, 20.1)",
+        "count" : "53"
+      }, {
+        "item" : "(15.3, 19.4)",
+        "count" : "53"
+      }, {
+        "item" : "(15.4, 19.6)",
+        "count" : "53"
+      }, {
+        "item" : "(16.1, 20.2)",
+        "count" : "53"
+      }, {
+        "item" : "(14.1, 17.9)",
+        "count" : "52"
+      }, {
+        "item" : "(14.7, 18.6)",
+        "count" : "51"
+      }, {
+        "item" : "(15.0, 19.0)",
+        "count" : "51"
+      }, {
+        "item" : "(14.1, 17.8)",
+        "count" : "51"
+      }, {
+        "item" : "(14.1, 18.1)",
+        "count" : "51"
+      }, {
+        "item" : "(14.4, 18.2)",
+        "count" : "50"
+      } ],
+      "smallest" : "(10.0, 12.1)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300643,
+    "name" : "OBESITY_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of obesity among adults, 2023",
+    "fieldName" : "obesity_crudeprev",
+    "position" : 46,
+    "renderTypeName" : "number",
+    "tableColumnId" : 124716518,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "62.1",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "36.2",
+        "count" : "264"
+      }, {
+        "item" : "38.4",
+        "count" : "262"
+      }, {
+        "item" : "38.6",
+        "count" : "252"
+      }, {
+        "item" : "39.6",
+        "count" : "249"
+      }, {
+        "item" : "37.6",
+        "count" : "244"
+      }, {
+        "item" : "39.7",
+        "count" : "243"
+      }, {
+        "item" : "38.1",
+        "count" : "243"
+      }, {
+        "item" : "39.2",
+        "count" : "240"
+      }, {
+        "item" : "37.0",
+        "count" : "240"
+      }, {
+        "item" : "39.0",
+        "count" : "239"
+      }, {
+        "item" : "38.8",
+        "count" : "239"
+      }, {
+        "item" : "38.0",
+        "count" : "237"
+      }, {
+        "item" : "39.3",
+        "count" : "235"
+      }, {
+        "item" : "37.4",
+        "count" : "234"
+      }, {
+        "item" : "37.9",
+        "count" : "231"
+      }, {
+        "item" : "35.9",
+        "count" : "231"
+      }, {
+        "item" : "39.4",
+        "count" : "231"
+      }, {
+        "item" : "36.8",
+        "count" : "230"
+      }, {
+        "item" : "37.5",
+        "count" : "229"
+      }, {
+        "item" : "38.7",
+        "count" : "228"
+      } ],
+      "smallest" : "11.4",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : {
+      "precision" : "1"
+    }
+  }, {
+    "id" : 622300644,
+    "name" : "OBESITY_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of obesity among adults",
+    "fieldName" : "obesity_crude95ci",
+    "position" : 47,
+    "renderTypeName" : "text",
+    "tableColumnId" : 124716513,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "( 9.6, 14.9)",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "(32.8, 49.9)",
+        "count" : "13"
+      }, {
+        "item" : "(32.2, 47.9)",
+        "count" : "11"
+      }, {
+        "item" : "(31.6, 48.0)",
+        "count" : "9"
+      }, {
+        "item" : "(33.3, 50.4)",
+        "count" : "9"
+      }, {
+        "item" : "(31.6, 47.6)",
+        "count" : "9"
+      }, {
+        "item" : "(31.9, 47.5)",
+        "count" : "9"
+      }, {
+        "item" : "(30.0, 46.1)",
+        "count" : "9"
+      }, {
+        "item" : "(32.9, 42.2)",
+        "count" : "8"
+      }, {
+        "item" : "(33.3, 48.9)",
+        "count" : "8"
+      }, {
+        "item" : "(30.5, 46.4)",
+        "count" : "8"
+      }, {
+        "item" : "(31.3, 44.5)",
+        "count" : "8"
+      }, {
+        "item" : "(31.2, 47.7)",
+        "count" : "8"
+      }, {
+        "item" : "(27.7, 37.3)",
+        "count" : "8"
+      }, {
+        "item" : "(31.3, 45.5)",
+        "count" : "8"
+      }, {
+        "item" : "(28.9, 37.4)",
+        "count" : "8"
+      }, {
+        "item" : "(31.1, 46.3)",
+        "count" : "8"
+      }, {
+        "item" : "(31.4, 47.8)",
+        "count" : "8"
+      }, {
+        "item" : "(29.6, 46.1)",
+        "count" : "8"
+      }, {
+        "item" : "(31.5, 47.8)",
+        "count" : "8"
+      }, {
+        "item" : "(32.0, 48.2)",
+        "count" : "8"
+      } ],
+      "smallest" : "(10.2, 16.9)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300645,
+    "name" : "PHLTH_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of frequent physical distress among adults, 2023",
+    "fieldName" : "phlth_crudeprev",
+    "position" : 48,
+    "renderTypeName" : "number",
+    "tableColumnId" : 124716519,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "31.2",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "14.9",
+        "count" : "491"
+      }, {
+        "item" : "14.6",
+        "count" : "471"
+      }, {
+        "item" : "14.3",
+        "count" : "467"
+      }, {
+        "item" : "14.1",
+        "count" : "460"
+      }, {
+        "item" : "13.6",
+        "count" : "457"
+      }, {
+        "item" : "15.0",
+        "count" : "450"
+      }, {
+        "item" : "13.5",
+        "count" : "449"
+      }, {
+        "item" : "15.3",
+        "count" : "448"
+      }, {
+        "item" : "14.2",
+        "count" : "442"
+      }, {
+        "item" : "13.7",
+        "count" : "442"
+      }, {
+        "item" : "14.0",
+        "count" : "441"
+      }, {
+        "item" : "13.9",
+        "count" : "439"
+      }, {
+        "item" : "14.4",
+        "count" : "432"
+      }, {
+        "item" : "14.5",
+        "count" : "431"
+      }, {
+        "item" : "14.8",
+        "count" : "429"
+      }, {
+        "item" : "14.7",
+        "count" : "424"
+      }, {
+        "item" : "13.3",
+        "count" : "419"
+      }, {
+        "item" : "15.5",
+        "count" : "417"
+      }, {
+        "item" : "13.8",
+        "count" : "416"
+      }, {
+        "item" : "15.4",
+        "count" : "407"
+      } ],
+      "smallest" : "3.9",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : {
+      "precision" : "1"
+    }
+  }, {
+    "id" : 622300646,
+    "name" : "PHLTH_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of frequent physical distress among adults",
+    "fieldName" : "phlth_crude95ci",
+    "position" : 49,
+    "renderTypeName" : "text",
+    "tableColumnId" : 124716493,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "( 9.9, 16.6)",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "(11.9, 15.5)",
+        "count" : "47"
+      }, {
+        "item" : "(12.7, 16.0)",
+        "count" : "46"
+      }, {
+        "item" : "(12.1, 15.5)",
+        "count" : "45"
+      }, {
+        "item" : "(13.1, 16.8)",
+        "count" : "45"
+      }, {
+        "item" : "(12.5, 15.9)",
+        "count" : "43"
+      }, {
+        "item" : "(13.4, 17.1)",
+        "count" : "43"
+      }, {
+        "item" : "(12.2, 15.7)",
+        "count" : "42"
+      }, {
+        "item" : "(12.9, 16.3)",
+        "count" : "42"
+      }, {
+        "item" : "(12.3, 15.5)",
+        "count" : "42"
+      }, {
+        "item" : "(12.4, 15.8)",
+        "count" : "42"
+      }, {
+        "item" : "(11.1, 14.2)",
+        "count" : "41"
+      }, {
+        "item" : "(12.9, 16.5)",
+        "count" : "41"
+      }, {
+        "item" : "(13.6, 17.1)",
+        "count" : "41"
+      }, {
+        "item" : "(11.7, 15.0)",
+        "count" : "40"
+      }, {
+        "item" : "(13.0, 16.6)",
+        "count" : "40"
+      }, {
+        "item" : "(13.2, 17.0)",
+        "count" : "40"
+      }, {
+        "item" : "(13.0, 16.4)",
+        "count" : "40"
+      }, {
+        "item" : "(12.5, 16.2)",
+        "count" : "40"
+      }, {
+        "item" : "(11.7, 15.3)",
+        "count" : "40"
+      }, {
+        "item" : "(11.6, 14.9)",
+        "count" : "39"
+      } ],
+      "smallest" : "(10.0, 11.7)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300647,
+    "name" : "SLEEP_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of short sleep duration among adults, 2022",
+    "fieldName" : "sleep_crudeprev",
+    "position" : 50,
+    "renderTypeName" : "number",
+    "tableColumnId" : 124716522,
+    "cachedContents" : {
+      "non_null" : "32520",
+      "largest" : "56.3",
+      "null" : "0",
+      "top" : [ {
+        "item" : "36.4",
+        "count" : "304"
+      }, {
+        "item" : "36.3",
+        "count" : "302"
+      }, {
+        "item" : "36.9",
+        "count" : "299"
+      }, {
+        "item" : "37.8",
+        "count" : "296"
+      }, {
+        "item" : "38.2",
+        "count" : "291"
+      }, {
+        "item" : "35.9",
+        "count" : "288"
+      }, {
+        "item" : "37.0",
+        "count" : "285"
+      }, {
+        "item" : "36.8",
+        "count" : "285"
+      }, {
+        "item" : "35.3",
+        "count" : "284"
+      }, {
+        "item" : "37.7",
+        "count" : "284"
+      }, {
+        "item" : "38.5",
+        "count" : "283"
+      }, {
+        "item" : "34.4",
+        "count" : "282"
+      }, {
+        "item" : "37.2",
+        "count" : "282"
+      }, {
+        "item" : "34.9",
+        "count" : "281"
+      }, {
+        "item" : "35.6",
+        "count" : "281"
+      }, {
+        "item" : "36.0",
+        "count" : "280"
+      }, {
+        "item" : "36.1",
+        "count" : "278"
+      }, {
+        "item" : "34.7",
+        "count" : "278"
+      }, {
+        "item" : "36.5",
+        "count" : "278"
+      }, {
+        "item" : "34.0",
+        "count" : "275"
+      } ],
+      "smallest" : "20.6",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : {
+      "precision" : "1"
+    }
+  }, {
+    "id" : 622300648,
+    "name" : "SLEEP_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of short sleep duration among adults",
+    "fieldName" : "sleep_crude95ci",
+    "position" : 51,
+    "renderTypeName" : "text",
+    "tableColumnId" : 124716469,
+    "cachedContents" : {
+      "non_null" : "32520",
+      "largest" : "(52.3, 59.0)",
+      "null" : "0",
+      "top" : [ {
+        "item" : "(27.2, 39.1)",
+        "count" : "14"
+      }, {
+        "item" : "(31.9, 44.9)",
+        "count" : "12"
+      }, {
+        "item" : "(31.5, 42.4)",
+        "count" : "12"
+      }, {
+        "item" : "(32.2, 45.9)",
+        "count" : "12"
+      }, {
+        "item" : "(31.5, 41.7)",
+        "count" : "11"
+      }, {
+        "item" : "(29.9, 43.3)",
+        "count" : "11"
+      }, {
+        "item" : "(26.4, 37.6)",
+        "count" : "11"
+      }, {
+        "item" : "(30.2, 38.2)",
+        "count" : "10"
+      }, {
+        "item" : "(31.4, 45.9)",
+        "count" : "10"
+      }, {
+        "item" : "(34.4, 44.0)",
+        "count" : "10"
+      }, {
+        "item" : "(30.8, 44.8)",
+        "count" : "10"
+      }, {
+        "item" : "(29.1, 43.0)",
+        "count" : "10"
+      }, {
+        "item" : "(31.5, 40.2)",
+        "count" : "10"
+      }, {
+        "item" : "(31.6, 46.0)",
+        "count" : "10"
+      }, {
+        "item" : "(28.6, 41.5)",
+        "count" : "10"
+      }, {
+        "item" : "(31.5, 44.9)",
+        "count" : "10"
+      }, {
+        "item" : "(30.9, 39.7)",
+        "count" : "10"
+      }, {
+        "item" : "(31.1, 45.3)",
+        "count" : "10"
+      }, {
+        "item" : "(30.4, 44.2)",
+        "count" : "10"
+      }, {
+        "item" : "(32.7, 45.2)",
+        "count" : "10"
+      } ],
+      "smallest" : "(17.6, 26.3)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300649,
+    "name" : "STROKE_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of stroke among adults, 2023",
+    "fieldName" : "stroke_crudeprev",
+    "position" : 52,
+    "renderTypeName" : "number",
+    "tableColumnId" : 124716480,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "15.7",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "3.9",
+        "count" : "1356"
+      }, {
+        "item" : "3.8",
+        "count" : "1293"
+      }, {
+        "item" : "3.7",
+        "count" : "1277"
+      }, {
+        "item" : "4.0",
+        "count" : "1220"
+      }, {
+        "item" : "3.6",
+        "count" : "1202"
+      }, {
+        "item" : "3.5",
+        "count" : "1186"
+      }, {
+        "item" : "4.1",
+        "count" : "1121"
+      }, {
+        "item" : "3.4",
+        "count" : "1110"
+      }, {
+        "item" : "3.3",
+        "count" : "1097"
+      }, {
+        "item" : "4.2",
+        "count" : "1080"
+      }, {
+        "item" : "4.4",
+        "count" : "1028"
+      }, {
+        "item" : "3.2",
+        "count" : "1018"
+      }, {
+        "item" : "4.3",
+        "count" : "994"
+      }, {
+        "item" : "3.1",
+        "count" : "945"
+      }, {
+        "item" : "3.0",
+        "count" : "884"
+      }, {
+        "item" : "4.5",
+        "count" : "877"
+      }, {
+        "item" : "4.6",
+        "count" : "798"
+      }, {
+        "item" : "2.9",
+        "count" : "778"
+      }, {
+        "item" : "4.7",
+        "count" : "749"
+      }, {
+        "item" : "2.8",
+        "count" : "732"
+      } ],
+      "smallest" : "0.2",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : {
+      "precision" : "1"
+    }
+  }, {
+    "id" : 622300650,
+    "name" : "STROKE_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of stroke among adults",
+    "fieldName" : "stroke_crude95ci",
+    "position" : 53,
+    "renderTypeName" : "text",
+    "tableColumnId" : 124716506,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "( 9.8, 12.4)",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "( 2.8,  3.3)",
+        "count" : "315"
+      }, {
+        "item" : "( 2.7,  3.2)",
+        "count" : "315"
+      }, {
+        "item" : "( 2.9,  3.4)",
+        "count" : "301"
+      }, {
+        "item" : "( 3.4,  4.0)",
+        "count" : "285"
+      }, {
+        "item" : "( 3.0,  3.5)",
+        "count" : "285"
+      }, {
+        "item" : "( 2.6,  3.1)",
+        "count" : "279"
+      }, {
+        "item" : "( 3.1,  3.7)",
+        "count" : "273"
+      }, {
+        "item" : "( 3.3,  3.9)",
+        "count" : "273"
+      }, {
+        "item" : "( 3.0,  3.6)",
+        "count" : "268"
+      }, {
+        "item" : "( 3.2,  3.9)",
+        "count" : "268"
+      }, {
+        "item" : "( 3.4,  4.1)",
+        "count" : "267"
+      }, {
+        "item" : "( 3.2,  3.8)",
+        "count" : "266"
+      }, {
+        "item" : "( 3.5,  4.3)",
+        "count" : "263"
+      }, {
+        "item" : "( 2.9,  3.5)",
+        "count" : "260"
+      }, {
+        "item" : "( 3.3,  4.1)",
+        "count" : "255"
+      }, {
+        "item" : "( 3.3,  4.0)",
+        "count" : "251"
+      }, {
+        "item" : "( 3.1,  3.8)",
+        "count" : "245"
+      }, {
+        "item" : "( 3.5,  4.1)",
+        "count" : "244"
+      }, {
+        "item" : "( 3.4,  4.2)",
+        "count" : "241"
+      }, {
+        "item" : "( 3.5,  4.2)",
+        "count" : "240"
+      } ],
+      "smallest" : "( 0.2,  0.3)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300651,
+    "name" : "TEETHLOST_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of all teeth lost among adults aged >=65 years, 2022",
+    "fieldName" : "teethlost_crudeprev",
+    "position" : 54,
+    "renderTypeName" : "number",
+    "tableColumnId" : 124716471,
+    "cachedContents" : {
+      "non_null" : "32437",
+      "largest" : "66.8",
+      "null" : "83",
+      "top" : [ {
+        "item" : "11.8",
+        "count" : "273"
+      }, {
+        "item" : "12.1",
+        "count" : "256"
+      }, {
+        "item" : "10.8",
+        "count" : "253"
+      }, {
+        "item" : "12.4",
+        "count" : "251"
+      }, {
+        "item" : "12.3",
+        "count" : "251"
+      }, {
+        "item" : "12.5",
+        "count" : "243"
+      }, {
+        "item" : "10.3",
+        "count" : "243"
+      }, {
+        "item" : "11.0",
+        "count" : "242"
+      }, {
+        "item" : "12.7",
+        "count" : "242"
+      }, {
+        "item" : "11.3",
+        "count" : "242"
+      }, {
+        "item" : "12.0",
+        "count" : "242"
+      }, {
+        "item" : "13.3",
+        "count" : "239"
+      }, {
+        "item" : "11.9",
+        "count" : "239"
+      }, {
+        "item" : "11.6",
+        "count" : "238"
+      }, {
+        "item" : "13.4",
+        "count" : "238"
+      }, {
+        "item" : "11.2",
+        "count" : "238"
+      }, {
+        "item" : "12.2",
+        "count" : "237"
+      }, {
+        "item" : "10.4",
+        "count" : "236"
+      }, {
+        "item" : "10.7",
+        "count" : "235"
+      }, {
+        "item" : "11.5",
+        "count" : "233"
+      } ],
+      "smallest" : "1.4",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : {
+      "precision" : "1"
+    }
+  }, {
+    "id" : 622300652,
+    "name" : "TEETHLOST_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of all teeth lost among adults aged >=65 years",
+    "fieldName" : "teethlost_crude95ci",
+    "position" : 55,
+    "renderTypeName" : "text",
+    "tableColumnId" : 124716499,
+    "cachedContents" : {
+      "non_null" : "32437",
+      "largest" : "( 9.9, 15.6)",
+      "null" : "83",
+      "top" : [ {
+        "item" : "(10.0, 15.1)",
+        "count" : "43"
+      }, {
+        "item" : "( 9.6, 14.4)",
+        "count" : "39"
+      }, {
+        "item" : "( 7.9, 11.9)",
+        "count" : "38"
+      }, {
+        "item" : "( 7.6, 11.6)",
+        "count" : "37"
+      }, {
+        "item" : "( 8.8, 13.1)",
+        "count" : "36"
+      }, {
+        "item" : "( 8.0, 12.0)",
+        "count" : "36"
+      }, {
+        "item" : "( 8.3, 12.5)",
+        "count" : "35"
+      }, {
+        "item" : "( 6.8, 10.3)",
+        "count" : "35"
+      }, {
+        "item" : "( 7.8, 11.6)",
+        "count" : "35"
+      }, {
+        "item" : "( 7.5, 11.1)",
+        "count" : "35"
+      }, {
+        "item" : "( 7.5, 11.3)",
+        "count" : "34"
+      }, {
+        "item" : "( 9.5, 14.0)",
+        "count" : "33"
+      }, {
+        "item" : "( 6.1,  9.2)",
+        "count" : "33"
+      }, {
+        "item" : "( 7.5, 11.4)",
+        "count" : "33"
+      }, {
+        "item" : "( 5.9,  8.8)",
+        "count" : "33"
+      }, {
+        "item" : "( 6.2,  9.3)",
+        "count" : "33"
+      }, {
+        "item" : "( 8.3, 12.6)",
+        "count" : "33"
+      }, {
+        "item" : "(10.3, 15.6)",
+        "count" : "32"
+      }, {
+        "item" : "( 9.0, 13.6)",
+        "count" : "32"
+      }, {
+        "item" : "(10.2, 15.3)",
+        "count" : "32"
+      } ],
+      "smallest" : "(10.0, 12.7)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300653,
+    "name" : "HEARING_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of hearing disability among adults, 2023",
+    "fieldName" : "hearing_crudeprev",
+    "position" : 56,
+    "renderTypeName" : "number",
+    "tableColumnId" : 147377467,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "30.9",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "7.8",
+        "count" : "586"
+      }, {
+        "item" : "7.7",
+        "count" : "576"
+      }, {
+        "item" : "8.3",
+        "count" : "572"
+      }, {
+        "item" : "8.5",
+        "count" : "566"
+      }, {
+        "item" : "7.4",
+        "count" : "566"
+      }, {
+        "item" : "8.0",
+        "count" : "561"
+      }, {
+        "item" : "8.8",
+        "count" : "556"
+      }, {
+        "item" : "7.5",
+        "count" : "552"
+      }, {
+        "item" : "8.2",
+        "count" : "544"
+      }, {
+        "item" : "8.1",
+        "count" : "543"
+      }, {
+        "item" : "8.6",
+        "count" : "540"
+      }, {
+        "item" : "7.9",
+        "count" : "535"
+      }, {
+        "item" : "7.3",
+        "count" : "520"
+      }, {
+        "item" : "7.2",
+        "count" : "520"
+      }, {
+        "item" : "8.7",
+        "count" : "518"
+      }, {
+        "item" : "8.9",
+        "count" : "505"
+      }, {
+        "item" : "7.6",
+        "count" : "502"
+      }, {
+        "item" : "6.8",
+        "count" : "499"
+      }, {
+        "item" : "9.1",
+        "count" : "499"
+      }, {
+        "item" : "7.0",
+        "count" : "498"
+      } ],
+      "smallest" : "1.1",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300654,
+    "name" : "HEARING_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of hearing disability among adults",
+    "fieldName" : "hearing_crude95ci",
+    "position" : 57,
+    "renderTypeName" : "text",
+    "tableColumnId" : 147377471,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "( 9.9, 13.9)",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "( 7.1,  8.9)",
+        "count" : "140"
+      }, {
+        "item" : "( 6.5,  8.2)",
+        "count" : "137"
+      }, {
+        "item" : "( 5.6,  7.0)",
+        "count" : "137"
+      }, {
+        "item" : "( 5.9,  7.4)",
+        "count" : "131"
+      }, {
+        "item" : "( 6.6,  8.3)",
+        "count" : "129"
+      }, {
+        "item" : "( 6.1,  7.6)",
+        "count" : "127"
+      }, {
+        "item" : "( 5.2,  6.5)",
+        "count" : "126"
+      }, {
+        "item" : "( 6.2,  7.7)",
+        "count" : "126"
+      }, {
+        "item" : "( 5.5,  6.9)",
+        "count" : "126"
+      }, {
+        "item" : "( 6.4,  8.1)",
+        "count" : "125"
+      }, {
+        "item" : "( 5.4,  6.8)",
+        "count" : "122"
+      }, {
+        "item" : "( 7.2,  9.0)",
+        "count" : "122"
+      }, {
+        "item" : "( 6.4,  8.0)",
+        "count" : "120"
+      }, {
+        "item" : "( 6.1,  7.7)",
+        "count" : "120"
+      }, {
+        "item" : "( 6.2,  7.8)",
+        "count" : "118"
+      }, {
+        "item" : "( 5.7,  7.1)",
+        "count" : "118"
+      }, {
+        "item" : "( 6.5,  8.1)",
+        "count" : "118"
+      }, {
+        "item" : "( 6.9,  8.6)",
+        "count" : "117"
+      }, {
+        "item" : "( 6.8,  8.5)",
+        "count" : "116"
+      }, {
+        "item" : "( 6.7,  8.4)",
+        "count" : "115"
+      } ],
+      "smallest" : "( 0.8,  1.3)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300655,
+    "name" : "VISION_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of vision disability among adults, 2023",
+    "fieldName" : "vision_crudeprev",
+    "position" : 58,
+    "renderTypeName" : "number",
+    "tableColumnId" : 147377474,
+    "width" : 156,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "26.4",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "4.6",
+        "count" : "896"
+      }, {
+        "item" : "4.7",
+        "count" : "852"
+      }, {
+        "item" : "4.4",
+        "count" : "820"
+      }, {
+        "item" : "4.5",
+        "count" : "794"
+      }, {
+        "item" : "4.8",
+        "count" : "794"
+      }, {
+        "item" : "4.3",
+        "count" : "786"
+      }, {
+        "item" : "4.9",
+        "count" : "775"
+      }, {
+        "item" : "4.1",
+        "count" : "761"
+      }, {
+        "item" : "3.9",
+        "count" : "733"
+      }, {
+        "item" : "5.0",
+        "count" : "732"
+      }, {
+        "item" : "4.2",
+        "count" : "710"
+      }, {
+        "item" : "5.1",
+        "count" : "699"
+      }, {
+        "item" : "5.3",
+        "count" : "697"
+      }, {
+        "item" : "5.2",
+        "count" : "695"
+      }, {
+        "item" : "5.4",
+        "count" : "683"
+      }, {
+        "item" : "4.0",
+        "count" : "680"
+      }, {
+        "item" : "5.5",
+        "count" : "663"
+      }, {
+        "item" : "5.7",
+        "count" : "601"
+      }, {
+        "item" : "5.6",
+        "count" : "572"
+      }, {
+        "item" : "3.8",
+        "count" : "570"
+      } ],
+      "smallest" : "1.5",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300656,
+    "name" : "VISION_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of vision disability among adults",
+    "fieldName" : "vision_crude95ci",
+    "position" : 59,
+    "renderTypeName" : "text",
+    "tableColumnId" : 147377475,
+    "width" : 172,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "( 9.9, 13.5)",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "( 3.7,  4.5)",
+        "count" : "135"
+      }, {
+        "item" : "( 4.0,  5.1)",
+        "count" : "134"
+      }, {
+        "item" : "( 3.9,  5.0)",
+        "count" : "133"
+      }, {
+        "item" : "( 4.1,  5.1)",
+        "count" : "129"
+      }, {
+        "item" : "( 4.3,  5.3)",
+        "count" : "127"
+      }, {
+        "item" : "( 4.1,  5.3)",
+        "count" : "127"
+      }, {
+        "item" : "( 3.6,  4.3)",
+        "count" : "125"
+      }, {
+        "item" : "( 4.1,  5.2)",
+        "count" : "125"
+      }, {
+        "item" : "( 3.8,  4.8)",
+        "count" : "124"
+      }, {
+        "item" : "( 4.1,  4.9)",
+        "count" : "124"
+      }, {
+        "item" : "( 3.5,  4.4)",
+        "count" : "122"
+      }, {
+        "item" : "( 4.4,  5.3)",
+        "count" : "119"
+      }, {
+        "item" : "( 3.9,  4.8)",
+        "count" : "119"
+      }, {
+        "item" : "( 3.9,  4.9)",
+        "count" : "119"
+      }, {
+        "item" : "( 4.2,  5.1)",
+        "count" : "118"
+      }, {
+        "item" : "( 3.6,  4.6)",
+        "count" : "118"
+      }, {
+        "item" : "( 3.7,  4.6)",
+        "count" : "117"
+      }, {
+        "item" : "( 3.9,  4.7)",
+        "count" : "116"
+      }, {
+        "item" : "( 4.2,  5.3)",
+        "count" : "116"
+      }, {
+        "item" : "( 3.4,  4.4)",
+        "count" : "116"
+      } ],
+      "smallest" : "(10.0, 11.7)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300657,
+    "name" : "COGNITION_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of cognitive disability among adults, 2023",
+    "fieldName" : "cognition_crudeprev",
+    "position" : 60,
+    "renderTypeName" : "number",
+    "tableColumnId" : 147377470,
+    "width" : 171,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "38.8",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "13.0",
+        "count" : "391"
+      }, {
+        "item" : "14.5",
+        "count" : "380"
+      }, {
+        "item" : "14.9",
+        "count" : "380"
+      }, {
+        "item" : "14.0",
+        "count" : "380"
+      }, {
+        "item" : "13.4",
+        "count" : "379"
+      }, {
+        "item" : "13.8",
+        "count" : "378"
+      }, {
+        "item" : "13.6",
+        "count" : "374"
+      }, {
+        "item" : "13.3",
+        "count" : "374"
+      }, {
+        "item" : "14.3",
+        "count" : "371"
+      }, {
+        "item" : "13.9",
+        "count" : "369"
+      }, {
+        "item" : "14.2",
+        "count" : "364"
+      }, {
+        "item" : "13.7",
+        "count" : "363"
+      }, {
+        "item" : "13.5",
+        "count" : "361"
+      }, {
+        "item" : "12.9",
+        "count" : "361"
+      }, {
+        "item" : "14.7",
+        "count" : "358"
+      }, {
+        "item" : "14.4",
+        "count" : "355"
+      }, {
+        "item" : "12.7",
+        "count" : "354"
+      }, {
+        "item" : "14.1",
+        "count" : "353"
+      }, {
+        "item" : "13.2",
+        "count" : "353"
+      }, {
+        "item" : "13.1",
+        "count" : "352"
+      } ],
+      "smallest" : "5.8",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300658,
+    "name" : "COGNITION_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of cognitive disability among adults",
+    "fieldName" : "cognition_crude95ci",
+    "position" : 61,
+    "renderTypeName" : "text",
+    "tableColumnId" : 147377472,
+    "width" : 163,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "( 9.9, 16.5)",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "(13.0, 16.3)",
+        "count" : "34"
+      }, {
+        "item" : "(11.7, 15.4)",
+        "count" : "34"
+      }, {
+        "item" : "(12.0, 15.7)",
+        "count" : "34"
+      }, {
+        "item" : "(11.6, 14.7)",
+        "count" : "33"
+      }, {
+        "item" : "(11.4, 14.7)",
+        "count" : "33"
+      }, {
+        "item" : "(12.0, 15.0)",
+        "count" : "33"
+      }, {
+        "item" : "(14.1, 17.7)",
+        "count" : "32"
+      }, {
+        "item" : "(12.1, 15.9)",
+        "count" : "32"
+      }, {
+        "item" : "(12.0, 15.5)",
+        "count" : "32"
+      }, {
+        "item" : "(11.1, 14.6)",
+        "count" : "32"
+      }, {
+        "item" : "(13.3, 16.5)",
+        "count" : "31"
+      }, {
+        "item" : "(12.9, 16.3)",
+        "count" : "31"
+      }, {
+        "item" : "(12.6, 16.5)",
+        "count" : "31"
+      }, {
+        "item" : "(12.3, 16.1)",
+        "count" : "30"
+      }, {
+        "item" : "(11.5, 14.8)",
+        "count" : "30"
+      }, {
+        "item" : "(12.2, 15.6)",
+        "count" : "30"
+      }, {
+        "item" : "(11.9, 15.4)",
+        "count" : "30"
+      }, {
+        "item" : "(12.7, 16.1)",
+        "count" : "30"
+      }, {
+        "item" : "(11.2, 14.6)",
+        "count" : "30"
+      }, {
+        "item" : "(11.6, 15.3)",
+        "count" : "29"
+      } ],
+      "smallest" : "(10.0, 12.0)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300659,
+    "name" : "MOBILITY_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of mobility disability among adults, 2023",
+    "fieldName" : "mobility_crudeprev",
+    "position" : 62,
+    "renderTypeName" : "number",
+    "tableColumnId" : 147377473,
+    "width" : 174,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "51.1",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "14.6",
+        "count" : "310"
+      }, {
+        "item" : "14.9",
+        "count" : "301"
+      }, {
+        "item" : "13.6",
+        "count" : "298"
+      }, {
+        "item" : "16.1",
+        "count" : "297"
+      }, {
+        "item" : "15.3",
+        "count" : "297"
+      }, {
+        "item" : "14.1",
+        "count" : "294"
+      }, {
+        "item" : "14.5",
+        "count" : "293"
+      }, {
+        "item" : "15.1",
+        "count" : "290"
+      }, {
+        "item" : "15.6",
+        "count" : "290"
+      }, {
+        "item" : "14.8",
+        "count" : "289"
+      }, {
+        "item" : "13.9",
+        "count" : "285"
+      }, {
+        "item" : "13.4",
+        "count" : "285"
+      }, {
+        "item" : "15.2",
+        "count" : "285"
+      }, {
+        "item" : "14.2",
+        "count" : "284"
+      }, {
+        "item" : "15.7",
+        "count" : "284"
+      }, {
+        "item" : "15.0",
+        "count" : "283"
+      }, {
+        "item" : "14.0",
+        "count" : "283"
+      }, {
+        "item" : "14.3",
+        "count" : "283"
+      }, {
+        "item" : "13.8",
+        "count" : "283"
+      }, {
+        "item" : "14.7",
+        "count" : "282"
+      } ],
+      "smallest" : "1.0",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300660,
+    "name" : "MOBILITY_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of mobility disability among adults",
+    "fieldName" : "mobility_crude95ci",
+    "position" : 63,
+    "renderTypeName" : "text",
+    "tableColumnId" : 147377469,
+    "width" : 172,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "( 9.9, 17.7)",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "(12.4, 16.8)",
+        "count" : "25"
+      }, {
+        "item" : "(11.7, 15.6)",
+        "count" : "23"
+      }, {
+        "item" : "(12.3, 16.4)",
+        "count" : "23"
+      }, {
+        "item" : "(12.2, 16.2)",
+        "count" : "22"
+      }, {
+        "item" : "(11.7, 15.1)",
+        "count" : "22"
+      }, {
+        "item" : "(13.3, 17.3)",
+        "count" : "22"
+      }, {
+        "item" : "(10.8, 14.7)",
+        "count" : "22"
+      }, {
+        "item" : "(10.4, 13.5)",
+        "count" : "22"
+      }, {
+        "item" : "(12.9, 16.5)",
+        "count" : "21"
+      }, {
+        "item" : "(12.2, 16.3)",
+        "count" : "21"
+      }, {
+        "item" : "(13.4, 18.0)",
+        "count" : "21"
+      }, {
+        "item" : "(13.0, 17.3)",
+        "count" : "21"
+      }, {
+        "item" : "(11.4, 14.8)",
+        "count" : "21"
+      }, {
+        "item" : "(11.1, 14.8)",
+        "count" : "20"
+      }, {
+        "item" : "(13.4, 18.1)",
+        "count" : "20"
+      }, {
+        "item" : "(11.5, 15.5)",
+        "count" : "20"
+      }, {
+        "item" : "(12.9, 17.4)",
+        "count" : "20"
+      }, {
+        "item" : "(12.8, 16.5)",
+        "count" : "20"
+      }, {
+        "item" : "(10.7, 13.6)",
+        "count" : "20"
+      }, {
+        "item" : "(11.5, 15.7)",
+        "count" : "20"
+      } ],
+      "smallest" : "( 0.7,  1.9)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300661,
+    "name" : "SELFCARE_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of self-care disability among adults, 2023",
+    "fieldName" : "selfcare_crudeprev",
+    "position" : 64,
+    "renderTypeName" : "number",
+    "tableColumnId" : 147377478,
+    "width" : 160,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "22.2",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "3.8",
+        "count" : "1081"
+      }, {
+        "item" : "3.9",
+        "count" : "1073"
+      }, {
+        "item" : "3.7",
+        "count" : "1070"
+      }, {
+        "item" : "3.5",
+        "count" : "1029"
+      }, {
+        "item" : "3.6",
+        "count" : "1019"
+      }, {
+        "item" : "4.0",
+        "count" : "962"
+      }, {
+        "item" : "3.4",
+        "count" : "959"
+      }, {
+        "item" : "4.1",
+        "count" : "945"
+      }, {
+        "item" : "4.2",
+        "count" : "934"
+      }, {
+        "item" : "3.3",
+        "count" : "896"
+      }, {
+        "item" : "4.3",
+        "count" : "893"
+      }, {
+        "item" : "3.2",
+        "count" : "864"
+      }, {
+        "item" : "3.1",
+        "count" : "799"
+      }, {
+        "item" : "4.4",
+        "count" : "796"
+      }, {
+        "item" : "4.6",
+        "count" : "781"
+      }, {
+        "item" : "4.5",
+        "count" : "769"
+      }, {
+        "item" : "2.9",
+        "count" : "703"
+      }, {
+        "item" : "4.7",
+        "count" : "685"
+      }, {
+        "item" : "3.0",
+        "count" : "680"
+      }, {
+        "item" : "4.8",
+        "count" : "627"
+      } ],
+      "smallest" : "0.4",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300662,
+    "name" : "SELFCARE_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of self-care disability among adults",
+    "fieldName" : "selfcare_crude95ci",
+    "position" : 65,
+    "renderTypeName" : "text",
+    "tableColumnId" : 147377480,
+    "width" : 163,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "( 9.9, 12.1)",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "( 3.1,  4.0)",
+        "count" : "202"
+      }, {
+        "item" : "( 3.3,  4.2)",
+        "count" : "183"
+      }, {
+        "item" : "( 3.4,  4.3)",
+        "count" : "179"
+      }, {
+        "item" : "( 2.9,  3.5)",
+        "count" : "176"
+      }, {
+        "item" : "( 2.9,  3.7)",
+        "count" : "172"
+      }, {
+        "item" : "( 2.6,  3.1)",
+        "count" : "170"
+      }, {
+        "item" : "( 2.8,  3.4)",
+        "count" : "169"
+      }, {
+        "item" : "( 3.3,  4.3)",
+        "count" : "167"
+      }, {
+        "item" : "( 3.2,  4.0)",
+        "count" : "166"
+      }, {
+        "item" : "( 3.4,  4.1)",
+        "count" : "164"
+      }, {
+        "item" : "( 3.4,  4.4)",
+        "count" : "164"
+      }, {
+        "item" : "( 2.7,  3.3)",
+        "count" : "161"
+      }, {
+        "item" : "( 3.2,  4.1)",
+        "count" : "159"
+      }, {
+        "item" : "( 3.1,  3.8)",
+        "count" : "158"
+      }, {
+        "item" : "( 3.1,  3.7)",
+        "count" : "158"
+      }, {
+        "item" : "( 3.5,  4.2)",
+        "count" : "155"
+      }, {
+        "item" : "( 3.0,  3.6)",
+        "count" : "155"
+      }, {
+        "item" : "( 2.9,  3.6)",
+        "count" : "154"
+      }, {
+        "item" : "( 3.0,  3.8)",
+        "count" : "154"
+      }, {
+        "item" : "( 3.0,  3.9)",
+        "count" : "154"
+      } ],
+      "smallest" : "( 0.3,  0.6)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300663,
+    "name" : "INDEPLIVE_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of independent living disability among adults, 2023",
+    "fieldName" : "indeplive_crudeprev",
+    "position" : 66,
+    "renderTypeName" : "number",
+    "tableColumnId" : 147377479,
+    "width" : 162,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "28.2",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "8.1",
+        "count" : "600"
+      }, {
+        "item" : "8.0",
+        "count" : "596"
+      }, {
+        "item" : "7.9",
+        "count" : "593"
+      }, {
+        "item" : "7.5",
+        "count" : "567"
+      }, {
+        "item" : "7.3",
+        "count" : "562"
+      }, {
+        "item" : "8.2",
+        "count" : "561"
+      }, {
+        "item" : "7.7",
+        "count" : "557"
+      }, {
+        "item" : "7.8",
+        "count" : "553"
+      }, {
+        "item" : "7.6",
+        "count" : "551"
+      }, {
+        "item" : "7.4",
+        "count" : "546"
+      }, {
+        "item" : "8.3",
+        "count" : "528"
+      }, {
+        "item" : "8.6",
+        "count" : "528"
+      }, {
+        "item" : "8.4",
+        "count" : "522"
+      }, {
+        "item" : "8.5",
+        "count" : "521"
+      }, {
+        "item" : "8.7",
+        "count" : "520"
+      }, {
+        "item" : "9.0",
+        "count" : "510"
+      }, {
+        "item" : "9.1",
+        "count" : "509"
+      }, {
+        "item" : "8.8",
+        "count" : "499"
+      }, {
+        "item" : "7.2",
+        "count" : "491"
+      }, {
+        "item" : "9.2",
+        "count" : "489"
+      } ],
+      "smallest" : "2.6",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300664,
+    "name" : "INDEPLIVE_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of independent living disability among adults",
+    "fieldName" : "indeplive_crude95ci",
+    "position" : 67,
+    "renderTypeName" : "text",
+    "tableColumnId" : 147377477,
+    "width" : 155,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "( 9.9, 17.3)",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "( 6.6,  8.2)",
+        "count" : "68"
+      }, {
+        "item" : "( 6.5,  8.1)",
+        "count" : "68"
+      }, {
+        "item" : "( 7.1,  9.2)",
+        "count" : "66"
+      }, {
+        "item" : "( 7.0,  9.2)",
+        "count" : "65"
+      }, {
+        "item" : "( 5.7,  7.1)",
+        "count" : "64"
+      }, {
+        "item" : "( 7.1,  8.9)",
+        "count" : "64"
+      }, {
+        "item" : "( 7.3,  9.3)",
+        "count" : "63"
+      }, {
+        "item" : "( 7.0,  8.9)",
+        "count" : "63"
+      }, {
+        "item" : "( 7.7,  9.5)",
+        "count" : "63"
+      }, {
+        "item" : "( 8.0,  9.9)",
+        "count" : "63"
+      }, {
+        "item" : "( 6.7,  8.7)",
+        "count" : "62"
+      }, {
+        "item" : "( 6.8,  8.9)",
+        "count" : "62"
+      }, {
+        "item" : "( 6.6,  8.5)",
+        "count" : "62"
+      }, {
+        "item" : "( 6.6,  8.6)",
+        "count" : "62"
+      }, {
+        "item" : "( 7.1,  8.8)",
+        "count" : "62"
+      }, {
+        "item" : "( 8.3, 10.4)",
+        "count" : "61"
+      }, {
+        "item" : "( 6.8,  8.8)",
+        "count" : "61"
+      }, {
+        "item" : "( 7.2,  9.1)",
+        "count" : "60"
+      }, {
+        "item" : "( 7.1,  9.0)",
+        "count" : "60"
+      }, {
+        "item" : "( 6.6,  8.7)",
+        "count" : "59"
+      } ],
+      "smallest" : "(10.0, 11.8)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300665,
+    "name" : "DISABILITY_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of any disability among adults, 2023",
+    "fieldName" : "disability_crudeprev",
+    "position" : 68,
+    "renderTypeName" : "number",
+    "tableColumnId" : 147377468,
+    "width" : 189,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "66.5",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "31.0",
+        "count" : "208"
+      }, {
+        "item" : "32.7",
+        "count" : "206"
+      }, {
+        "item" : "31.3",
+        "count" : "206"
+      }, {
+        "item" : "31.4",
+        "count" : "205"
+      }, {
+        "item" : "33.1",
+        "count" : "199"
+      }, {
+        "item" : "32.4",
+        "count" : "198"
+      }, {
+        "item" : "30.6",
+        "count" : "197"
+      }, {
+        "item" : "30.4",
+        "count" : "194"
+      }, {
+        "item" : "30.2",
+        "count" : "194"
+      }, {
+        "item" : "30.1",
+        "count" : "194"
+      }, {
+        "item" : "30.0",
+        "count" : "193"
+      }, {
+        "item" : "30.9",
+        "count" : "193"
+      }, {
+        "item" : "29.7",
+        "count" : "192"
+      }, {
+        "item" : "32.2",
+        "count" : "190"
+      }, {
+        "item" : "29.3",
+        "count" : "190"
+      }, {
+        "item" : "30.5",
+        "count" : "187"
+      }, {
+        "item" : "31.2",
+        "count" : "186"
+      }, {
+        "item" : "32.0",
+        "count" : "186"
+      }, {
+        "item" : "32.8",
+        "count" : "185"
+      }, {
+        "item" : "31.6",
+        "count" : "184"
+      } ],
+      "smallest" : "11.1",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300666,
+    "name" : "DISABILITY_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of any disability among adults",
+    "fieldName" : "disability_crude95ci",
+    "position" : 69,
+    "renderTypeName" : "text",
+    "tableColumnId" : 147377476,
+    "width" : 184,
+    "cachedContents" : {
+      "non_null" : "29983",
+      "largest" : "( 9.9, 23.1)",
+      "null" : "2537",
+      "top" : [ {
+        "item" : "(27.3, 35.4)",
+        "count" : "13"
+      }, {
+        "item" : "(28.0, 36.5)",
+        "count" : "13"
+      }, {
+        "item" : "(26.3, 34.9)",
+        "count" : "13"
+      }, {
+        "item" : "(26.6, 34.8)",
+        "count" : "12"
+      }, {
+        "item" : "(32.0, 41.2)",
+        "count" : "12"
+      }, {
+        "item" : "(26.8, 34.7)",
+        "count" : "12"
+      }, {
+        "item" : "(27.3, 36.1)",
+        "count" : "12"
+      }, {
+        "item" : "(25.4, 33.9)",
+        "count" : "11"
+      }, {
+        "item" : "(26.2, 35.3)",
+        "count" : "11"
+      }, {
+        "item" : "(26.0, 35.2)",
+        "count" : "11"
+      }, {
+        "item" : "(27.9, 36.5)",
+        "count" : "11"
+      }, {
+        "item" : "(27.8, 36.5)",
+        "count" : "11"
+      }, {
+        "item" : "(30.0, 38.9)",
+        "count" : "11"
+      }, {
+        "item" : "(25.6, 34.5)",
+        "count" : "11"
+      }, {
+        "item" : "(26.1, 34.8)",
+        "count" : "11"
+      }, {
+        "item" : "(28.1, 36.6)",
+        "count" : "11"
+      }, {
+        "item" : "(28.8, 36.9)",
+        "count" : "11"
+      }, {
+        "item" : "(31.3, 40.6)",
+        "count" : "11"
+      }, {
+        "item" : "(30.6, 39.7)",
+        "count" : "10"
+      }, {
+        "item" : "(36.9, 45.8)",
+        "count" : "10"
+      } ],
+      "smallest" : "(11.4, 14.9)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300669,
+    "name" : "LONELINESS_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of loneliness among adults, 2023",
+    "fieldName" : "loneliness_crudeprev",
+    "position" : 72,
+    "renderTypeName" : "number",
+    "tableColumnId" : 154610031,
+    "cachedContents" : {
+      "non_null" : "24234",
+      "largest" : "55.2",
+      "null" : "8286",
+      "top" : [ {
+        "item" : "31.6",
+        "count" : "337"
+      }, {
+        "item" : "32.2",
+        "count" : "327"
+      }, {
+        "item" : "32.5",
+        "count" : "316"
+      }, {
+        "item" : "33.2",
+        "count" : "309"
+      }, {
+        "item" : "31.9",
+        "count" : "309"
+      }, {
+        "item" : "32.7",
+        "count" : "305"
+      }, {
+        "item" : "32.8",
+        "count" : "302"
+      }, {
+        "item" : "31.1",
+        "count" : "300"
+      }, {
+        "item" : "32.0",
+        "count" : "299"
+      }, {
+        "item" : "31.4",
+        "count" : "299"
+      }, {
+        "item" : "32.3",
+        "count" : "299"
+      }, {
+        "item" : "31.5",
+        "count" : "297"
+      }, {
+        "item" : "31.8",
+        "count" : "295"
+      }, {
+        "item" : "32.1",
+        "count" : "290"
+      }, {
+        "item" : "31.3",
+        "count" : "290"
+      }, {
+        "item" : "32.4",
+        "count" : "286"
+      }, {
+        "item" : "30.7",
+        "count" : "285"
+      }, {
+        "item" : "30.8",
+        "count" : "284"
+      }, {
+        "item" : "32.6",
+        "count" : "282"
+      }, {
+        "item" : "32.9",
+        "count" : "281"
+      } ],
+      "smallest" : "19.0",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300670,
+    "name" : "LONELINESS_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of loneliness among adults ",
+    "fieldName" : "loneliness_crude95ci",
+    "position" : 73,
+    "renderTypeName" : "text",
+    "tableColumnId" : 154610034,
+    "cachedContents" : {
+      "non_null" : "24234",
+      "largest" : "(50.8, 57.7)",
+      "null" : "8286",
+      "top" : [ {
+        "item" : "(27.8, 38.2)",
+        "count" : "20"
+      }, {
+        "item" : "(26.0, 35.7)",
+        "count" : "18"
+      }, {
+        "item" : "(26.9, 37.3)",
+        "count" : "18"
+      }, {
+        "item" : "(28.3, 38.7)",
+        "count" : "18"
+      }, {
+        "item" : "(27.1, 37.6)",
+        "count" : "18"
+      }, {
+        "item" : "(27.0, 37.0)",
+        "count" : "17"
+      }, {
+        "item" : "(26.0, 36.1)",
+        "count" : "17"
+      }, {
+        "item" : "(27.4, 37.8)",
+        "count" : "17"
+      }, {
+        "item" : "(26.8, 36.8)",
+        "count" : "17"
+      }, {
+        "item" : "(28.7, 39.3)",
+        "count" : "16"
+      }, {
+        "item" : "(27.3, 38.0)",
+        "count" : "16"
+      }, {
+        "item" : "(26.1, 35.9)",
+        "count" : "16"
+      }, {
+        "item" : "(28.4, 38.8)",
+        "count" : "16"
+      }, {
+        "item" : "(27.0, 37.4)",
+        "count" : "16"
+      }, {
+        "item" : "(27.2, 37.5)",
+        "count" : "16"
+      }, {
+        "item" : "(27.2, 37.0)",
+        "count" : "16"
+      }, {
+        "item" : "(27.7, 38.4)",
+        "count" : "16"
+      }, {
+        "item" : "(28.0, 38.3)",
+        "count" : "16"
+      }, {
+        "item" : "(26.9, 37.0)",
+        "count" : "15"
+      }, {
+        "item" : "(26.7, 36.4)",
+        "count" : "15"
+      } ],
+      "smallest" : "(11.9, 27.9)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300671,
+    "name" : "FOODSTAMP_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of received food stamps in the past 12 months among adults, 2023",
+    "fieldName" : "foodstamp_crudeprev",
+    "position" : 74,
+    "renderTypeName" : "number",
+    "tableColumnId" : 154610024,
+    "cachedContents" : {
+      "non_null" : "24234",
+      "largest" : "75.4",
+      "null" : "8286",
+      "top" : [ {
+        "item" : "9.0",
+        "count" : "227"
+      }, {
+        "item" : "7.2",
+        "count" : "225"
+      }, {
+        "item" : "10.8",
+        "count" : "211"
+      }, {
+        "item" : "7.9",
+        "count" : "210"
+      }, {
+        "item" : "7.6",
+        "count" : "208"
+      }, {
+        "item" : "9.6",
+        "count" : "208"
+      }, {
+        "item" : "8.5",
+        "count" : "207"
+      }, {
+        "item" : "10.0",
+        "count" : "207"
+      }, {
+        "item" : "10.1",
+        "count" : "205"
+      }, {
+        "item" : "8.1",
+        "count" : "204"
+      }, {
+        "item" : "8.8",
+        "count" : "203"
+      }, {
+        "item" : "9.1",
+        "count" : "201"
+      }, {
+        "item" : "7.1",
+        "count" : "201"
+      }, {
+        "item" : "7.0",
+        "count" : "200"
+      }, {
+        "item" : "9.4",
+        "count" : "200"
+      }, {
+        "item" : "7.8",
+        "count" : "198"
+      }, {
+        "item" : "7.4",
+        "count" : "196"
+      }, {
+        "item" : "8.0",
+        "count" : "195"
+      }, {
+        "item" : "7.5",
+        "count" : "195"
+      }, {
+        "item" : "9.3",
+        "count" : "191"
+      } ],
+      "smallest" : "1.9",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300672,
+    "name" : "FOODSTAMP_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of received food stamps in the past 12 months among adults ",
+    "fieldName" : "foodstamp_crude95ci",
+    "position" : 75,
+    "renderTypeName" : "text",
+    "tableColumnId" : 154610021,
+    "cachedContents" : {
+      "non_null" : "24234",
+      "largest" : "( 9.9, 44.9)",
+      "null" : "8286",
+      "top" : [ {
+        "item" : "( 5.8,  8.8)",
+        "count" : "23"
+      }, {
+        "item" : "( 5.6,  8.8)",
+        "count" : "20"
+      }, {
+        "item" : "( 7.0, 10.2)",
+        "count" : "19"
+      }, {
+        "item" : "( 6.3,  9.6)",
+        "count" : "19"
+      }, {
+        "item" : "( 5.3,  7.9)",
+        "count" : "19"
+      }, {
+        "item" : "( 5.9,  9.1)",
+        "count" : "19"
+      }, {
+        "item" : "( 6.1,  9.1)",
+        "count" : "18"
+      }, {
+        "item" : "( 7.4, 11.1)",
+        "count" : "18"
+      }, {
+        "item" : "( 7.2, 11.0)",
+        "count" : "18"
+      }, {
+        "item" : "( 6.9, 10.1)",
+        "count" : "18"
+      }, {
+        "item" : "( 7.8, 11.7)",
+        "count" : "17"
+      }, {
+        "item" : "( 6.6,  9.8)",
+        "count" : "17"
+      }, {
+        "item" : "( 5.7,  8.6)",
+        "count" : "17"
+      }, {
+        "item" : "( 5.5,  7.8)",
+        "count" : "17"
+      }, {
+        "item" : "( 6.0,  9.4)",
+        "count" : "17"
+      }, {
+        "item" : "( 9.0, 12.7)",
+        "count" : "17"
+      }, {
+        "item" : "( 6.5,  9.2)",
+        "count" : "17"
+      }, {
+        "item" : "( 5.9,  8.9)",
+        "count" : "17"
+      }, {
+        "item" : "( 5.6,  8.7)",
+        "count" : "17"
+      }, {
+        "item" : "( 5.6,  8.5)",
+        "count" : "16"
+      } ],
+      "smallest" : "( 0.9,  4.3)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300673,
+    "name" : "FOODINSECU_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of food insecurity in the past 12 months among adults, 2023",
+    "fieldName" : "foodinsecu_crudeprev",
+    "position" : 76,
+    "renderTypeName" : "number",
+    "tableColumnId" : 154610023,
+    "cachedContents" : {
+      "non_null" : "24234",
+      "largest" : "63.6",
+      "null" : "8286",
+      "top" : [ {
+        "item" : "10.6",
+        "count" : "259"
+      }, {
+        "item" : "11.1",
+        "count" : "233"
+      }, {
+        "item" : "10.2",
+        "count" : "226"
+      }, {
+        "item" : "11.4",
+        "count" : "224"
+      }, {
+        "item" : "12.4",
+        "count" : "222"
+      }, {
+        "item" : "12.2",
+        "count" : "220"
+      }, {
+        "item" : "10.5",
+        "count" : "220"
+      }, {
+        "item" : "10.9",
+        "count" : "219"
+      }, {
+        "item" : "10.8",
+        "count" : "219"
+      }, {
+        "item" : "10.0",
+        "count" : "217"
+      }, {
+        "item" : "12.7",
+        "count" : "216"
+      }, {
+        "item" : "11.0",
+        "count" : "214"
+      }, {
+        "item" : "10.1",
+        "count" : "214"
+      }, {
+        "item" : "11.3",
+        "count" : "213"
+      }, {
+        "item" : "12.9",
+        "count" : "211"
+      }, {
+        "item" : "11.7",
+        "count" : "211"
+      }, {
+        "item" : "9.9",
+        "count" : "210"
+      }, {
+        "item" : "12.0",
+        "count" : "210"
+      }, {
+        "item" : "11.2",
+        "count" : "210"
+      }, {
+        "item" : "12.5",
+        "count" : "209"
+      } ],
+      "smallest" : "3.5",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300674,
+    "name" : "FOODINSECU_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of food insecurity in the past 12 months among adults ",
+    "fieldName" : "foodinsecu_crude95ci",
+    "position" : 77,
+    "renderTypeName" : "text",
+    "tableColumnId" : 154610028,
+    "cachedContents" : {
+      "non_null" : "24234",
+      "largest" : "( 9.9, 22.4)",
+      "null" : "8286",
+      "top" : [ {
+        "item" : "( 8.1, 12.2)",
+        "count" : "21"
+      }, {
+        "item" : "( 9.3, 13.1)",
+        "count" : "19"
+      }, {
+        "item" : "( 8.2, 12.2)",
+        "count" : "19"
+      }, {
+        "item" : "( 8.6, 12.9)",
+        "count" : "19"
+      }, {
+        "item" : "( 8.3, 12.2)",
+        "count" : "18"
+      }, {
+        "item" : "(10.1, 14.5)",
+        "count" : "17"
+      }, {
+        "item" : "( 9.5, 13.6)",
+        "count" : "17"
+      }, {
+        "item" : "( 7.9, 12.0)",
+        "count" : "17"
+      }, {
+        "item" : "( 8.3, 12.4)",
+        "count" : "17"
+      }, {
+        "item" : "( 9.4, 13.6)",
+        "count" : "17"
+      }, {
+        "item" : "( 8.6, 12.8)",
+        "count" : "17"
+      }, {
+        "item" : "( 9.0, 13.2)",
+        "count" : "17"
+      }, {
+        "item" : "( 8.6, 12.5)",
+        "count" : "16"
+      }, {
+        "item" : "( 8.7, 12.7)",
+        "count" : "16"
+      }, {
+        "item" : "( 9.5, 13.8)",
+        "count" : "16"
+      }, {
+        "item" : "( 7.9, 11.8)",
+        "count" : "16"
+      }, {
+        "item" : "(10.1, 15.0)",
+        "count" : "16"
+      }, {
+        "item" : "( 8.3, 12.5)",
+        "count" : "16"
+      }, {
+        "item" : "( 9.4, 13.9)",
+        "count" : "16"
+      }, {
+        "item" : "( 8.9, 13.6)",
+        "count" : "16"
+      } ],
+      "smallest" : "(10.0, 12.6)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300675,
+    "name" : "HOUSINSECU_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of housing insecurity in the past 12 months among adults, 2023",
+    "fieldName" : "housinsecu_crudeprev",
+    "position" : 78,
+    "renderTypeName" : "number",
+    "tableColumnId" : 154610025,
+    "cachedContents" : {
+      "non_null" : "24234",
+      "largest" : "45.4",
+      "null" : "8286",
+      "top" : [ {
+        "item" : "8.9",
+        "count" : "340"
+      }, {
+        "item" : "9.0",
+        "count" : "335"
+      }, {
+        "item" : "9.2",
+        "count" : "333"
+      }, {
+        "item" : "10.0",
+        "count" : "327"
+      }, {
+        "item" : "8.4",
+        "count" : "325"
+      }, {
+        "item" : "8.2",
+        "count" : "321"
+      }, {
+        "item" : "9.6",
+        "count" : "314"
+      }, {
+        "item" : "8.5",
+        "count" : "313"
+      }, {
+        "item" : "8.6",
+        "count" : "312"
+      }, {
+        "item" : "8.8",
+        "count" : "311"
+      }, {
+        "item" : "9.9",
+        "count" : "307"
+      }, {
+        "item" : "9.4",
+        "count" : "306"
+      }, {
+        "item" : "9.5",
+        "count" : "303"
+      }, {
+        "item" : "10.4",
+        "count" : "302"
+      }, {
+        "item" : "8.3",
+        "count" : "302"
+      }, {
+        "item" : "10.2",
+        "count" : "298"
+      }, {
+        "item" : "9.8",
+        "count" : "298"
+      }, {
+        "item" : "9.7",
+        "count" : "296"
+      }, {
+        "item" : "9.1",
+        "count" : "291"
+      }, {
+        "item" : "8.7",
+        "count" : "289"
+      } ],
+      "smallest" : "2.1",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300676,
+    "name" : "HOUSINSECU_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of housing insecurity in the past 12 months among adults",
+    "fieldName" : "housinsecu_crude95ci",
+    "position" : 79,
+    "renderTypeName" : "text",
+    "tableColumnId" : 154610027,
+    "cachedContents" : {
+      "non_null" : "24234",
+      "largest" : "( 9.9, 16.7)",
+      "null" : "8286",
+      "top" : [ {
+        "item" : "( 7.5, 10.4)",
+        "count" : "37"
+      }, {
+        "item" : "( 7.4, 10.4)",
+        "count" : "36"
+      }, {
+        "item" : "( 7.0, 10.0)",
+        "count" : "36"
+      }, {
+        "item" : "( 7.6, 10.5)",
+        "count" : "35"
+      }, {
+        "item" : "( 6.8,  9.7)",
+        "count" : "35"
+      }, {
+        "item" : "( 6.8,  9.8)",
+        "count" : "35"
+      }, {
+        "item" : "( 7.0,  9.9)",
+        "count" : "34"
+      }, {
+        "item" : "( 8.2, 11.6)",
+        "count" : "34"
+      }, {
+        "item" : "( 7.7, 11.2)",
+        "count" : "34"
+      }, {
+        "item" : "( 8.4, 11.7)",
+        "count" : "33"
+      }, {
+        "item" : "( 8.3, 11.7)",
+        "count" : "33"
+      }, {
+        "item" : "( 7.4, 10.6)",
+        "count" : "33"
+      }, {
+        "item" : "( 7.2, 10.4)",
+        "count" : "33"
+      }, {
+        "item" : "( 6.9,  9.8)",
+        "count" : "33"
+      }, {
+        "item" : "( 8.5, 11.8)",
+        "count" : "33"
+      }, {
+        "item" : "( 6.9,  9.7)",
+        "count" : "32"
+      }, {
+        "item" : "( 8.8, 11.8)",
+        "count" : "32"
+      }, {
+        "item" : "( 8.1, 10.9)",
+        "count" : "32"
+      }, {
+        "item" : "( 7.7, 10.7)",
+        "count" : "32"
+      }, {
+        "item" : "( 6.9,  9.9)",
+        "count" : "32"
+      } ],
+      "smallest" : "(10.0, 12.3)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300677,
+    "name" : "SHUTUTILITY_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of utility services threat in the past 12 months among adults, 2023",
+    "fieldName" : "shututility_crudeprev",
+    "position" : 80,
+    "renderTypeName" : "number",
+    "tableColumnId" : 154610035,
+    "cachedContents" : {
+      "non_null" : "24234",
+      "largest" : "44.3",
+      "null" : "8286",
+      "top" : [ {
+        "item" : "6.2",
+        "count" : "441"
+      }, {
+        "item" : "5.5",
+        "count" : "431"
+      }, {
+        "item" : "6.4",
+        "count" : "427"
+      }, {
+        "item" : "5.7",
+        "count" : "427"
+      }, {
+        "item" : "5.8",
+        "count" : "417"
+      }, {
+        "item" : "6.1",
+        "count" : "416"
+      }, {
+        "item" : "5.9",
+        "count" : "416"
+      }, {
+        "item" : "5.4",
+        "count" : "412"
+      }, {
+        "item" : "6.5",
+        "count" : "404"
+      }, {
+        "item" : "6.0",
+        "count" : "403"
+      }, {
+        "item" : "5.6",
+        "count" : "400"
+      }, {
+        "item" : "6.7",
+        "count" : "396"
+      }, {
+        "item" : "6.3",
+        "count" : "392"
+      }, {
+        "item" : "5.2",
+        "count" : "391"
+      }, {
+        "item" : "6.6",
+        "count" : "390"
+      }, {
+        "item" : "5.3",
+        "count" : "389"
+      }, {
+        "item" : "6.9",
+        "count" : "375"
+      }, {
+        "item" : "7.1",
+        "count" : "359"
+      }, {
+        "item" : "7.4",
+        "count" : "357"
+      }, {
+        "item" : "5.1",
+        "count" : "355"
+      } ],
+      "smallest" : "1.3",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300678,
+    "name" : "SHUTUTILITY_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of utility services threat in the past 12 months among adults ",
+    "fieldName" : "shututility_crude95ci",
+    "position" : 81,
+    "renderTypeName" : "text",
+    "tableColumnId" : 154610029,
+    "cachedContents" : {
+      "non_null" : "24234",
+      "largest" : "( 9.9, 16.0)",
+      "null" : "8286",
+      "top" : [ {
+        "item" : "( 5.5,  7.5)",
+        "count" : "82"
+      }, {
+        "item" : "( 4.9,  6.6)",
+        "count" : "81"
+      }, {
+        "item" : "( 4.9,  6.7)",
+        "count" : "77"
+      }, {
+        "item" : "( 4.4,  6.0)",
+        "count" : "75"
+      }, {
+        "item" : "( 5.0,  6.8)",
+        "count" : "74"
+      }, {
+        "item" : "( 5.3,  7.1)",
+        "count" : "74"
+      }, {
+        "item" : "( 5.9,  7.9)",
+        "count" : "74"
+      }, {
+        "item" : "( 4.7,  6.5)",
+        "count" : "73"
+      }, {
+        "item" : "( 4.9,  6.8)",
+        "count" : "72"
+      }, {
+        "item" : "( 4.5,  6.1)",
+        "count" : "71"
+      }, {
+        "item" : "( 4.7,  6.4)",
+        "count" : "71"
+      }, {
+        "item" : "( 4.8,  6.7)",
+        "count" : "69"
+      }, {
+        "item" : "( 4.4,  6.1)",
+        "count" : "68"
+      }, {
+        "item" : "( 4.5,  6.3)",
+        "count" : "68"
+      }, {
+        "item" : "( 5.0,  6.9)",
+        "count" : "68"
+      }, {
+        "item" : "( 5.2,  7.2)",
+        "count" : "67"
+      }, {
+        "item" : "( 5.7,  7.7)",
+        "count" : "66"
+      }, {
+        "item" : "( 5.4,  7.4)",
+        "count" : "66"
+      }, {
+        "item" : "( 5.5,  7.4)",
+        "count" : "66"
+      }, {
+        "item" : "( 4.6,  6.4)",
+        "count" : "65"
+      } ],
+      "smallest" : "( 0.9,  1.7)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300679,
+    "name" : "LACKTRPT_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of lack of reliable transportation in the past 12 months among adults, 2023",
+    "fieldName" : "lacktrpt_crudeprev",
+    "position" : 82,
+    "renderTypeName" : "number",
+    "tableColumnId" : 154610030,
+    "cachedContents" : {
+      "non_null" : "24234",
+      "largest" : "42.9",
+      "null" : "8286",
+      "top" : [ {
+        "item" : "6.3",
+        "count" : "480"
+      }, {
+        "item" : "6.1",
+        "count" : "476"
+      }, {
+        "item" : "6.7",
+        "count" : "471"
+      }, {
+        "item" : "6.2",
+        "count" : "463"
+      }, {
+        "item" : "5.9",
+        "count" : "453"
+      }, {
+        "item" : "6.4",
+        "count" : "448"
+      }, {
+        "item" : "6.6",
+        "count" : "448"
+      }, {
+        "item" : "6.5",
+        "count" : "447"
+      }, {
+        "item" : "7.1",
+        "count" : "446"
+      }, {
+        "item" : "5.8",
+        "count" : "441"
+      }, {
+        "item" : "6.0",
+        "count" : "436"
+      }, {
+        "item" : "6.9",
+        "count" : "435"
+      }, {
+        "item" : "6.8",
+        "count" : "418"
+      }, {
+        "item" : "7.0",
+        "count" : "415"
+      }, {
+        "item" : "7.3",
+        "count" : "407"
+      }, {
+        "item" : "5.7",
+        "count" : "406"
+      }, {
+        "item" : "7.2",
+        "count" : "398"
+      }, {
+        "item" : "7.7",
+        "count" : "396"
+      }, {
+        "item" : "7.5",
+        "count" : "393"
+      }, {
+        "item" : "7.4",
+        "count" : "393"
+      } ],
+      "smallest" : "2.6",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300680,
+    "name" : "LACKTRPT_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of lack of reliable transportation in the past 12 months among adults ",
+    "fieldName" : "lacktrpt_crude95ci",
+    "position" : 83,
+    "renderTypeName" : "text",
+    "tableColumnId" : 154610033,
+    "cachedContents" : {
+      "non_null" : "24234",
+      "largest" : "( 9.9, 16.5)",
+      "null" : "8286",
+      "top" : [ {
+        "item" : "( 5.4,  7.2)",
+        "count" : "81"
+      }, {
+        "item" : "( 5.5,  7.3)",
+        "count" : "74"
+      }, {
+        "item" : "( 5.8,  7.6)",
+        "count" : "72"
+      }, {
+        "item" : "( 5.2,  7.0)",
+        "count" : "71"
+      }, {
+        "item" : "( 5.0,  6.7)",
+        "count" : "71"
+      }, {
+        "item" : "( 4.9,  6.7)",
+        "count" : "70"
+      }, {
+        "item" : "( 6.0,  8.0)",
+        "count" : "69"
+      }, {
+        "item" : "( 5.4,  7.3)",
+        "count" : "68"
+      }, {
+        "item" : "( 5.3,  7.1)",
+        "count" : "68"
+      }, {
+        "item" : "( 5.6,  7.5)",
+        "count" : "68"
+      }, {
+        "item" : "( 5.5,  7.4)",
+        "count" : "67"
+      }, {
+        "item" : "( 5.8,  7.8)",
+        "count" : "66"
+      }, {
+        "item" : "( 5.8,  7.7)",
+        "count" : "66"
+      }, {
+        "item" : "( 5.2,  6.8)",
+        "count" : "65"
+      }, {
+        "item" : "( 4.8,  6.6)",
+        "count" : "64"
+      }, {
+        "item" : "( 5.7,  7.6)",
+        "count" : "64"
+      }, {
+        "item" : "( 5.7,  7.4)",
+        "count" : "64"
+      }, {
+        "item" : "( 5.1,  6.8)",
+        "count" : "63"
+      }, {
+        "item" : "( 5.4,  7.1)",
+        "count" : "60"
+      }, {
+        "item" : "( 5.9,  7.9)",
+        "count" : "60"
+      } ],
+      "smallest" : "(10.0, 11.9)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300681,
+    "name" : "EMOTIONSPT_CrudePrev",
+    "dataTypeName" : "number",
+    "description" : "Model-based estimate for crude prevalence of lack of social and emotional support among adults, 2023",
+    "fieldName" : "emotionspt_crudeprev",
+    "position" : 84,
+    "renderTypeName" : "number",
+    "tableColumnId" : 154610032,
+    "cachedContents" : {
+      "non_null" : "24234",
+      "largest" : "41.0",
+      "null" : "8286",
+      "top" : [ {
+        "item" : "20.8",
+        "count" : "324"
+      }, {
+        "item" : "22.9",
+        "count" : "323"
+      }, {
+        "item" : "21.1",
+        "count" : "320"
+      }, {
+        "item" : "20.1",
+        "count" : "315"
+      }, {
+        "item" : "20.9",
+        "count" : "312"
+      }, {
+        "item" : "22.6",
+        "count" : "308"
+      }, {
+        "item" : "22.8",
+        "count" : "306"
+      }, {
+        "item" : "23.0",
+        "count" : "305"
+      }, {
+        "item" : "23.1",
+        "count" : "303"
+      }, {
+        "item" : "20.3",
+        "count" : "303"
+      }, {
+        "item" : "23.2",
+        "count" : "302"
+      }, {
+        "item" : "20.7",
+        "count" : "302"
+      }, {
+        "item" : "23.4",
+        "count" : "300"
+      }, {
+        "item" : "22.7",
+        "count" : "299"
+      }, {
+        "item" : "22.5",
+        "count" : "297"
+      }, {
+        "item" : "19.9",
+        "count" : "297"
+      }, {
+        "item" : "20.5",
+        "count" : "294"
+      }, {
+        "item" : "22.3",
+        "count" : "293"
+      }, {
+        "item" : "21.3",
+        "count" : "291"
+      }, {
+        "item" : "21.7",
+        "count" : "291"
+      } ],
+      "smallest" : "13.5",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300682,
+    "name" : "EMOTIONSPT_Crude95CI",
+    "dataTypeName" : "text",
+    "description" : "Estimated confidence interval for crude prevalence of lack of social and emotional support among adults ",
+    "fieldName" : "emotionspt_crude95ci",
+    "position" : 85,
+    "renderTypeName" : "text",
+    "tableColumnId" : 154610022,
+    "cachedContents" : {
+      "non_null" : "24234",
+      "largest" : "( 9.3, 27.6)",
+      "null" : "8286",
+      "top" : [ {
+        "item" : "(16.7, 23.4)",
+        "count" : "26"
+      }, {
+        "item" : "(16.8, 23.4)",
+        "count" : "25"
+      }, {
+        "item" : "(16.9, 23.4)",
+        "count" : "24"
+      }, {
+        "item" : "(19.6, 26.9)",
+        "count" : "24"
+      }, {
+        "item" : "(16.7, 23.0)",
+        "count" : "24"
+      }, {
+        "item" : "(17.9, 24.6)",
+        "count" : "24"
+      }, {
+        "item" : "(18.1, 25.0)",
+        "count" : "23"
+      }, {
+        "item" : "(17.8, 24.2)",
+        "count" : "23"
+      }, {
+        "item" : "(18.0, 24.7)",
+        "count" : "23"
+      }, {
+        "item" : "(18.3, 25.1)",
+        "count" : "23"
+      }, {
+        "item" : "(17.5, 24.2)",
+        "count" : "23"
+      }, {
+        "item" : "(17.1, 23.7)",
+        "count" : "22"
+      }, {
+        "item" : "(16.6, 23.0)",
+        "count" : "22"
+      }, {
+        "item" : "(18.3, 25.2)",
+        "count" : "22"
+      }, {
+        "item" : "(18.8, 25.6)",
+        "count" : "22"
+      }, {
+        "item" : "(18.7, 25.5)",
+        "count" : "22"
+      }, {
+        "item" : "(17.8, 24.7)",
+        "count" : "22"
+      }, {
+        "item" : "(19.4, 26.3)",
+        "count" : "22"
+      }, {
+        "item" : "(17.8, 24.6)",
+        "count" : "22"
+      }, {
+        "item" : "(19.6, 26.6)",
+        "count" : "21"
+      } ],
+      "smallest" : "(11.4, 16.1)",
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  }, {
+    "id" : 622300683,
+    "name" : "Geolocation",
+    "dataTypeName" : "point",
+    "description" : "Latitude, Longitude of ZCTA centroid (Format: Point(Longitude Latitude))",
+    "fieldName" : "geolocation",
+    "position" : 86,
+    "renderTypeName" : "point",
+    "tableColumnId" : 124716462,
+    "cachedContents" : {
+      "non_null" : "32520",
+      "null" : "0",
+      "top" : [ {
+        "item" : {
+          "coordinates" : [ -73.7535522, 42.2264118 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -83.8931495, 35.7922778 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -97.3994443, 27.767919 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -79.3078431, 39.6366195 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -121.7880224, 36.6147893 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -80.5542992, 39.9777199 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -110.9487689, 32.2462217 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -101.0610205, 39.042059 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -121.4065442, 47.8215251 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -94.5341762, 30.3306452 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -117.8447912, 33.7845373 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -96.1790864, 31.3474992 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -84.2064309, 31.5869193 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -93.256842, 41.0880956 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -85.9539424, 39.5557793 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -110.4202865, 34.0920175 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -97.9259739, 27.7558183 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -68.705997, 44.4827026 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -86.9216993, 33.45609 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -123.82578, 45.1614215 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      } ],
+      "count" : "32520",
+      "cardinality" : "32520"
+    },
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "license" : {
+    "name" : "Public Domain"
+  },
+  "metadata" : {
+    "custom_fields" : {
+      "Common Core" : {
+        "Contact Email" : "places@cdc.gov",
+        "Homepage" : "http://www.cdc.gov/nccdphp/dph/",
+        "Described By" : "https://chronicdata.cdc.gov/dataset/PLACES-ZCTA-Data-GIS-Friendly-Format-2020-release/kee5-23sr",
+        "References" : "https://www.cdc.gov/places/measure-definitions/index.html",
+        "Contact Name" : "PLACES Public Inquiries",
+        "Issued" : "7/27/2023",
+        "Program Code" : "009:020",
+        "Publisher" : "Centers for Disease Control and Prevention",
+        "Bureau Code" : "009:20",
+        "Public Access Level" : "public"
+      },
+      "Common Core 3" : {
+        "Contact Email" : "places@cdc.gov",
+        "Described By" : "https://chronicdata.cdc.gov/dataset/PLACES-ZCTA-Data-GIS-Friendly-Format-2020-release/kee5-23sr",
+        "Contact Name" : "PLACES Public Inquiries",
+        "Program Code" : "009:020",
+        "Restriction Status" : "public",
+        "Publisher" : "Centers for Disease Control and Prevention",
+        "Bureau Code" : "009:20",
+        "Public Access Level" : "public"
+      },
+      "Dataset Information" : {
+        "Glossary/Methodology " : "http://www.cdc.gov/places/"
+      }
+    },
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "fjjr-gap9",
+    "displayName" : "CDC UserSA",
+    "screenName" : "CDC UserSA",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "fjjr-gap9",
+    "displayName" : "CDC UserSA",
+    "screenName" : "CDC UserSA",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "places", "zcta", "zip code", "gis", "prevalence", "risk", "behaviors", "outcomes", "prevention", "health", "status", "disability", "social needs" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

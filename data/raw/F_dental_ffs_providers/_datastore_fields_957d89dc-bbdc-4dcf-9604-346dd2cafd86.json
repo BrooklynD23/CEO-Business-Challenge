@@ -1,0 +1,22 @@
+[
+ {
+  "id": "_id",
+  "type": "int"
+ },
+ {
+  "id": "Month/Year",
+  "type": "text"
+ },
+ {
+  "id": "Rendering Providers",
+  "type": "text"
+ },
+ {
+  "id": "Active Service Offices",
+  "type": "text"
+ },
+ {
+  "id": "Safety Net Clinics",
+  "type": "text"
+ }
+]

@@ -1,0 +1,72 @@
+[
+ {
+  "id": "_id",
+  "type": "int"
+ },
+ {
+  "id": "Month of Eligibility",
+  "type": "text",
+  "info": {
+   "label": "Month of Eligibility",
+   "notes": "Denotes the year (four-digit) and month (two-digit) during which the Medi-Cal beneficiary was eligible for Medi-Cal.\r\n\r\n* YYYY-MM (e.g., 2016-01 is January 2016)",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "County",
+  "type": "text",
+  "info": {
+   "label": "County",
+   "notes": "Medi-Cal beneficiary's county of residence.\r\n\r\n* 58 counties",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Health Delivery System",
+  "type": "text"
+ },
+ {
+  "id": "Health Plan",
+  "type": "text"
+ },
+ {
+  "id": "Total Eligibles",
+  "type": "text",
+  "info": {
+   "label": "Total Eligibles",
+   "notes": "The total number of individuals certified eligible for the month of eligibility. Certified eligibles are those beneficiaries deemed qualified for Medi-Cal by a valid eligibility determination, and who have enrolled into the program. This classification excludes beneficiaries who have not met a monthly share-of-cost obligation.",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Annotation Code",
+  "type": "text",
+  "info": {
+   "label": "Annotation Code",
+   "notes": "Code for type annotation.\r\n\r\n* 1= suppressed due to small number\r\n* 2= suppressed due to complimentary cell small number\r\n* 3= No data available",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Annotation Description",
+  "type": "text",
+  "info": {
+   "label": "Annotation Description",
+   "notes": "Description of Annotation for COUNT columns.",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Status",
+  "type": "text",
+  "info": {
+   "label": "Status",
+   "notes": "Certified eligible counts with a status of \"P\" are preliminary and subject to change. A specific month's eligibility count is considered complete for statistical reporting purposes 12 months after the month's end, and indicates a status \"F\" for final.\r\n\r\n* P (Preliminary)\r\n* F  (Final)",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Date of Data",
+  "type": "text"
+ }
+]

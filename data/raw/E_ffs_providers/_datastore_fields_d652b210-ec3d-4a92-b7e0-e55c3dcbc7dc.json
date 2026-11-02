@@ -1,0 +1,429 @@
+[
+ {
+  "id": "_id",
+  "type": "int"
+ },
+ {
+  "id": "Provider_Number",
+  "type": "text",
+  "info": {
+   "label": "Provider Number",
+   "notes": "Unique identifier of the provider.  This field has both National Provider Identifier (NPI) and Medi-Cal legacy number, as reported in the Provider Master File (PMF).",
+   "type_override": "text"
+  }
+ },
+ {
+  "id": "NPI",
+  "type": "text",
+  "info": {
+   "label": "NPI",
+   "notes": "National Provider Identifier is a unique identification number issued to health care providers by the Centers for Medicare and Medicaid Services (CMS).",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "NPI_Type",
+  "type": "text",
+  "info": {
+   "label": "NPI_Type",
+   "notes": "Indicates if the NPI is:\r\n\r\n* Type 1 = Individual\r\n* Type 2 = Organizational",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Owner_Number",
+  "type": "text",
+  "info": {
+   "label": "Owner Number",
+   "notes": "Unique identifier of an owner.  The identifier of the owner remains constant with new owners having the next higher sequential number.",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Service_Location_Number",
+  "type": "text",
+  "info": {
+   "label": "Service Location Number",
+   "notes": "Service location number of the provider.",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Legal_Name",
+  "type": "text",
+  "info": {
+   "label": "Legal Name",
+   "notes": "Full legal name of the provider, as reported in the PMF.",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Enroll_Status_Eff_DT",
+  "type": "text",
+  "info": {
+   "label": "Enroll Status Effective Date",
+   "notes": "Indicates effective date of provider enrollment.",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Provider_Taxonomy",
+  "type": "text",
+  "info": {
+   "label": "Provider Taxonomy Code",
+   "notes": "PAVE reported provider taxonomy.",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "NEMT_NMT_Provider_Type",
+  "type": "text",
+  "info": {
+   "label": "NEMT/NMT Provider Type",
+   "notes": "Specification of the mode of Ground Transportation the provider is approved to provide Non-Emergency Medical Transportation (NEMT) and/or Non-Medical Transportation (NMT).\r\n\r\n* NEMT Provider\r\n* NMT Provider\r\n* Both NEMT & NMT Provider\r\n* NA (Non-Applicable) ",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "ANC_Provider_Type",
+  "type": "text",
+  "info": {
+   "label": "ANC Provider Type Description",
+   "notes": "Mapped Network Certification provider type based on PAVE reported taxonomy.",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "FI_Provider_Type_CD",
+  "type": "text",
+  "info": {
+   "label": "FI Provider Type Code",
+   "notes": "Classification of the provider rendering health and medical services, as reported in the PMF.  See Appendix A for a list of provider type codes in the PMF.",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "FI_Provider_Type",
+  "type": "text",
+  "info": {
+   "label": "FI Provider Type Description",
+   "notes": "Description of Provider Type.",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Provider_License",
+  "type": "text",
+  "info": {
+   "label": "Provider License",
+   "notes": "Provider's state issued license number.  Only CA state license number for the following types of providers is reported in the file; for out of state or other types of providers, a \u2018 - \u2018 is displayed: 026: Physicians, 086: Medical Directors, 087: Licensed Professionals, A blank cell indicates that no license data is available.",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "FI_Provider_Specialty_CD",
+  "type": "text",
+  "info": {
+   "label": "FI Provider Specialty Code",
+   "notes": "Provider\u2019s principal reported area of specialization, as reported in the PMF.  The following provider types are required to report provider specialty:\r\n\r\n* Physician Groups\r\n* Physician\r\n* Nurse Anesthetists\u2022 Certified Nurse Midwife\r\n* Certified Nurse Practitioner\r\n* EPSDT Supplemental Services Provider\r\n* Podiatrists\r\n* Physical Therapists\r\n* Psychologists\r\n\r\nSee Appendix B for a list of provider specialty codes in the PMF.",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "FI_Provider_Specialty",
+  "type": "text",
+  "info": {
+   "label": "FI Provider Specialty Description",
+   "notes": "Description of Provider Specialty.",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Out_of_State_Indicator",
+  "type": "text",
+  "info": {
+   "label": "Out of State Indicator",
+   "notes": "Indication of the provider who is located in or out of California.\r\n\r\nSpace = Unknown\r\n\r\n0 = In state provider\r\n\r\n1 = Border provider\r\n\r\n2 = Out of state provider\r\n\r\n3 = Out of country provider\r\n\r\n4 = Out of state provider - EDS",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "In_Out_State",
+  "type": "text",
+  "info": {
+   "label": "In Out State",
+   "notes": "Description of In- or Out-of-State Indicator.",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Address_Attention",
+  "type": "text",
+  "info": {
+   "label": "Address Attention",
+   "notes": "Attention line of provider servicing address, as reported in the PMF.",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Address",
+  "type": "text",
+  "info": {
+   "label": "Address",
+   "notes": "Street address line 1 of provider servicing address, as reported in the PMF.",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Address2",
+  "type": "text",
+  "info": {
+   "label": "Address2",
+   "notes": "Street address line 2 of provider servicing address, as reported in the PMF.",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "City",
+  "type": "text",
+  "info": {
+   "label": "City",
+   "notes": "City where the service is provided, as reported in the PMF.",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "State",
+  "type": "text",
+  "info": {
+   "label": "State",
+   "notes": "State where the service is provided, as reported in the PMF.",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "ZIP",
+  "type": "text",
+  "info": {
+   "label": "ZIP",
+   "notes": "Zip code where the service is provided, as reported in the PMF.",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "ZIP_4",
+  "type": "text",
+  "info": {
+   "label": "ZIP+ 4",
+   "notes": "Zip code + 4 extension where the service is provided, as reported in the PMF.",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "DHCS_County_CD",
+  "type": "text",
+  "info": {
+   "label": "DHCS County Code",
+   "notes": "DHCS County Code where the service is provided.",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "FIPS_County_CD",
+  "type": "text",
+  "info": {
+   "label": "FIPS County Code",
+   "notes": "FIPS County Code where the service is provided.",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "County",
+  "type": "text",
+  "info": {
+   "label": "",
+   "notes": "",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Phone_Number",
+  "type": "text",
+  "info": {
+   "label": "Provider Office Phone Number",
+   "notes": "Phone number of the provider's service location.\r\n",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Medicaid_Patients",
+  "type": "text",
+  "info": {
+   "label": "Accepts Medicaid Patients",
+   "notes": "Is the provider currently accepting new Medicaid patients?\r\n\r\n* N \u2013 Not accepting new patients\r\n* F \u2013 Accepting Fee-for-Service patients only\r\n* M \u2013 Accepting Managed Care patients only\r\n* B \u2013 Accepting both Fee-for-Service and Managed Care patients",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "CHIP_Patients",
+  "type": "text",
+  "info": {
+   "label": "Accepts CHIP Patients",
+   "notes": "Is the provider currently accepting new Children's Health Insurance Program (CHIP) patients\r\n\r\n* Y = Provider is currently accepting new CHIP patients\r\n* N= Provider is not currently accepting new CHIP patients",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Telehealth_Services",
+  "type": "text",
+  "info": {
+   "label": "Has Telehealth",
+   "notes": "Indicates if the provider offers covered services via telehealth.\r\n\r\n* Y= The provider offers covered services via telehealth\r\n* N = The provider does not offer covered services via telehealth",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Provider_Website",
+  "type": "text",
+  "info": {
+   "label": "Provider Website",
+   "notes": "Website associated with the provider practice location.",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Threshold_Languages",
+  "type": "text",
+  "info": {
+   "label": "Threshold Languages",
+   "notes": "Threshold languages that the Provider or Skilled Medical Interpreter at the location speaks.",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Other_Languages",
+  "type": "text",
+  "info": {
+   "label": "Other Languages",
+   "notes": "Other languages that the Provider or Skilled Medical Interpreter at the location speaks.",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Acc_Exam_Room",
+  "type": "text",
+  "info": {
+   "label": "Accommodation: Exam Room",
+   "notes": "Exam Room (E) - The entrance to the exam room is accessible with a clear path. The doors open wide enough to accommodate a wheelchair or scooter and are easy to open. The exam room has enough room for a wheelchair or scooter to turn around.\u00a0\r\n\r\n* Y= Provider office has exam room accommodation\r\n* N= Provider office does not have exam room accommodation",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Acc_Exterior_Building",
+  "type": "text",
+  "info": {
+   "label": "Accommodation: Exterior Building",
+   "notes": "Exterior Building (EB) - Curb ramps and other ramps to the building are wide enough for a wheelchair or scooter. Handrails are provided on both sides of the ramp. There is an accessible entrance to the building. Doors open wide enough to let a wheelchair or scooter enter and have handles that are easy to use. \r\n\r\n* Y= Provider office has exterior building accommodation\r\n* N= Provider office does not have exterior building accommodation",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Acc_Interior_Building",
+  "type": "text",
+  "info": {
+   "label": "Accommodation: Interior Building",
+   "notes": "Interior Building (IB) - Doors open wide enough to let a wheelchair or scooter enter and have handles that are easy to use. Interior ramps are wide enough and have handrails. Stairs, if available, have handrails. If there is an elevator, it is available for public use at all times when the building is open. The elevator has enough room for a wheelchair or scooter to turn around. If there is a platform lift, it can be used without help. \r\n\r\n* Y= Provider office has interior building accommodation\r\n* N= Provider office does not have interior building accommodation",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Acc_Parking",
+  "type": "text",
+  "info": {
+   "label": "Accommodation: Parking",
+   "notes": "Parking (P) - Parking spaces, including spaces designated for vans, are accessible. Pathways have curb ramps between the parking lots, offices, and at drop-off locations. \r\n\r\n* Y= Provider office has parking accommodation\r\n* N= Provider office does not have parking accommodation",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Acc_Restroom",
+  "type": "text",
+  "info": {
+   "label": "Accommodation: Restroom",
+   "notes": "Restroom (R) - The restroom is accessible, and the doors are wide enough to accommodate a wheelchair or scooter and are easy to open. The restroom has enough room for a wheelchair or scooter to turn around and close the door. There are grab bars that allow easy transfer from wheelchair to toilet. The sink is easy to get to and the faucets, soap, and toilet paper are easy to reach and use. \r\n\r\n* Y= Provider office has restroom accommodation\r\n* N= Provider office does not have restroom accommodation",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Acc_Medical_Equipment",
+  "type": "text",
+  "info": {
+   "label": "Accommodation: Medical Equipment",
+   "notes": "Medical Equipment (T) - The exam table moves up and down and the scale is accessible with handrails to assist people with wheelchairs and scooters. The weight scale can accommodate a wheelchair. Patients can get on or off medical equipment with or without help.\u00a0\r\n\r\n* Y= Provider office has medical equipment accommodation\r\n* N= Provider office does not have medical equipment accommodation",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Acc_Patient_Areas",
+  "type": "text",
+  "info": {
+   "label": "Accommodation: Patient Areas",
+   "notes": "Patient Areas (PA) - Patients can get to and use all common areas and equipment with or without help.\u00a0\r\n\r\n* Y= Provider office has patient areas accommodation\r\n* N= Provider office does not have patient areas accommodation",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Acc_Patient_Diagnostic",
+  "type": "text",
+  "info": {
+   "label": "Accommodation: Patient Diagnostic and Treatment Use",
+   "notes": "Patient Diagnostic and Treatment Use (PD) - Patients are able to access and use testing and treatment areas, and equipment. \r\n\r\n* Y= Provider office has patient diagnostic and treatment use accommodation\r\n* N= Provider office does not have patient diagnostic and treatment use accommodation",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Provider_Source",
+  "type": "text",
+  "info": {
+   "label": "Provider Source",
+   "notes": "__For DHCS internal use only. Lists the file each provider is found in.__\r\n\r\n* 1= Main File\r\n* 2= NMP File\r\n* 3= ORP File",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Billing_Provider",
+  "type": "text",
+  "info": {
+   "label": "Billing Provider",
+   "notes": "Indicates if the provider is a **FFS billing provider** or a **FFS non-billing provider**. A FFS billing provider is defined as an actively enrolled Fee-For-Service (FFS) provider who bills for services they provide using their own provider (NPI) number. A FFS non-billing provider is defined as an actively enrolled individual Fee-For-Service (FFS) provider who directly renders healthcare services to Medi-Cal members and does not submit claims directly to Medi-Cal for services provided.",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Latitude",
+  "type": "numeric",
+  "info": {
+   "label": "Latitude Coordinates",
+   "notes": "Latitude coordinates.",
+   "type_override": "numeric"
+  }
+ },
+ {
+  "id": "Longitude",
+  "type": "numeric",
+  "info": {
+   "label": "Longitude Coordinates",
+   "notes": "Longitude coordinates.",
+   "type_override": "numeric"
+  }
+ },
+ {
+  "id": "CountyName",
+  "type": "text",
+  "info": {
+   "label": "CountyName",
+   "notes": "County based off Latitude and Longitude Coordinates.",
+   "type_override": ""
+  }
+ }
+]

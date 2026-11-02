@@ -1,0 +1,218 @@
+{
+  "ie_rows": 36470,
+  "ie_unique_npi": 30522,
+  "ie_unique_npi_addr_zip": 32648,
+  "rows_by_County_label": {
+    "Riverside": 13402,
+    "San Bernardino": 14890
+  },
+  "rows_by_CountyName_latlon": {
+    "Riverside": 17632,
+    "San Bernardino": 18816
+  },
+  "rows_county_label_NA_total": 94409,
+  "rows_county_label_UNKNOWN_total": 7975,
+  "ie_rows_with_county_label_NA": 8428,
+  "chcf_sep25_rows": {
+    "Riverside": 13267,
+    "San Bernardino": 14781
+  },
+  "chcf_gap_note": "County-label counts from the 2026-10-26 file are within about 1% of CHCF's 2026-09-25 figures; the 36,470-row IE definition is higher because Provider_Source 2/3 rows carry County='N/A' and are only recoverable through CountyName (lat/lon).",
+  "orp_source3_test": {
+    "statewide_rows_source3": 68279,
+    "statewide_npi_source3": 68279,
+    "share_source3_rows_non_billing": 1.0,
+    "share_source3_with_medicaid_flag": 0.0,
+    "share_source3_npi_also_in_source1": 0.15903865024385244,
+    "share_source3_npi_also_in_source1_billing": 0.011306551062552175,
+    "share_source3_type1_individual": 0.9999560626254046,
+    "ie_rows_source3": 5035,
+    "ie_source3_npi_not_in_source1_ie": 4292,
+    "ie_source3_physician_rows": 860,
+    "ie_source3_types": {
+      "000": 1361,
+      "077": 870,
+      "026": 860,
+      "070": 600,
+      "007": 570,
+      "037": 295,
+      "019": 126,
+      "031": 113
+    },
+    "statewide_source2_rows": 26130,
+    "share_source2_npi_also_in_source1": 0.11197856869498661,
+    "share_source1_rows_billing": 0.3458892274826427,
+    "statewide_billing_rows_by_source": {
+      "1": 99090,
+      "2": 0,
+      "3": 0
+    },
+    "conclusion": "Source 3 rows are all non-billing individuals, none carry the new-patient flag, none carry a taxonomy, and most NPIs appear nowhere in the billing-capable Main file. That pattern is what ordering/referring/prescribing-only (ORP) records would look like, but the file does not state the expansion of 'ORP'. They are removed from definitions b-e. UNVERIFIED: the acronym."
+  },
+  "specialty_type_coverage": {
+    "statewide_rows": 380888,
+    "statewide_share_spec_unknown_or_NA": 0.6420128751759048,
+    "statewide_share_type_unknown_or_NA": 0.11119279158177732,
+    "ie_rows": 36470,
+    "ie_share_spec_unknown_or_NA": 0.6820948724979435,
+    "ie_share_type_unknown_or_NA": 0.13035371538250617,
+    "ie_physician_rows": 12833,
+    "ie_physician_share_spec_code_present": 0.7680978726720175,
+    "ie_physician_share_unknown_after_rescue": 0.1114314657523572,
+    "ie_physician_rows_rescued_by_taxonomy": 1594,
+    "ie_physician_rows_rescued_by_anc": 2,
+    "ie_physician_rows_source3": 860,
+    "ie_phys_np_rows": 14580,
+    "ie_phys_np_rows_primary_care": 7051,
+    "ie_phys_np_rows_specialty_nonPC": 6099,
+    "ie_phys_np_rows_unknown_specialty": 1430,
+    "ie_physician_rows_unknown_share_of_candidate_PC_set_a": 0.1739619554101043,
+    "classifiable_share_all_ie_rows": 0.6209761447765286,
+    "unclassifiable_source2_or_3_no_type_rows": 4754
+  },
+  "address_concentration": {
+    "ie_unique_addresses": 10885,
+    "npi_per_address_median": 1.0,
+    "npi_per_address_p90": 4.0,
+    "npi_per_address_p99": 27.159999999999854,
+    "npi_per_address_max": 1626,
+    "addresses_with_ge50_npi": 58,
+    "addresses_with_ge100_npi": 28,
+    "share_rows_at_addr_ge10": 0.46756238003838774,
+    "share_rows_at_addr_ge50": 0.2933918289004661,
+    "share_rows_at_addr_ge100": 0.23561831642445846,
+    "share_rows_at_addr_ge500": 0.09843707156567041,
+    "share_single_npi_addresses": 0.7139182361047313,
+    "pcp_b_share_at_addr_ge10": 0.6620348187190545,
+    "pcp_b_share_at_addr_ge25": 0.5492732790289091,
+    "pcp_b_share_at_addr_ge50": 0.5058297396582015,
+    "pcp_b_share_at_addr_ge100": 0.43124101581217056,
+    "pcp_b_share_at_addr_ge500": 0.23031464622264813,
+    "pcp_b_total": 6261,
+    "pcp_e_cap25_total": 3974.0,
+    "pcp_cap_reduction_share": 0.365277112282383,
+    "n_zcta_with_pcp_b_ge_half_at_100plus_addr": 7
+  },
+  "sanity_check_vs_chcf": {
+    "pop_ie": 4769007,
+    "pop_ca_2020_census": 39538223,
+    "chcf_pc_implied_ie": 4053.65595,
+    "rows": [
+      {
+        "measure": "physicians (all)",
+        "E_IE_per_100k": 241.53875219726032,
+        "CHCF_IE_all_payer_per_100k": 229,
+        "ratio_E_to_CHCF_IE": 1.0547543764072502,
+        "E_CA_per_100k": 350.3495845020652,
+        "CHCF_CA_per_100k": 358,
+        "ratio_E_to_CHCF_CA": 0.9786301243074448,
+        "implied_pc_physicians_chcf_IE": 4053.65595
+      },
+      {
+        "measure": "physicians (Source 1-2 only)",
+        "E_IE_per_100k": 227.61551828294654,
+        "CHCF_IE_all_payer_per_100k": 229,
+        "ratio_E_to_CHCF_IE": 0.9939542283098102,
+        "E_CA_per_100k": 318.61320626372105,
+        "CHCF_CA_per_100k": 358,
+        "ratio_E_to_CHCF_CA": 0.8899810230830197,
+        "implied_pc_physicians_chcf_IE": 4053.65595
+      },
+      {
+        "measure": "primary care physicians",
+        "E_IE_per_100k": 106.29047095129027,
+        "CHCF_IE_all_payer_per_100k": 85,
+        "ratio_E_to_CHCF_IE": 1.2504761288387092,
+        "E_CA_per_100k": 136.51346951025087,
+        "CHCF_CA_per_100k": 118,
+        "ratio_E_to_CHCF_CA": 1.1568938094089056,
+        "implied_pc_physicians_chcf_IE": 4053.65595
+      },
+      {
+        "measure": "specialists (non-PC, non-psychiatry)",
+        "E_IE_per_100k": 113.08433810225064,
+        "CHCF_IE_all_payer_per_100k": 115,
+        "ratio_E_to_CHCF_IE": 0.9833420704543534,
+        "E_CA_per_100k": 173.87225520985098,
+        "CHCF_CA_per_100k": 176,
+        "ratio_E_to_CHCF_CA": 0.9879105409650624,
+        "implied_pc_physicians_chcf_IE": 4053.65595
+      },
+      {
+        "measure": "psychiatrists",
+        "E_IE_per_100k": 8.911708454191826,
+        "CHCF_IE_all_payer_per_100k": 11,
+        "ratio_E_to_CHCF_IE": 0.8101553140174388,
+        "E_CA_per_100k": 12.602994322734231,
+        "CHCF_CA_per_100k": 18,
+        "ratio_E_to_CHCF_CA": 0.7001663512630129,
+        "implied_pc_physicians_chcf_IE": 4053.65595
+      }
+    ],
+    "ie_E": {
+      "scope": "Inland Empire (E, IE extract)",
+      "population": 4769007,
+      "physician_npi_all_sources": 11519,
+      "physician_npi_source1_2": 10855,
+      "physician_npi_billing_own": 1043,
+      "pc_physician_npi": 5069,
+      "psychiatrist_npi": 425,
+      "specialist_nonpc_npi": 5393,
+      "unknown_specialty_npi": 1414,
+      "np_npi": 1655,
+      "physician_npi_all_sources_per_100k": 241.53875219726032,
+      "physician_npi_source1_2_per_100k": 227.61551828294654,
+      "physician_npi_billing_own_per_100k": 21.87038098287547,
+      "pc_physician_npi_per_100k": 106.29047095129027,
+      "psychiatrist_npi_per_100k": 8.911708454191826,
+      "specialist_nonpc_npi_per_100k": 113.08433810225064,
+      "unknown_specialty_npi_per_100k": 29.649778245240572,
+      "np_npi_per_100k": 34.7032411569117
+    },
+    "ca_E": {
+      "scope": "California (E, State=CA)",
+      "population": 39538223,
+      "physician_npi_all_sources": 138522,
+      "physician_npi_source1_2": 125974,
+      "physician_npi_billing_own": 11290,
+      "pc_physician_npi": 53975,
+      "psychiatrist_npi": 4983,
+      "specialist_nonpc_npi": 68746,
+      "unknown_specialty_npi": 23159,
+      "np_npi": 16170,
+      "physician_npi_all_sources_per_100k": 350.3495845020652,
+      "physician_npi_source1_2_per_100k": 318.61320626372105,
+      "physician_npi_billing_own_per_100k": 28.554646980467485,
+      "pc_physician_npi_per_100k": 136.51346951025087,
+      "psychiatrist_npi_per_100k": 12.602994322734231,
+      "specialist_nonpc_npi_per_100k": 173.87225520985098,
+      "unknown_specialty_npi_per_100k": 58.573699682962484,
+      "np_npi_per_100k": 40.897133894965386
+    },
+    "caveats": [
+      "CHCF counts active physicians (2024, all payers); E counts enrolled records of any activity level in 2026-10 and cannot see claims.",
+      "E physician NPI counted once even if at several addresses; some E physicians practise partly outside the IE.",
+      "CHCF 'primary care' definition (specialty grouping) is not given here; E uses FM, IM, pediatrics, GP and geriatrics codes plus taxonomy rescue."
+    ]
+  },
+  "iehp_factsheet_network": {
+    "PCP": 1488,
+    "Specialists": 2817,
+    "Behavioral Health": 3453,
+    "Hospitals": 34,
+    "Other": 2570,
+    "Total": 10362
+  },
+  "E_vs_iehp": {
+    "E_pcp_md_b": 5165,
+    "E_pcp_all_npi": 5069,
+    "E_specialist_all_b": 6042,
+    "E_mh_b": 4681,
+    "note": "IEHP counts contracted network practitioners and facilities by their IEHP role (PCP/specialist/behavioral health); E counts FFS-enrolled records by type and specialty. Different populations (IEHP network vs FFS enrolment), different units (individual+facility mix vs NPI-ZIP) and different years; ratios are shown only to size the gap."
+  },
+  "pcp_billing_structure": {
+    "n": 5304,
+    "own_npi_billers": 0.11029411764705882,
+    "billing_row_at_same_address": 0.7882730015082956
+  }
+}

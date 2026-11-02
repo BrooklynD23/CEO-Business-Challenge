@@ -1,0 +1,69 @@
+[
+ {
+  "id": "_id",
+  "type": "int"
+ },
+ {
+  "id": "Enrollment Month",
+  "type": "text",
+  "info": {
+   "label": "Enrollment Month",
+   "notes": "Year-Month of Managed Care Plan Enrolled Members.",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Plan Type",
+  "type": "text",
+  "info": {
+   "label": "Plan Type",
+   "notes": "Managed Care Plan Service Model.",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "County",
+  "type": "text",
+  "info": {
+   "label": "County",
+   "notes": "Managed Care Plan County of Operation.",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Plan Name",
+  "type": "text",
+  "info": {
+   "label": "Plan Name",
+   "notes": "Managed Care Plan Name.",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Count of Enrollees",
+  "type": "text",
+  "info": {
+   "label": "Count of Enrollees",
+   "notes": "Total number of plan beneficiaries enrolled for given month, type, name (plan).",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Count of Enrollees Annotation Code",
+  "type": "text",
+  "info": {
+   "label": "Count of Enrollees Annotation Code",
+   "notes": "Suppression Code (if applicable).",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Count of Enrollees Annotation Description",
+  "type": "text",
+  "info": {
+   "label": "Count of Enrollees Annotation Description",
+   "notes": "Description of Suppression Code.",
+   "type_override": ""
+  }
+ }
+]

@@ -1,0 +1,2 @@
+n,low_quartile_n,hpsa_share_overall,hpsa_share_in_low_quartile,sensitivity,specificity,low_quartile_not_hpsa,hpsa_not_low,cohen_kappa,eligibles_low_quartile_not_hpsa,eligibles_low_quartile_total
+130,33,0.3384615384615385,0.696969696969697,0.696969696969697,0.7835051546391752,10,21,0.4328736279200675,111824.0,300163.0

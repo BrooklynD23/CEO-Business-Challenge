@@ -1,0 +1,18 @@
+[
+ {
+  "id": "_id",
+  "type": "int"
+ },
+ {
+  "id": "VARIABLE",
+  "type": "text"
+ },
+ {
+  "id": "FORMAT",
+  "type": "text"
+ },
+ {
+  "id": "DEFINITION",
+  "type": "text"
+ }
+]

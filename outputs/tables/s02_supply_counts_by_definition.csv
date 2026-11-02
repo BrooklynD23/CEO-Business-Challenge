@@ -1,0 +1,66 @@
+group,definition,label,records_or_npizip,riverside,san_bernardino,unique_npi
+pcp_md,a,broad,7686,3329.0,4357.0,6971
+pcp_md,b,deduped,5084,2077.0,3007.0,5069
+pcp_md,c,strict,5077,2071.0,3006.0,5063
+pcp_md,d,billable_at_site,4010,1651.0,2359.0,3996
+pcp_md,e,address_capped,3177,1371.0,1806.0,5069
+np,a,broad,2092,924.0,1168.0,1874
+np,b,deduped,1177,474.0,703.0,1177
+np,c,strict,1177,474.0,703.0,1177
+np,d,billable_at_site,1076,431.0,645.0,1076
+np,e,address_capped,1049,436.0,613.0,1177
+pcp,a,broad,9778,4253.0,5525.0,8713
+pcp,b,deduped,6261,2551.0,3710.0,6246
+pcp,c,strict,6254,2545.0,3709.0,6240
+pcp,d,billable_at_site,5086,2082.0,3004.0,5072
+pcp,e,address_capped,3974,1717.0,2257.0,6246
+clinic_fqhc,a,broad,168,96.0,71.0,109
+clinic_fqhc,b,deduped,144,83.0,60.0,109
+clinic_fqhc,c,strict,143,83.0,59.0,109
+clinic_fqhc,d,billable_at_site,143,83.0,59.0,109
+clinic_fqhc,e,address_capped,144,83.0,60.0,109
+clinic_all,a,broad,274,145.0,128.0,163
+clinic_all,b,deduped,223,125.0,97.0,163
+clinic_all,c,strict,220,124.0,95.0,161
+clinic_all,d,billable_at_site,220,124.0,95.0,161
+clinic_all,e,address_capped,223,125.0,97.0,163
+mh,a,broad,6990,3250.0,3740.0,6007
+mh,b,deduped,4655,2140.0,2515.0,4588
+mh,c,strict,4648,2136.0,2512.0,4582
+mh,d,billable_at_site,4177,1975.0,2202.0,4115
+mh,e,address_capped,3306,1556.0,1750.0,4588
+psychiatrist,a,broad,523,172.0,351.0,492
+psychiatrist,b,deduped,426,133.0,293.0,425
+psychiatrist,c,strict,425,133.0,292.0,425
+psychiatrist,d,billable_at_site,367,115.0,252.0,367
+psychiatrist,e,address_capped,351,111.0,240.0,425
+mh_nonphys,a,broad,6467,3078.0,3389.0,5553
+mh_nonphys,b,deduped,4229,2007.0,2222.0,4163
+mh_nonphys,c,strict,4223,2003.0,2220.0,4157
+mh_nonphys,d,billable_at_site,3810,1860.0,1950.0,3748
+mh_nonphys,e,address_capped,3043,1471.0,1572.0,4163
+cardiology,a,broad,343,158.0,185.0,325
+cardiology,b,deduped,276,128.0,148.0,275
+cardiology,c,strict,275,127.0,148.0,274
+cardiology,d,billable_at_site,211,98.0,113.0,210
+cardiology,e,address_capped,276,128.0,148.0,275
+obgyn,a,broad,778,333.0,445.0,626
+obgyn,b,deduped,604,250.0,354.0,564
+obgyn,c,strict,604,250.0,354.0,564
+obgyn,d,billable_at_site,432,189.0,243.0,392
+obgyn,e,address_capped,517,211.0,306.0,564
+endocrinology,a,broad,50,25.0,25.0,49
+endocrinology,b,deduped,43,22.0,21.0,43
+endocrinology,c,strict,43,22.0,21.0,43
+endocrinology,d,billable_at_site,40,20.0,20.0,40
+endocrinology,e,address_capped,43,22.0,21.0,43
+specialist_all,a,broad,7306,3363.0,3942.0,6419
+specialist_all,b,deduped,5952,2664.0,3288.0,5880
+specialist_all,c,strict,3289,1456.0,1833.0,3238
+specialist_all,d,billable_at_site,2569,1174.0,1395.0,2518
+specialist_all,e,address_capped,3683,1754.0,1929.0,5880
+dental (source F),a,broad,7414,,,3100
+dental (source F),b,deduped,4714,,,2184
+dental (source F),c,strict,4535,,,2089
+dental (source F),d,billable_at_site,4529,,,2089
+dental (source F),e,address_capped,4714,,,2184

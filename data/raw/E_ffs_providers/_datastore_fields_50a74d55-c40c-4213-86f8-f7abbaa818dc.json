@@ -1,0 +1,14 @@
+[
+ {
+  "id": "_id",
+  "type": "int"
+ },
+ {
+  "id": "Provider Type Code (r)",
+  "type": "text"
+ },
+ {
+  "id": "Provider Type Desc (r)",
+  "type": "text"
+ }
+]

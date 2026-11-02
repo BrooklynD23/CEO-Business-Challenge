@@ -1,0 +1,73 @@
+[
+ {
+  "id": "_id",
+  "type": "int"
+ },
+ {
+  "id": "Month of Eligibility",
+  "type": "text",
+  "info": {
+   "label": "Month of Eligibility",
+   "notes": "Denotes the year (four-digit) and month (two-digit) during which the Medi-Cal beneficiary was eligible for Medi-Cal.\r\n\r\nYYYY-MM (e.g., 2016-01 is January 2016)",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Zip Code",
+  "type": "text",
+  "info": {
+   "label": "Zip Code",
+   "notes": "Identifies Medi-Cal beneficiaries residential five-digit zip code. Beneficiaries with invalid or out-of-state zip codes are represented by blank Zip Codes.",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Sex",
+  "type": "text",
+  "info": {
+   "label": "Sex",
+   "notes": "Identifies the Medi-Cal beneficiary's sex.\r\n\r\nM (Male)\r\n\r\nF (Female)",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Total Eligibles",
+  "type": "text",
+  "info": {
+   "label": "Total Eligibles",
+   "notes": "The total number of individuals certified eligible for the month of eligibility. Certified eligibles are those beneficiaries deemed qualified for Medi-Cal by a valid eligibility determination, and who have enrolled into the program. This classification excludes beneficiaries who have not met a monthly share-of-cost obligation.",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Annotation Code",
+  "type": "text",
+  "info": {
+   "label": "Annotation Code",
+   "notes": "Code for type annotation. \r\n\r\n1= suppressed due to small number \r\n\r\n2= suppressed due to complimentary cell small number \r\n\r\n3= No data available",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Annotation Description",
+  "type": "text",
+  "info": {
+   "label": "Annotation Description",
+   "notes": "Description of Annotation for COUNT columns.",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Status",
+  "type": "text",
+  "info": {
+   "label": "Status",
+   "notes": "Certified eligible counts with a status of \"P\" are preliminary and subject to change. A specific month's eligibility count is considered complete for statistical reporting purposes 12 months after the month's end and indicates a status \"F\" for final.\r\n\r\nP (Preliminary)\r\n\r\nF (Final)\r\n",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Date of Data",
+  "type": "text"
+ }
+]

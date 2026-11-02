@@ -1,0 +1,827 @@
+{
+  "base_table": {
+    "ie_touching_zctas": 169,
+    "ie_touching_expected": 169,
+    "zctas_in_A_2026_09": 168,
+    "zcta_missing_from_A": [
+      "89019"
+    ],
+    "zcta_key_unique": true,
+    "split_zctas_10pct": 3,
+    "split_zctas_5pct": 5,
+    "assigned_riverside": 71,
+    "assigned_sanbernardino": 93,
+    "assigned_other": 5,
+    "suppressed_primary": 6,
+    "suppressed_zctas": [
+      "89019",
+      "92278",
+      "92280",
+      "92304",
+      "92338",
+      "92364"
+    ],
+    "count_rule_differs_from_land": 2,
+    "region_zctas": 829,
+    "tiger_zcta_universe": 33791,
+    "buffer_km": 150.0,
+    "zip_no_zcta": {
+      "statewide_zips_in_A_2026_09": 2554,
+      "zips_without_zcta": 757,
+      "members_without_zcta_statewide_2026_09": 15394,
+      "zips_without_zcta_ie_hint": 21,
+      "members_without_zcta_ie_hint_2026_09": 7620,
+      "zips_without_zcta_no_county_hint": 736,
+      "members_without_zcta_no_county_hint_2026_09": 3860,
+      "invalid_or_outofstate_zip_dot_members_2026_09": 162125,
+      "statewide_total_A_2026_09": 13380286
+    },
+    "ie_touching_zcta_without_polygon": [
+      "92317",
+      "92350",
+      "92369",
+      "92415",
+      "92521"
+    ],
+    "ie_touching_zcta_without_polygon_eligibles_2026_09": 14859.0,
+    "reconciliation": [
+      {
+        "month": "2026-09",
+        "county": "Riverside",
+        "B_total": 912055.0,
+        "A_majority_rule": 904764.0,
+        "A_pop_share_alloc": 904329.542328336,
+        "A_land_share_alloc": 909641.8293383615,
+        "A_all_ie_touching_zctas_both_counties": 1871886.0,
+        "A_majority_rule_pct_vs_B": -0.799403544742372,
+        "A_pop_share_alloc_pct_vs_B": -0.8470385746105147,
+        "A_land_share_alloc_pct_vs_B": -0.26458608983432885
+      },
+      {
+        "month": "2026-09",
+        "county": "San Bernardino",
+        "B_total": 905173.0,
+        "A_majority_rule": 908744.0,
+        "A_pop_share_alloc": 908514.8376261267,
+        "A_land_share_alloc": 897149.0583905079,
+        "A_all_ie_touching_zctas_both_counties": 1871886.0,
+        "A_majority_rule_pct_vs_B": 0.394510220698141,
+        "A_pop_share_alloc_pct_vs_B": 0.36919325102788836,
+        "A_land_share_alloc_pct_vs_B": -0.8864539275356242
+      },
+      {
+        "month": "2026-08",
+        "county": "Riverside",
+        "B_total": 922169.0,
+        "A_majority_rule": 914291.0,
+        "A_pop_share_alloc": 913851.7088817087,
+        "A_land_share_alloc": 919233.5342492382,
+        "A_all_ie_touching_zctas_both_counties": 1890539.0,
+        "A_majority_rule_pct_vs_B": -0.8542902656671347,
+        "A_pop_share_alloc_pct_vs_B": -0.9019269915049533,
+        "A_land_share_alloc_pct_vs_B": -0.31832188576733644
+      },
+      {
+        "month": "2026-08",
+        "county": "San Bernardino",
+        "B_total": 913336.0,
+        "A_majority_rule": 917278.0,
+        "A_pop_share_alloc": 917041.3085209068,
+        "A_land_share_alloc": 905526.0413261511,
+        "A_all_ie_touching_zctas_both_counties": 1890539.0,
+        "A_majority_rule_pct_vs_B": 0.4316045792567058,
+        "A_pop_share_alloc_pct_vs_B": 0.40568952947293013,
+        "A_land_share_alloc_pct_vs_B": -0.8551024676404784
+      },
+      {
+        "month": "2025-09",
+        "county": "Riverside",
+        "B_total": 1009294.0,
+        "A_majority_rule": 1003319.0,
+        "A_pop_share_alloc": 1002766.4606079665,
+        "A_land_share_alloc": 1008386.9644759162,
+        "A_all_ie_touching_zctas_both_counties": 2035263.0,
+        "A_majority_rule_pct_vs_B": -0.5919979708588374,
+        "A_pop_share_alloc_pct_vs_B": -0.6467431087506248,
+        "A_land_share_alloc_pct_vs_B": -0.08986831627689762
+      },
+      {
+        "month": "2025-09",
+        "county": "San Bernardino",
+        "B_total": 964814.0,
+        "A_majority_rule": 968511.0,
+        "A_pop_share_alloc": 968282.0529296596,
+        "A_land_share_alloc": 956020.2139941178,
+        "A_all_ie_touching_zctas_both_counties": 2035263.0,
+        "A_majority_rule_pct_vs_B": 0.38318266525982914,
+        "A_pop_share_alloc_pct_vs_B": 0.35945300645094935,
+        "A_land_share_alloc_pct_vs_B": -0.9114488394532216
+      }
+    ],
+    "touching_overshoot": {
+      "2026-09": {
+        "A_ie_touching_zctas": 1871886.0,
+        "B_both_counties": 1817228.0,
+        "pct_over": 3.007767875027234
+      },
+      "2026-08": {
+        "A_ie_touching_zctas": 1890539.0,
+        "B_both_counties": 1835505.0,
+        "pct_over": 2.998302919360074
+      },
+      "2025-09": {
+        "A_ie_touching_zctas": 2035263.0,
+        "B_both_counties": 1974108.0,
+        "pct_over": 3.0978548286112018
+      }
+    },
+    "gap_decomposition_2026_09": {
+      "A_ie_touching_total": 1871886.0,
+      "est_members_outside_ie_inside_touching_zctas": 59041.620045537325,
+      "est_ie_members_in_touching_zctas": 1812844.3799544629,
+      "B_both_counties": 1817228.0,
+      "residual_B_minus_est_ie_members": 4383.620045537129,
+      "note": "A-minus-B overshoot is mostly split ZCTAs that include residents of other counties/states; B is by county of residence. Residual includes ZIPs without ZCTA, invalid ZIPs ('.'), suppressed cells, and error in the area-uniform population assumption."
+    },
+    "a_statewide_total_by_month": {
+      "2025-09": 14603011,
+      "2026-08": 13536071,
+      "2026-09": 13380286,
+      "2026-10": 13089574
+    },
+    "a_sum_valid_zip_by_month": {
+      "2026-09": 13216012,
+      "2026-08": 13368266,
+      "2025-09": 14410979,
+      "2026-10": 12934230
+    },
+    "a_invalid_zip_dot_by_month": {
+      "2025-09": 190052,
+      "2026-08": 165706,
+      "2026-09": 162125,
+      "2026-10": 153228
+    }
+  },
+  "supply_build": {
+    "e_rows_total": 380888,
+    "ie_rows": 36470,
+    "ie_unique_npi": 30522,
+    "ie_unique_npi_addr_zip": 32648,
+    "data_report_expected": {
+      "rows": 36470,
+      "npi": 30520,
+      "npi_addr_zip": 32529
+    },
+    "ie_zcta_by_zip_assigned": 36279,
+    "ie_zcta_by_pip_rescued": 191,
+    "ie_no_zcta": 0,
+    "ie_rows_zip_missing": 0,
+    "ie_coord_valid": 36460,
+    "ie_coord_suspect": 88,
+    "dental_rows": 53303,
+    "dental_zip_has_zcta": 47535
+  },
+  "supply_diagnostics": {
+    "ie_rows": 36470,
+    "ie_unique_npi": 30522,
+    "ie_unique_npi_addr_zip": 32648,
+    "rows_by_County_label": {
+      "Riverside": 13402,
+      "San Bernardino": 14890
+    },
+    "rows_by_CountyName_latlon": {
+      "Riverside": 17632,
+      "San Bernardino": 18816
+    },
+    "rows_county_label_NA_total": 94409,
+    "rows_county_label_UNKNOWN_total": 7975,
+    "ie_rows_with_county_label_NA": 8428,
+    "chcf_sep25_rows": {
+      "Riverside": 13267,
+      "San Bernardino": 14781
+    },
+    "chcf_gap_note": "County-label counts from the 2026-10-26 file are within about 1% of CHCF's 2026-09-25 figures; the 36,470-row IE definition is higher because Provider_Source 2/3 rows carry County='N/A' and are only recoverable through CountyName (lat/lon).",
+    "orp_source3_test": {
+      "statewide_rows_source3": 68279,
+      "statewide_npi_source3": 68279,
+      "share_source3_rows_non_billing": 1.0,
+      "share_source3_with_medicaid_flag": 0.0,
+      "share_source3_npi_also_in_source1": 0.15903865024385244,
+      "share_source3_npi_also_in_source1_billing": 0.011306551062552175,
+      "share_source3_type1_individual": 0.9999560626254046,
+      "ie_rows_source3": 5035,
+      "ie_source3_npi_not_in_source1_ie": 4292,
+      "ie_source3_physician_rows": 860,
+      "ie_source3_types": {
+        "000": 1361,
+        "077": 870,
+        "026": 860,
+        "070": 600,
+        "007": 570,
+        "037": 295,
+        "019": 126,
+        "031": 113
+      },
+      "statewide_source2_rows": 26130,
+      "share_source2_npi_also_in_source1": 0.11197856869498661,
+      "share_source1_rows_billing": 0.3458892274826427,
+      "statewide_billing_rows_by_source": {
+        "1": 99090,
+        "2": 0,
+        "3": 0
+      },
+      "conclusion": "Source 3 rows are all non-billing individuals, none carry the new-patient flag, none carry a taxonomy, and most NPIs appear nowhere in the billing-capable Main file. That pattern is what ordering/referring/prescribing-only (ORP) records would look like, but the file does not state the expansion of 'ORP'. They are removed from definitions b-e. UNVERIFIED: the acronym."
+    },
+    "specialty_type_coverage": {
+      "statewide_rows": 380888,
+      "statewide_share_spec_unknown_or_NA": 0.6420128751759048,
+      "statewide_share_type_unknown_or_NA": 0.11119279158177732,
+      "ie_rows": 36470,
+      "ie_share_spec_unknown_or_NA": 0.6820948724979435,
+      "ie_share_type_unknown_or_NA": 0.13035371538250617,
+      "ie_physician_rows": 12833,
+      "ie_physician_share_spec_code_present": 0.7680978726720175,
+      "ie_physician_share_unknown_after_rescue": 0.1114314657523572,
+      "ie_physician_rows_rescued_by_taxonomy": 1594,
+      "ie_physician_rows_rescued_by_anc": 2,
+      "ie_physician_rows_source3": 860,
+      "ie_phys_np_rows": 14580,
+      "ie_phys_np_rows_primary_care": 7051,
+      "ie_phys_np_rows_specialty_nonPC": 6099,
+      "ie_phys_np_rows_unknown_specialty": 1430,
+      "ie_physician_rows_unknown_share_of_candidate_PC_set_a": 0.1739619554101043,
+      "classifiable_share_all_ie_rows": 0.6209761447765286,
+      "unclassifiable_source2_or_3_no_type_rows": 4754
+    },
+    "address_concentration": {
+      "ie_unique_addresses": 10885,
+      "npi_per_address_median": 1.0,
+      "npi_per_address_p90": 4.0,
+      "npi_per_address_p99": 27.159999999999854,
+      "npi_per_address_max": 1626,
+      "addresses_with_ge50_npi": 58,
+      "addresses_with_ge100_npi": 28,
+      "share_rows_at_addr_ge10": 0.46756238003838774,
+      "share_rows_at_addr_ge50": 0.2933918289004661,
+      "share_rows_at_addr_ge100": 0.23561831642445846,
+      "share_rows_at_addr_ge500": 0.09843707156567041,
+      "share_single_npi_addresses": 0.7139182361047313,
+      "pcp_b_share_at_addr_ge10": 0.6620348187190545,
+      "pcp_b_share_at_addr_ge25": 0.5492732790289091,
+      "pcp_b_share_at_addr_ge50": 0.5058297396582015,
+      "pcp_b_share_at_addr_ge100": 0.43124101581217056,
+      "pcp_b_share_at_addr_ge500": 0.23031464622264813,
+      "pcp_b_total": 6261,
+      "pcp_e_cap25_total": 3974.0,
+      "pcp_cap_reduction_share": 0.365277112282383,
+      "n_zcta_with_pcp_b_ge_half_at_100plus_addr": 7
+    },
+    "sanity_check_vs_chcf": {
+      "pop_ie": 4769007,
+      "pop_ca_2020_census": 39538223,
+      "chcf_pc_implied_ie": 4053.65595,
+      "rows": [
+        {
+          "measure": "physicians (all)",
+          "E_IE_per_100k": 241.53875219726032,
+          "CHCF_IE_all_payer_per_100k": 229,
+          "ratio_E_to_CHCF_IE": 1.0547543764072502,
+          "E_CA_per_100k": 350.3495845020652,
+          "CHCF_CA_per_100k": 358,
+          "ratio_E_to_CHCF_CA": 0.9786301243074448,
+          "implied_pc_physicians_chcf_IE": 4053.65595
+        },
+        {
+          "measure": "physicians (Source 1-2 only)",
+          "E_IE_per_100k": 227.61551828294654,
+          "CHCF_IE_all_payer_per_100k": 229,
+          "ratio_E_to_CHCF_IE": 0.9939542283098102,
+          "E_CA_per_100k": 318.61320626372105,
+          "CHCF_CA_per_100k": 358,
+          "ratio_E_to_CHCF_CA": 0.8899810230830197,
+          "implied_pc_physicians_chcf_IE": 4053.65595
+        },
+        {
+          "measure": "primary care physicians",
+          "E_IE_per_100k": 106.29047095129027,
+          "CHCF_IE_all_payer_per_100k": 85,
+          "ratio_E_to_CHCF_IE": 1.2504761288387092,
+          "E_CA_per_100k": 136.51346951025087,
+          "CHCF_CA_per_100k": 118,
+          "ratio_E_to_CHCF_CA": 1.1568938094089056,
+          "implied_pc_physicians_chcf_IE": 4053.65595
+        },
+        {
+          "measure": "specialists (non-PC, non-psychiatry)",
+          "E_IE_per_100k": 113.08433810225064,
+          "CHCF_IE_all_payer_per_100k": 115,
+          "ratio_E_to_CHCF_IE": 0.9833420704543534,
+          "E_CA_per_100k": 173.87225520985098,
+          "CHCF_CA_per_100k": 176,
+          "ratio_E_to_CHCF_CA": 0.9879105409650624,
+          "implied_pc_physicians_chcf_IE": 4053.65595
+        },
+        {
+          "measure": "psychiatrists",
+          "E_IE_per_100k": 8.911708454191826,
+          "CHCF_IE_all_payer_per_100k": 11,
+          "ratio_E_to_CHCF_IE": 0.8101553140174388,
+          "E_CA_per_100k": 12.602994322734231,
+          "CHCF_CA_per_100k": 18,
+          "ratio_E_to_CHCF_CA": 0.7001663512630129,
+          "implied_pc_physicians_chcf_IE": 4053.65595
+        }
+      ],
+      "ie_E": {
+        "scope": "Inland Empire (E, IE extract)",
+        "population": 4769007,
+        "physician_npi_all_sources": 11519,
+        "physician_npi_source1_2": 10855,
+        "physician_npi_billing_own": 1043,
+        "pc_physician_npi": 5069,
+        "psychiatrist_npi": 425,
+        "specialist_nonpc_npi": 5393,
+        "unknown_specialty_npi": 1414,
+        "np_npi": 1655,
+        "physician_npi_all_sources_per_100k": 241.53875219726032,
+        "physician_npi_source1_2_per_100k": 227.61551828294654,
+        "physician_npi_billing_own_per_100k": 21.87038098287547,
+        "pc_physician_npi_per_100k": 106.29047095129027,
+        "psychiatrist_npi_per_100k": 8.911708454191826,
+        "specialist_nonpc_npi_per_100k": 113.08433810225064,
+        "unknown_specialty_npi_per_100k": 29.649778245240572,
+        "np_npi_per_100k": 34.7032411569117
+      },
+      "ca_E": {
+        "scope": "California (E, State=CA)",
+        "population": 39538223,
+        "physician_npi_all_sources": 138522,
+        "physician_npi_source1_2": 125974,
+        "physician_npi_billing_own": 11290,
+        "pc_physician_npi": 53975,
+        "psychiatrist_npi": 4983,
+        "specialist_nonpc_npi": 68746,
+        "unknown_specialty_npi": 23159,
+        "np_npi": 16170,
+        "physician_npi_all_sources_per_100k": 350.3495845020652,
+        "physician_npi_source1_2_per_100k": 318.61320626372105,
+        "physician_npi_billing_own_per_100k": 28.554646980467485,
+        "pc_physician_npi_per_100k": 136.51346951025087,
+        "psychiatrist_npi_per_100k": 12.602994322734231,
+        "specialist_nonpc_npi_per_100k": 173.87225520985098,
+        "unknown_specialty_npi_per_100k": 58.573699682962484,
+        "np_npi_per_100k": 40.897133894965386
+      },
+      "caveats": [
+        "CHCF counts active physicians (2024, all payers); E counts enrolled records of any activity level in 2026-10 and cannot see claims.",
+        "E physician NPI counted once even if at several addresses; some E physicians practise partly outside the IE.",
+        "CHCF 'primary care' definition (specialty grouping) is not given here; E uses FM, IM, pediatrics, GP and geriatrics codes plus taxonomy rescue."
+      ]
+    },
+    "iehp_factsheet_network": {
+      "PCP": 1488,
+      "Specialists": 2817,
+      "Behavioral Health": 3453,
+      "Hospitals": 34,
+      "Other": 2570,
+      "Total": 10362
+    },
+    "E_vs_iehp": {
+      "E_pcp_md_b": 5165,
+      "E_pcp_all_npi": 5069,
+      "E_specialist_all_b": 6042,
+      "E_mh_b": 4681,
+      "note": "IEHP counts contracted network practitioners and facilities by their IEHP role (PCP/specialist/behavioral health); E counts FFS-enrolled records by type and specialty. Different populations (IEHP network vs FFS enrolment), different units (individual+facility mix vs NPI-ZIP) and different years; ratios are shown only to size the gap."
+    },
+    "pcp_billing_structure": {
+      "n": 5304,
+      "own_npi_billers": 0.11029411764705882,
+      "billing_row_at_same_address": 0.7882730015082956
+    }
+  },
+  "access": {
+    "min_base": 500,
+    "n_study_zcta_ie": 164,
+    "n_ranked_zcta": 130,
+    "n_below_min_base": 34,
+    "demand_points": 744,
+    "supply_locations": 18257,
+    "pairs_within_60km": 4699440,
+    "kernel": "Gaussian E2SFCA (Dai 2010) with RUCA-variable catchment 15/30/60 km (primary)",
+    "flip_counts_pcp_b": {
+      "other": 103,
+      "raw says shortage, catchment does not (false alarm)": 10,
+      "both low": 10,
+      "catchment says shortage, raw does not (hidden)": 7
+    },
+    "eb_prior_example": {
+      "pcp__b": {
+        "shape": 0.31967441125950763,
+        "rate": 0.08840520442698814,
+        "prior_mean_per1000": 3.6160134839518356,
+        "prior_cv": 1.7686669601558984
+      },
+      "mh__b": {
+        "shape": 0.2935989436279333,
+        "rate": 0.101123882407032,
+        "prior_mean_per1000": 2.9033590942065817,
+        "prior_cv": 1.8455369964356438
+      },
+      "specialist_all__b": {
+        "shape": 0.207131999613209,
+        "rate": 0.04427901439126955,
+        "prior_mean_per1000": 4.677881891925061,
+        "prior_cv": 2.1972344575123506
+      }
+    },
+    "rank_correlation_pcp_b_gvar": 0.40473613874418307
+  },
+  "scenarios": {
+    "guide_check": {
+      "guide_text": "about 190,000 at about 14% (1 in 7)",
+      "at_14_0_pct": 185078,
+      "at_1_in_7": 188855,
+      "guide_190k_implies_share": 0.1437234820720085,
+      "diff_190k_vs_14pct": 4922,
+      "diff_190k_vs_1_in_7": 1145,
+      "rounding_note": "190,000 implies 14.37%; 14.0% gives 185,078 (about 185,000); exactly 1/7 gives 188,855 (about 189,000). The guide overstates its own 'about 14%' row by 1,100-5,000 members."
+    },
+    "iehp_B_members": 1340442.0,
+    "vintage": {
+      "ffs_two_counties_2026_09_as_published": 99206.0,
+      "ffs_two_counties_2026_08": 111790.0,
+      "ffs_two_counties_2026_10": 66869.0,
+      "mature_proxy_mean_2026_06_to_08": 112539.0,
+      "sep_vs_mature_shortfall_pct": 11.84744844009632,
+      "oct_vs_mature_shortfall_pct": 40.58148730662259,
+      "statewide_ffs_2026_04_in_oct7_snapshot": 745220.0,
+      "statewide_mc_2026_04_in_oct7_snapshot": 13228669.0,
+      "dhcs_quoted_2026_04": {
+        "ffs": 702547,
+        "mc": 13207633
+      },
+      "ffs_revision_pct_between_dhcs_quote_and_oct7_snapshot": 6.074042021387882,
+      "mc_revision_pct": 0.15927153639112568,
+      "older_vintages_available": "No. Only the 2026-10-07 snapshot of A/B was downloaded; the Internet Archive was offline (HTTP 'Temporarily Offline') on 2026-11-02, so no older B vintage could be fetched. Evidence of upward revision comes from (i) the within-snapshot recency profile and (ii) DHCS's own April-2026 figure (vintage date not stated) vs the same month in this snapshot."
+    },
+    "all_plan": {
+      "managed_care_total_B_2026_09": 1718022.0,
+      "iehp_members_B": 1340442.0,
+      "iehp_share_of_mc": 0.7802240017881028,
+      "non_iehp_exposed_members": 374181.0,
+      "statewide_implied_rate_multiples": {
+        "iehp_mover_share_5pct": 2.111111111111111,
+        "iehp_mover_share_7pct": 1.4761904761904758
+      },
+      "note": "Kaiser, Molina, SCAN and out-of-county plan members counted as exposed; PACE excluded (stays in PACE). Multiples 0.5-2.0 are a range, not an estimate. Statewide pattern (IEHP 10.0% of enrolment, 5-7% of movers) implies non-IEHP plans' per-member rate 1.5x-2.1x IEHP's [ESTIMATE: arithmetic on S35/S32]."
+    },
+    "medicaid_flag": {
+      "ie_rows": 36470,
+      "flagged_rows": 1614,
+      "flagged_share_of_rows": 0.04425555250891144,
+      "values": {
+        "B": 1283,
+        "N": 137,
+        "F": 118,
+        "M": 76
+      },
+      "share_accept_new_ffs_B_or_F": 0.8680297397769516,
+      "share_managed_care_only_M": 0.04708798017348203,
+      "share_no_new_medicaid_N": 0.0848822800495663,
+      "share_declining_new_ffs_M_or_N": 0.13197026022304834,
+      "audit_range": [
+        0.4,
+        0.65
+      ],
+      "gap_above_audit_top_pp": 21.80297397769516,
+      "gap_above_audit_bottom_pp": 46.80297397769516,
+      "accept_share_ci95": [
+        0.8505373518651649,
+        0.8841708902802372
+      ],
+      "billing_rows": 10497,
+      "flag_coverage_of_billing_rows": 0.1537582166333238,
+      "nonbilling_flagged_rows": 0,
+      "pcp_rows_b": 6261,
+      "pcp_b_rows_with_flag": 53,
+      "pcp_any_flagged_rows": 273,
+      "pcp_any_flag_values": {
+        "B": 240,
+        "N": 14,
+        "M": 12,
+        "F": 7
+      },
+      "pcp_any_accept_share": 0.9047619047619048,
+      "selection_logit_n": 10497,
+      "selection_logit": {
+        "const": {
+          "coef": -1.8402,
+          "or": 0.1588,
+          "ci_lo": 0.1321,
+          "ci_hi": 0.1909,
+          "p": 0.0
+        },
+        "org": {
+          "coef": 0.1891,
+          "or": 1.2081,
+          "ci_lo": 1.0137,
+          "ci_hi": 1.4398,
+          "p": 0.0347
+        },
+        "sb": {
+          "coef": -0.0618,
+          "or": 0.9401,
+          "ci_lo": 0.8442,
+          "ci_hi": 1.0468,
+          "p": 0.2599
+        },
+        "log_addr_npi": {
+          "coef": 0.0789,
+          "or": 1.0821,
+          "ci_lo": 1.035,
+          "ci_hi": 1.1314,
+          "p": 0.0005
+        },
+        "phys": {
+          "coef": -0.6776,
+          "or": 0.5079,
+          "ci_lo": 0.4121,
+          "ci_hi": 0.6258,
+          "p": 0.0
+        },
+        "mh": {
+          "coef": -1.1814,
+          "or": 0.3068,
+          "ci_lo": 0.2253,
+          "ci_hi": 0.4179,
+          "p": 0.0
+        },
+        "clinic": {
+          "coef": 0.9201,
+          "or": 2.5095,
+          "ci_lo": 1.9402,
+          "ci_hi": 3.246,
+          "p": 0.0
+        }
+      },
+      "accept_share_by_county": {
+        "Riverside": 0.8559907834101382,
+        "San Bernardino": 0.8863328822733424
+      },
+      "known_accepting_new_ffs_rows": 1401,
+      "interpretation_M": "M = accepts new managed-care Medicaid patients only. These records are FFS-enrolled (they are in E) but declare no new FFS patients: a partial view of providers on the guide's Group A list who would not take moving members. N = no new Medicaid at all. Because the flag is self-reported, present on 15% of billing rows and on no non-billing IE row, M+N is a floor on declining providers, not a rate."
+    },
+    "age_shares_note": "Statewide shares (251,000 of 1.9 million under 21; 28.8% age 50+ of the expansion group) applied to IEHP scenarios; ESTIMATE, not an IE count; no age restriction on demand."
+  },
+  "covariates": {
+    "n_zcta": 169,
+    "missing_acs_pop": 0,
+    "missing_poverty": 9,
+    "missing_income": 16,
+    "missing_places": 7,
+    "missing_ruca": 0,
+    "hrsa_sites_in_ie": 183,
+    "hrsa_sites_matched_to_base_zcta": 182,
+    "hpsa_pc_zcta_ge50": 71,
+    "hpsa_mh_zcta_ge50": 72,
+    "hpsa_dh_zcta_ge50": 41,
+    "elig_per_pop_gt_1": 0,
+    "elig_per_pop_gt_0_9": 1,
+    "no_citizenship_or_nativity_variables_used": true
+  },
+  "correlations": {
+    "n_sample": 130,
+    "n_model_sample": 130,
+    "n_tests": 69,
+    "n_sig_adj": 44,
+    "hpsa_detection": {
+      "n": 130,
+      "low_quartile_n": 33,
+      "hpsa_share_overall": 0.3384615384615385,
+      "hpsa_share_in_low_quartile": 0.696969696969697,
+      "sensitivity": 0.696969696969697,
+      "specificity": 0.7835051546391752,
+      "low_quartile_not_hpsa": 10,
+      "hpsa_not_low": 21,
+      "cohen_kappa": 0.4328736279200675,
+      "eligibles_low_quartile_not_hpsa": 111824.0,
+      "eligibles_low_quartile_total": 300163.0
+    },
+    "morans": [
+      {
+        "variable": "EB PCP per 1,000 eligibles",
+        "n": 130,
+        "I": 0.0509,
+        "E_I": -0.0078,
+        "z_sim": 1.4375,
+        "p_sim": 0.084,
+        "n_filled_with_median": 0,
+        "p_adj_BH": 0.084
+      },
+      {
+        "variable": "PCP catchment g30",
+        "n": 130,
+        "I": 0.8312,
+        "E_I": -0.0078,
+        "z_sim": 13.6917,
+        "p_sim": 0.001,
+        "n_filled_with_median": 0,
+        "p_adj_BH": 0.0012
+      },
+      {
+        "variable": "MH catchment g30",
+        "n": 130,
+        "I": 0.799,
+        "E_I": -0.0078,
+        "z_sim": 13.3177,
+        "p_sim": 0.001,
+        "n_filled_with_median": 0,
+        "p_adj_BH": 0.0012
+      },
+      {
+        "variable": "poverty rate",
+        "n": 130,
+        "I": 0.3778,
+        "E_I": -0.0078,
+        "z_sim": 6.5057,
+        "p_sim": 0.001,
+        "n_filled_with_median": 0,
+        "p_adj_BH": 0.0012
+      },
+      {
+        "variable": "vulnerability index",
+        "n": 130,
+        "I": 0.3198,
+        "E_I": -0.0078,
+        "z_sim": 5.3915,
+        "p_sim": 0.001,
+        "n_filled_with_median": 0,
+        "p_adj_BH": 0.0012
+      },
+      {
+        "variable": "diabetes prevalence",
+        "n": 130,
+        "I": 0.356,
+        "E_I": -0.0078,
+        "z_sim": 5.8702,
+        "p_sim": 0.001,
+        "n_filled_with_median": 0,
+        "p_adj_BH": 0.0012
+      }
+    ]
+  },
+  "ranking": {
+    "n": 130,
+    "top_decile_n": 13,
+    "pca_explained_variance": 0.6643414008674313,
+    "pca_weights": {
+      "PCP": 0.239,
+      "MH": 0.238,
+      "SPEC": 0.22,
+      "DENTAL": 0.213,
+      "NEED": 0.089
+    },
+    "evidence_weights": {
+      "PCP": 0.35,
+      "MH": 0.2,
+      "SPEC": 0.15,
+      "DENTAL": 0.05,
+      "NEED": 0.25
+    },
+    "equal_vs_evidence_spearman": 0.9898577462769131,
+    "equal_vs_pca_spearman": 0.9862430423500205,
+    "evidence_vs_pca_spearman": 0.9748337063654726,
+    "top_decile_overlap_equal_evidence": 0.8461538461538461,
+    "top_decile_overlap_equal_pca": 0.8461538461538461,
+    "raw_ratio_rank_vs_composite_spearman": 0.39860491286140065,
+    "raw_vs_composite_top_decile_overlap": 0.15384615384615385,
+    "tier_counts": {
+      "Not flagged": 114,
+      "Tier 1: top decile in >=80% of draws": 6,
+      "Tier 3: top decile in 20-49% (possible)": 6,
+      "Tier 2: top decile in 50-79%": 4
+    },
+    "sweep_mean_corr_with_equal": 0.9512115791460434,
+    "ranks_with_median_rank_range_gt_50": 20,
+    "exposure_vs_intensity_spearman": 0.30615171164128313,
+    "baseline_demand": "existing FFS + 10% of managed-care members, uniform share within county (IEHP-consistent), Dirichlet perturbation around eligible-proportional shares"
+  },
+  "quality": {
+    "ie_filter": {
+      "rule": "State='CA' and (County in (Riverside, San Bernardino) or CountyName in (Riverside County, San Bernardino County))",
+      "rows": 36470,
+      "unique_npi": 30520,
+      "npi_address_zip": 32531,
+      "npi_zip": 32131,
+      "data_report": {
+        "rows": 36470,
+        "unique_npi": 30520,
+        "npi_address_zip": 32529
+      },
+      "match": {
+        "rows": true,
+        "unique_npi": true,
+        "npi_address_zip": false
+      }
+    },
+    "keys_unique": {
+      "base": true,
+      "access": true,
+      "covariates": true,
+      "ranking": true,
+      "sample": true
+    },
+    "zip_and_zcta_separate_text_columns": true,
+    "join_coverage_base_169": {
+      "in_A": 168,
+      "has_polygon": 164,
+      "acs_pop": 162,
+      "acs_poverty": 160,
+      "acs_income": 153,
+      "places": 162,
+      "ruca": 169,
+      "catchment_available": 163,
+      "analysis_sample": 130
+    },
+    "denominator_identity_raw_ratio_max_abs_error": 0.0,
+    "eligibles_sum_check": {
+      "base_sum_all_touching": 1871886.0,
+      "expected_A_sum": 1871886.0
+    },
+    "definition_monotonicity": {
+      "pcp_md": true,
+      "np": true,
+      "pcp": true,
+      "mh": true,
+      "psychiatrist": true,
+      "cardiology": true,
+      "obgyn": true,
+      "endocrinology": true,
+      "specialist_all": true,
+      "clinic_all": true,
+      "clinic_fqhc": true
+    },
+    "suppression": {
+      "primary_month": "2026-09",
+      "suppressed_total_cells_ie_touching": 6,
+      "rule": "blank+annotation code is 'not shown', never zero; bounds 1-10 stored; suppressed ZCTAs not ranked"
+    },
+    "sensitive_column_guard": {
+      "forbidden_pattern": "citizen|nativ|foreign|immigra|aid_?categ|uis_|undocument|born",
+      "offending_columns": [],
+      "passed": true
+    },
+    "acs_tables_used": [
+      "B01003",
+      "B01001",
+      "B17001",
+      "B19013",
+      "B08201",
+      "C16001 (LEP, access-need only)",
+      "B27001"
+    ],
+    "no_subcounty_status_estimates": "No output allocates, ranks or maps members by immigration status; movers are county-level totals; unevenness tests use status-blind random draws.",
+    "specialty_mapping": {
+      "statewide_rows": 380888,
+      "statewide_share_spec_unknown_or_NA": 0.6420128751759048,
+      "statewide_share_type_unknown_or_NA": 0.11119279158177732,
+      "ie_rows": 36470,
+      "ie_share_spec_unknown_or_NA": 0.6820948724979435,
+      "ie_share_type_unknown_or_NA": 0.13035371538250617,
+      "ie_physician_rows": 12833,
+      "ie_physician_share_spec_code_present": 0.7680978726720175,
+      "ie_physician_share_unknown_after_rescue": 0.1114314657523572,
+      "ie_physician_rows_rescued_by_taxonomy": 1594,
+      "ie_physician_rows_rescued_by_anc": 2,
+      "ie_physician_rows_source3": 860,
+      "ie_phys_np_rows": 14580,
+      "ie_phys_np_rows_primary_care": 7051,
+      "ie_phys_np_rows_specialty_nonPC": 6099,
+      "ie_phys_np_rows_unknown_specialty": 1430,
+      "ie_physician_rows_unknown_share_of_candidate_PC_set_a": 0.1739619554101043,
+      "classifiable_share_all_ie_rows": 0.6209761447765286,
+      "unclassifiable_source2_or_3_no_type_rows": 4754
+    },
+    "definitions": {
+      "a": "broad",
+      "b": "deduped NPI-ZIP, individuals, Source 1-2",
+      "c": "strict",
+      "d": "billable at site",
+      "e": "address cap 25"
+    },
+    "month_sensitivity": {
+      "n": 130,
+      "spearman_eligibles_0908": 0.9999467423389985,
+      "spearman_eligibles_0925": 0.9991410495046111,
+      "median_pct_change_2025_09_to_2026_09": -7.291956190921667,
+      "p10_p90_pct_change": [
+        -11.191128484570262,
+        -2.723261483104875
+      ],
+      "total_pct_change_two_counties": -7.986167939479605,
+      "spearman_raw_pcp_ratio_0909_vs_0908": 0.9999724684764058,
+      "spearman_raw_pcp_ratio_0909_vs_2509": 0.9998072793348384,
+      "lowest_quintile_overlap_raw_ratio_vs_2025_09": 1.0
+    }
+  }
+}

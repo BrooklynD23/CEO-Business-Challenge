@@ -1,0 +1,525 @@
+=== SOURCE A: Medi-Cal certified eligibles by ZIP (2020-recent)
+-- rows, n_months, range
+  rows  n_months first_m  last_m
+646584        81 2020-01 2026-10
+
+-- status by month range
+Status      mn      mx  n_months   dod_min   dod_max
+     F 2020-01 2025-09        69 03JUN2024 24MAR2025
+     P 2025-11 2026-10        12 07OCT2026 07OCT2026
+
+-- months present around 2025-10 gap
+      m
+2025-08
+2025-09
+2025-11
+2025-12
+
+-- rows per recent month
+      m  rows  zips data_date
+2026-06  7660  2554 07OCT2026
+2026-07  7648  2550 07OCT2026
+2026-08  7705  2569 07OCT2026
+2026-09  7666  2556 07OCT2026
+2026-10  7600  2534 07OCT2026
+
+-- annotations
+ ac  count_star()
+  2          5103
+NaN        476749
+  1        164732
+
+-- non-numeric zip values
+      zip  count_star()
+STATEWIDE            81
+        .           243
+
+-- statewide total by month (zip='STATEWIDE', Total)
+      m        n
+2026-01 14360124
+2026-02 14214846
+2026-03 14113266
+2026-04 13977781
+2026-05 13832076
+2026-06 13689856
+2026-07 13614693
+2026-08 13536071
+2026-09 13380286
+2026-10 13089574
+
+-- IE-touching ZCTAs (Census 2020 rel file) count
+ zctas_touching_ie
+               169
+
+-- ZCTA county split
+ zctas  multi_county  ie_area_majority
+   169          19.0             162.0
+
+-- IE-touching ZCTA presence in A and suppression
+      m  zips  suppressed_total_cells     total
+2026-08   168                     5.0 1890539.0
+2026-09   168                     5.0 1871886.0
+2026-10   168                     5.0 1837356.0
+
+-- IE ZCTAs absent from A in 2026-09
+    z
+89019
+
+-- Total = Female+Male check (2026-09, IE ZCTAs)
+ mismatches
+          0
+
+-- suppressed cells by sex/code (2026-09 IE ZCTAs)
+   Sex ac  n
+ Total  1  5
+  Male  1  5
+Female  1  6
+  Male  2  3
+
+=== SOURCE B (age/sex, language, delivery system+plan, race/ethnicity)
+-- b_age rows/range/status
+ rows      mn      mx  counties  suppressed_cells
+93469 2010-01 2026-10        60             174.0
+
+-- b_lang rows/range/status
+  rows      mn      mx  counties  suppressed_cells
+252912 2010-01 2026-10        60           94805.0
+
+-- b_plan rows/range/status
+ rows      mn      mx  counties  suppressed_cells
+49920 2010-01 2026-10        60            1298.0
+
+-- b_race rows/range/status
+  rows      mn      mx  counties  suppressed_cells
+277204 2010-01 2026-10        60           22592.0
+
+-- B plan: IE delivery system by month
+      m         County             sys    total  suppressed
+2026-08      Riverside Fee-for-Service  59847.0         0.0
+2026-08      Riverside    Managed Care 862322.0         2.0
+2026-09      Riverside Fee-for-Service  52453.0         0.0
+2026-09      Riverside    Managed Care 859602.0         2.0
+2026-10      Riverside Fee-for-Service  35046.0         0.0
+2026-10      Riverside    Managed Care 859949.0         2.0
+2026-08 San Bernardino Fee-for-Service  51943.0         0.0
+2026-08 San Bernardino    Managed Care 861393.0         2.0
+2026-09 San Bernardino Fee-for-Service  46753.0         0.0
+2026-09 San Bernardino    Managed Care 858420.0         2.0
+2026-10 San Bernardino Fee-for-Service  31823.0         0.0
+2026-10 San Bernardino    Managed Care 856993.0         2.0
+
+-- B plan: IEHP rows (2026-09)
+        County                              Health Plan Total Eligibles
+     Riverside      Inland Empire Health Plan/Riverside         668,559
+San Bernardino Inland Empire Health Plan/San Bernardino         671,883
+
+-- B age/sex IE 2026-09
+        County Age Group Gender Total Eligibles
+     Riverside Age 00-18 Female         170,795
+     Riverside Age 00-18   Male         179,986
+     Riverside Age 19-44 Female         180,497
+     Riverside Age 19-44   Male         135,251
+     Riverside Age 45-64 Female          87,432
+     Riverside Age 45-64   Male          70,804
+     Riverside   Age 65+ Female          52,942
+     Riverside   Age 65+   Male          34,409
+San Bernardino Age 00-18 Female         168,866
+San Bernardino Age 00-18   Male         177,605
+San Bernardino Age 19-44 Female         180,990
+San Bernardino Age 19-44   Male         133,661
+San Bernardino Age 45-64 Female          87,573
+San Bernardino Age 45-64   Male          70,134
+San Bernardino   Age 65+ Female          51,975
+San Bernardino   Age 65+   Male          34,398
+
+-- B language distinct values
+       Language
+        Unknown
+            ASL
+         Arabic
+       Armenian
+      Cambodian
+      Cantonese
+        English
+          Farsi
+         French
+         Hebrew
+          Hindi
+          Hmong
+        Ilocano
+        Italian
+       Japanese
+         Korean
+            Lao
+       Mandarin
+           Mien
+Missing/Unknown
+  Other Chinese
+  Other Non-Eng
+     Other Sign
+         Polish
+     Portuguese
+        Punjabi
+        Russian
+      STATEWIDE
+         Samoan
+        Spanish
+        Tagalog
+           Thai
+        Turkish
+     Vietnamese
+
+-- B race distinct values
+   Ethnicity
+       AI/AN
+       ASIAN
+       BLACK
+    HISPANIC
+NOT REPORTED
+   STATEWIDE
+       WHITE
+
+=== SOURCE D: managed care enrollment (header=true needed; BOM + trailing comma)
+-- D range
+     mn      mx  rows  n_months
+2007-01 2026-09 31771       237
+
+-- D IE by county, plan type (2026-09, non-dental)
+        County                        pt                                             plan      n   ac
+     Riverside  Commercial Plan (2 Plan)                      Kaiser Permanente/Riverside  92609 None
+     Riverside  Commercial Plan (2 Plan)        Molina Healthcare of California/Riverside  82101 None
+     Riverside Local Initiative (2 Plan)              Inland Empire Health Plan/Riverside 677919 None
+     Riverside                      PACE                          InnovAge PACE/Riverside    355 None
+     Riverside                      PACE      Loma Linda University Health PACE/Riverside     59 None
+     Riverside                      PACE           Neighborhood Healthcare PACE/Riverside    428 None
+     Riverside                      PACE              WelbeHealth Inland Empire/Riverside    859 None
+     Riverside                      PACE        WelbeHealth San Bernardino PACE/Riverside   <NA>    1
+     Riverside                      SCAN                       SCAN Health Plan/Riverside   4229 None
+     Riverside                      SCAN                       SCAN Health Plan/Riverside    590 None
+San Bernardino  Commercial Plan (2 Plan)                 Kaiser Permanente/San Bernardino 101352 None
+San Bernardino  Commercial Plan (2 Plan)   Molina Healthcare of California/San Bernardino  73778 None
+San Bernardino Local Initiative (2 Plan)         Inland Empire Health Plan/San Bernardino 685384 None
+San Bernardino                      PACE                      AltaMed PACE/San Bernardino     21 None
+San Bernardino                      PACE                  High Desert PACE/San Bernardino    256 None
+San Bernardino                      PACE                     InnovAge PACE/San Bernardino   1022 None
+San Bernardino                      PACE Loma Linda University Health PACE/San Bernardino    148 None
+San Bernardino                      PACE      Neighborhood Healthcare PACE/San Bernardino    123 None
+San Bernardino                      PACE         WelbeHealth Inland Empire/San Bernardino   <NA>    1
+San Bernardino                      PACE   WelbeHealth San Bernardino PACE/San Bernardino    219 None
+San Bernardino                      SCAN                  SCAN Health Plan/San Bernardino   3345 None
+San Bernardino                      SCAN                  SCAN Health Plan/San Bernardino    432 None
+
+-- D IE managed-care total 2026-09
+        County    total
+San Bernardino 866080.0
+     Riverside 859149.0
+
+=== SOURCE E: Medi-Cal FFS providers (as of 2026-10-26)
+-- overall
+  rows    npi  provider_numbers  pn_loc
+380888 310037            310086  335550
+
+-- county column coverage
+        County     n
+           N/A 94409
+San Bernardino 14890
+     Riverside 13402
+       UNKNOWN  7975
+
+-- IE rows by County/CountyName (State=CA)
+        County            CountyName     n
+San Bernardino San Bernardino County 14746
+     Riverside      Riverside County 13232
+           N/A      Riverside County  4380
+           N/A San Bernardino County  4048
+   Los Angeles San Bernardino County    13
+   Los Angeles      Riverside County    10
+     Riverside San Bernardino County     8
+     Riverside                   NaN     8
+San Bernardino      Riverside County     6
+San Bernardino    Los Angeles County     5
+     Riverside     Sacramento County     4
+San Bernardino                   NaN     2
+     Riverside      San Diego County     2
+       Alameda San Bernardino County     1
+     Riverside     Stanislaus County     1
+  Contra Costa      Riverside County     1
+     San Diego      Riverside County     1
+        Plumas      Riverside County     1
+        Orange      Riverside County     1
+
+-- County='N/A' IE rows by Provider_Source
+Provider_Source    n
+              3 5035
+              2 3393
+
+-- IE rows vs unique NPIs
+ rows   npi    pn  npi_address
+36470 30520 30522        32529
+
+-- IE rows excluding Provider_Source 3 (ORP)
+ rows   npi
+31435 26391
+
+-- IE NPI repeat distribution
+ rows_per_npi  npis
+            1 27012
+            2  2918
+            3   323
+            4    98
+            5    45
+            6    34
+            7    12
+            8    20
+            9     4
+           10     3
+
+-- Provider_Source x Billing_Provider x Medicaid_Patients populated (statewide)
+Provider_Source         Billing_Provider  mcp_populated  count_star()
+              1     FFS Billing Provider          False         80591
+              1     FFS Billing Provider           True         18499
+              1 FFS Non-Billing Provider          False        187387
+              1 FFS Non-Billing Provider           True             2
+              2 FFS Non-Billing Provider          False         26130
+              3 FFS Non-Billing Provider          False         68279
+
+-- IE Medicaid_Patients (accepting new patients flag) values
+Medicaid_Patients     n
+              NaN 34856
+                B  1283
+                N   137
+                F   118
+                M    76
+
+-- IE provider types
+ cd                                                                                  type  rows   npi
+026                                                                            PHYSICIANS 12833 11519
+N/A                                                                                   N/A  3393  3393
+077                                              MARRIAGE AND FAMILY THERAPIST INDIVIDUAL  3156  2938
+022                                                                      PHYSICIANS GROUP  2080  1102
+070                                            LICENSED CLINICAL SOCIAL WORKER INDIVIDUAL  1909  1775
+007                                                            CERTIFIED NURSE PRACTIONER  1747  1655
+000                                                                               Unknown  1361  1361
+025                                                                   PHYSICAL THERAPISTS   907   795
+020                                                                          OPTOMETRISTS   636   604
+037                                                                     SPEECH THERAPISTS   634   573
+024                                                                PHARMACIES/PHARMACISTS   628   628
+031                                                                         PSYCHOLOGISTS   619   532
+018                                                                    NURSE ANESTHETISTS   455   406
+019                                                               OCCUPATIONAL THERAPISTS   435   354
+057 EARLY AND PERIODIC SCREENING, DIAGNOSIS, AND TREATMENT SUPPLEMENTAL SERVICES PROVIDER   360   360
+067                                                      RVNS INDIVIDUAL  NURSE PROVIDERS   357   357
+010                                                    GROUP CERTIFIED NURSE PRACTITIONER   345   222
+092                                    RESIDENTIAL CARE FACILITIES FOR THE ELDERLY (RCFE)   298   276
+078                                                   MARRIAGE AND FAMILY THERAPIST GROUP   284   218
+027                                                                           PODIATRISTS   275   214
+017                                                               LONG TERM CARE FACILITY   273   249
+071                                                 LICENSED CLINICAL SOCIAL WORKER GROUP   241   179
+030                                                         GROUND MEDICAL TRANSPORTATION   185   185
+039                                                                     CERTIFIED HOSPICE   182   182
+014                                                                  HOME HEALTH AGENCIES   172   172
+035                                RURAL HEALTH CLINICS/FEDERALLY QUALIFIED HEALTH CENTER   168   109
+103                                 LICENSED PROFESSIONAL CLINICAL COUNSELOR - INDIVIDUAL   162   161
+023                                                                    GROUP OPTOMETRISTS   151    95
+087                                                                LICENSED PROFESSIONALS   149   149
+003                                                                          AUDIOLOGISTS   147    83
+076                                                                         DRUG MEDI-CAL   144   139
+005                                                               CERTIFIED NURSE MIDWIFE   124    84
+013                                                                HEARING AID DISPENSERS   121    78
+006                                                                         CHIROPRACTORS   110    96
+111                                                     QUALIFIED AUTISM SERVICE PROVIDER    97    96
+104                                      LICENSED PROFESSIONAL CLINICAL COUNSELOR - GROUP    96    60
+042                                                               CHRONIC DIALYSIS CLINIC    83    83
+108                                                         COMMUNITY BASED ORGANIZATIONS    77    76
+015                                                         COMMUNITY OUTPATIENT HOSPITAL    76    45
+029                                                                          PROSTHETISTS    76    74
+... (82 rows)
+
+-- IE physician specialties
+ cd                                         sp  rows  npi
+NaN                                        NaN  2116 2105
+ 41                          Internal Medicine  2012 2007
+ 08                            Family Practice  1171 1168
+N/A                                        N/A   860  860
+ 66           Emergency Medicine (Urgent Care)   824  823
+ 40                                 Pediatrics   822  814
+ 01                           General Practice   720  717
+ 30                                  Radiology   493  490
+ 05                             Anesthesiology   449  449
+ 02                            General Surgery   380  379
+ 16 Obstetrics-Gynecology (M.D. Only) Neonatal   366  359
+ 36                                 Psychiatry   319  317
+ 06         Cardiovascular Disease (M.D. only)   223  222
+ 20                         Orthopedic Surgery   220  220
+ 13                      Neurology (M.D. only)   166  162
+ 18                              Ophthalmology   159  158
+ 07                                Dermatology   136  136
+ 10               Gastroenterology (M.D. only)   119  119
+ 29             Pulmonary Diseases (M.D. only)    95   95
+ 34             Urology and Urological Surgery    94   94
+ 45                  Nephrology (Renal-Kidney)    92   92
+ 25       Physical Medicine and Rehabilitation    86   86
+ 22                      Pathology (M.D. only)    80   80
+ 78               Neoplastic Diseases/Oncology    70   70
+ 68                                 Hematology    70   70
+... (60 rows)
+
+-- Clinic/FQHC provider types statewide (CA)
+ cd                                       FI_Provider_Type  rows
+035 RURAL HEALTH CLINICS/FEDERALLY QUALIFIED HEALTH CENTER  2492
+040                                            FREE CLINIC     5
+041                                       COMMUNITY CLINIC   583
+045                            CLINIC EXEMP FROM LICENSURE   518
+048            COUNTY CLINICS NOT ASSOCIATED WITH HOSPITAL   102
+075         INDIAN HEALTH SERVICES/MEMORANDUM OF AGREEMENT    66
+096                                  TRIBAL FQHC PROVIDERS   101
+
+-- IE clinic types
+ cd                                       FI_Provider_Type  rows  npi
+035 RURAL HEALTH CLINICS/FEDERALLY QUALIFIED HEALTH CENTER   168  109
+041                                       COMMUNITY CLINIC    66   25
+045                            CLINIC EXEMP FROM LICENSURE    24   17
+048            COUNTY CLINICS NOT ASSOCIATED WITH HOSPITAL     4    4
+075         INDIAN HEALTH SERVICES/MEMORANDUM OF AGREEMENT     3    3
+096                                  TRIBAL FQHC PROVIDERS     9    9
+
+-- IE rows whose ZIP is inside an IE-touching ZCTA
+ rows  in_ie_zcta
+36470     36207.0
+
+-- Latest enrollment effective date
+latest_eff   earliest
+2026-10-15 1966-01-01
+
+-- E county mismatch: County vs CountyName (both IE but differ)
+ count_star()
+           14
+
+=== SOURCE F: dental FFS providers and safety net clinics (as of 2025-10)
+-- overall
+ rows   npi
+53303 20556
+
+-- types
+cd                                       d  rows   npi
+ R   Dental Rendering Provider information 33880 13539
+ B     Dental Billing Provider information 16152  6530
+RC Rendering Provider at Safety Net Clinic  2593  1289
+ C                       Safety Net Clinic   678   580
+
+-- IE
+        county  rows  npi
+     Riverside  3505 1676
+San Bernardino  3815 1905
+
+-- blank county rows
+ count_star()
+         5394
+
+=== SOURCE G: HRSA HPSA (header has trailing comma -> null_padding)
+-- PC rows and IE designations by status
+                 status  component_rows  hpsa_ids    dw_date
+             Designated             261        43 2026/11/02
+              Withdrawn             287        50 2026/11/02
+Proposed For Withdrawal             193        15 2026/11/02
+
+-- PC IE Designated: ZIP blank share
+ rows  blank_zip  min_score  max_score
+  261      234.0          6         19
+
+-- MH rows and IE designations by status
+                 status  component_rows  hpsa_ids    dw_date
+              Withdrawn             370        24 2026/11/02
+Proposed For Withdrawal             410        21 2026/11/02
+             Designated             355        48 2026/11/02
+
+-- MH IE Designated: ZIP blank share
+ rows  blank_zip  min_score  max_score
+  355      325.0          3         22
+
+-- DH rows and IE designations by status
+                 status  component_rows  hpsa_ids    dw_date
+             Designated             231        37 2026/11/02
+              Withdrawn              51        21 2026/11/02
+Proposed For Withdrawal              31         3 2026/11/02
+
+-- DH IE Designated: ZIP blank share
+ rows  blank_zip  min_score  max_score
+  231      205.0          8         25
+
+=== OTHER
+-- HRSA health center sites in IE
+               county                                    t                      s   n
+     Riverside County                       Administrative All Other Clinic Types   7
+     Riverside County                       Administrative                Unknown   2
+     Riverside County Administrative/Service Delivery Site All Other Clinic Types   1
+     Riverside County                Service Delivery Site All Other Clinic Types 112
+     Riverside County                Service Delivery Site                 School   4
+San Bernardino County                       Administrative All Other Clinic Types   4
+San Bernardino County                       Administrative                Unknown   4
+San Bernardino County Administrative/Service Delivery Site All Other Clinic Types  11
+San Bernardino County                Service Delivery Site All Other Clinic Types  59
+San Bernardino County                Service Delivery Site                 School   3
+
+-- HRSA sites file
+ rows         dw
+19514 11/02/2026
+
+-- CHHS facility locations: IE counts by type
+   COUNTY_NAME                                  FAC_FDR   n
+SAN BERNARDINO                                  HOSPICE 150
+SAN BERNARDINO                       HOME HEALTH AGENCY 149
+     RIVERSIDE                      PRIMARY CARE CLINIC 123
+SAN BERNARDINO                      PRIMARY CARE CLINIC 105
+SAN BERNARDINO INTERMEDIATE CARE FACILITY-DD/H/N/CN/IID  87
+     RIVERSIDE                       HOME HEALTH AGENCY  85
+     RIVERSIDE                                  HOSPICE  78
+     RIVERSIDE INTERMEDIATE CARE FACILITY-DD/H/N/CN/IID  74
+     RIVERSIDE                          SURGICAL CLINIC  64
+     RIVERSIDE                 SKILLED NURSING FACILITY  55
+SAN BERNARDINO                 SKILLED NURSING FACILITY  55
+SAN BERNARDINO                  CHRONIC DIALYSIS CLINIC  46
+... (32 rows)
+
+-- RUCA primary codes for IE-touching ZCTAs
+PrimaryRUCA  zips
+          1   104
+         10    18
+          2    15
+          3     5
+          4    15
+          5     3
+          6     1
+          7     7
+
+-- PLACES rows / IE-touching ZCTAs present
+ rows  ie_zctas
+32520     162.0
+
+-- ACS b01003: rows, ZCTA rows, IE-touching ZCTAs present
+  rows  zcta_rows  ie_zctas
+616690    33772.0     169.0
+
+-- ACS b01001: rows, ZCTA rows, IE-touching ZCTAs present
+  rows  zcta_rows  ie_zctas
+616690    33772.0     169.0
+
+-- ACS b17001: rows, ZCTA rows, IE-touching ZCTAs present
+  rows  zcta_rows  ie_zctas
+299181    33772.0     169.0
+
+-- ACS c16001: rows, ZCTA rows, IE-touching ZCTAs present
+  rows  zcta_rows  ie_zctas
+299181    33772.0     169.0
+
+-- ACS b08201: rows, ZCTA rows, IE-touching ZCTAs present
+  rows  zcta_rows  ie_zctas
+299181    33772.0     169.0
+
+-- ACS b27001: rows, ZCTA rows, IE-touching ZCTAs present
+  rows  zcta_rows  ie_zctas
+299181    33772.0     169.0
+
+-- ACS b19013: rows, ZCTA rows, IE-touching ZCTAs present
+  rows  zcta_rows  ie_zctas
+543579    33772.0     169.0

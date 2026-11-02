@@ -1,0 +1,36 @@
+{
+  "n": 130,
+  "top_decile_n": 13,
+  "pca_explained_variance": 0.6643414008674313,
+  "pca_weights": {
+    "PCP": 0.239,
+    "MH": 0.238,
+    "SPEC": 0.22,
+    "DENTAL": 0.213,
+    "NEED": 0.089
+  },
+  "evidence_weights": {
+    "PCP": 0.35,
+    "MH": 0.2,
+    "SPEC": 0.15,
+    "DENTAL": 0.05,
+    "NEED": 0.25
+  },
+  "equal_vs_evidence_spearman": 0.9898577462769131,
+  "equal_vs_pca_spearman": 0.9862430423500205,
+  "evidence_vs_pca_spearman": 0.9748337063654726,
+  "top_decile_overlap_equal_evidence": 0.8461538461538461,
+  "top_decile_overlap_equal_pca": 0.8461538461538461,
+  "raw_ratio_rank_vs_composite_spearman": 0.39860491286140065,
+  "raw_vs_composite_top_decile_overlap": 0.15384615384615385,
+  "tier_counts": {
+    "Not flagged": 114,
+    "Tier 1: top decile in >=80% of draws": 6,
+    "Tier 3: top decile in 20-49% (possible)": 6,
+    "Tier 2: top decile in 50-79%": 4
+  },
+  "sweep_mean_corr_with_equal": 0.9512115791460434,
+  "ranks_with_median_rank_range_gt_50": 20,
+  "exposure_vs_intensity_spearman": 0.30615171164128313,
+  "baseline_demand": "existing FFS + 10% of managed-care members, uniform share within county (IEHP-consistent), Dirichlet perturbation around eligible-proportional shares"
+}

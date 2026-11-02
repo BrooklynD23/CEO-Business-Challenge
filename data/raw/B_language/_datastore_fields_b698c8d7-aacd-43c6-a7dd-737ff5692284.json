@@ -1,0 +1,77 @@
+[
+ {
+  "id": "_id",
+  "type": "int"
+ },
+ {
+  "id": "Month of Eligibility",
+  "type": "text",
+  "info": {
+   "label": "Month of Eligibility",
+   "notes": "Denotes the year (four-digit) and month (two-digit) during which the Medi-Cal beneficiary was eligible for Medi-Cal.\r\n\r\n* YYYY-MM (e.g., 2016-01 is January 2016)",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "County",
+  "type": "text",
+  "info": {
+   "label": "County",
+   "notes": "Medi-Cal beneficiary\u2019s county of residence.\r\n\r\n* 58 counties",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Language",
+  "type": "text",
+  "info": {
+   "label": "Language (Primary Language)",
+   "notes": "Identifies Medi-Cal beneficiary\u2019s primary spoken language.\r\n\r\n* Arabic\r\n* Armenian\r\n* ASL\r\n* Cambodian\r\n* Cantonese\r\n* English\r\n* Farsi\r\n* French\r\n* Hebrew\r\n* Hmong\r\n* Ilocano\r\n* Italian\r\n* Japanese\r\n* Lao\r\n* Mandarin\r\n* Mien\r\n* Missing/Unknown\r\n* Other Chinese\r\n* Other Non-Eng\r\n* Other Sign\r\n* Polish\r\n* Portuguese\r\n* Russian\r\n* Samoan\r\n* Spanish\r\n* Tagalog\r\n* Thai\r\n* Turkish\r\n* Vietnamese",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Total Eligibles",
+  "type": "text",
+  "info": {
+   "label": "Total Eligibles",
+   "notes": "The total number of individuals certified eligible for the month of eligibility. Certified eligibles are those beneficiaries deemed qualified for Medi-Cal by a valid eligibility determination, and who have enrolled into the program. This classification excludes beneficiaries who have not met a monthly share-of-cost obligation.",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Annotation Code",
+  "type": "text",
+  "info": {
+   "label": "Annotation Code",
+   "notes": "Code for type annotation.\r\n\r\n* 1= suppressed due to small number\r\n* 2= suppressed due to complimentary cell small number\r\n* 3= No data available",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Annotation Description",
+  "type": "text",
+  "info": {
+   "label": "Annotation Description",
+   "notes": "Description of Annotation for COUNT columns.",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Status",
+  "type": "text",
+  "info": {
+   "label": "Status",
+   "notes": "Certified eligible counts with a status of \u201cP\u201d are preliminary and subject to change. A specific month\u2019s eligibility count is considered complete for statistical reporting purposes 12 months after the month\u2019s end and indicates a status \u201cF\u201d for final.\r\n\r\n* P (Preliminary)\r\n* F (Final)",
+   "type_override": ""
+  }
+ },
+ {
+  "id": "Date of Data",
+  "type": "text"
+ },
+ {
+  "id": "Difference",
+  "type": "text"
+ }
+]

@@ -1,0 +1,341 @@
+
+--- PAGE 1 ---
+Student Data Guide  ·  Page 1 
+CEO Business Challenge @ Cal Poly Pomona 
+Student Guide: Access to Care 
+Analyzing Health-Care Service Models for Inland Empire Health Plan 
+October 2026  ·  For use with CEO Business Challenge: IEHP Case Document 
+This guide focuses on impacts related to Access to Care. Read the IEHP Case Document first. Also 
+see the Financial Impacts Modeling Spreadsheet 
+Contents 
+1. Inland Empire: County Snapshot 
+2. Analysis of Impact: Access to Care 
+3. The demand side: Medi-Cal members 
+4. The supply side: Providers 
+5. Data sources and links 
+6. Explanations and how to use the data 
+7. References 
+ 
+ 
+ 
+--- PAGE 2 ---
+Student Data Guide  ·  Page 2 
+1. Inland Empire: County Snapshot 
+Metric Riverside 
+County 
+San 
+Bernardino 
+County 
+Total population (7/1/2025 est.) 2,544,916 2,224,091 
+Uninsured, % of population under 65 8.0% 8.1% 
+Median household income, 2024 dollars $93,074 $85,478 
+Persons in poverty, % 9.8% 12.6% 
+   
+Source:  Census Quick Facts (Ref 1)   
+https://www.census.gov/quickfacts/riversidecountycalifornia     
+https://www.census.gov/quickfacts/sanbernardinocountycalifornia    
+2. Analysis of Impact: Access to Care 
+What is the access gap? 
+ 
+The access gap 
+Access gap  =  care needed by Medi-Cal members moved from Managed Care to Fee-for-
+Service  −  care they can get from providers who accept Medi-Cal Fee-for-Service  
+Measure it by comparing demand (Section 2) with supply (Section 3). Expect the largest gaps 
+where there are many Medi-Cal members and few Fee-for-Service providers.  
+ 
+2. The demand side: Medi-Cal members 
+2.1 Inland Empire Health Plan's membership 
+Program Members 
+Medi-Cal 1,321,983 
+IEHP DualChoice Medicare-Medicaid Plan 38,185 
+IEHP Covered (Covered California) 34,078 
+Total 1,394,246 
+Source: Inland Empire Health Plan fact sheet, dated October 2026 (Ref 1).  LINK: https://www.census.gov/quickfacts/riversidecountycaliforniaLINK: https://www.census.gov/quickfacts/sanbernardinocountycaliforniaLINK: https://www.iehp.org/content/dam/iehp-org/en/documents/about/fact-sheet/IEHP_Fact_Sheet.pdf
+--- PAGE 3 ---
+Student Data Guide  ·  Page 3 
+The region has more than two million Medi-Cal enrollees, 94% of them in managed care (California 
+Health Care Foundation, Inland Empire Regional Market Report, June 2026) (Ref 3). 
+For monthly counts by plan and county, use the state's managed care enrollment report (Source D). 
+Its count for the plan may differ from the fact sheet depending on how dual members are counted. 
+2.2 How many of the plan's members will move? 
+The number of Inland Empire Health Plan members who will move is not public. Statewide, about 2 
+million of more than 14 million Medi-Cal members are moving, about 1 in 7. The Inland Empire share 
+may differ from the state average. 
+You do not need the exact number. You may make reasonable assumptions and create what-if 
+scenarios". For example: 
+Scenario Assumed share of the plan's ~1.322 
+million Medi-Cal members who 
+move 
+Members (rounded) 
+Low 10% (1 in 10) about 132,000 
+Middle about 14% (1 in 7, the statewide ratio) about 190,000 
+High 18% about 238,000 
+Label these as assumptions in your presentation. For each scenario, check which areas fall short 
+and how many extra patients each fee-for-service doctor would need to take.  
+2.3 Medi-Cal Member counts by place and group 
+• Members by ZIP code: monthly Medi-Cal enrollment counts for every California ZIP code 
+(Source A) Used in the analysis in Section 5.1. 
+• Members by county, age group, and language: county-level monthly counts (Source B). 
+The brief names "children, older adults, and people with complex needs" as most at risk.  
+3. The supply side: Providers 
+3.1 Managed Care Network doctors and Fee-for-Service doctors 
+These terms describe how a doctor is paid for Medi-Cal patients. The same doctor can be both: 
+• Through the managed care health plan: the doctor contracts with Inland Empire Health Plan 
+and the plan pays the doctor. These are the plan's network doctors. 
+• Directly by the state: the doctor is enrolled in Medi-Cal Fee-for-Service (FFS) and bills the 
+state. 
+This gives four groups for the providers: 
+Group Paid by 
+the plan? 
+Paid 
+directly by 
+the state? 
+Moved members on January 1, 2027 
+A. Provider is in  
+both IEHP 
+Yes Yes Can keep seeing this doctor LINK: https://data.chhs.ca.gov/dataset/medi-cal-managed-care-enrollment-reportLINK: https://data.chhs.ca.gov/dataset/medi-cal-certified-eligible-counts-by-month-of-eligibility-zip-code-and-sexLINK: https://data.chhs.ca.gov/dataset/medi-cal-certified-eligibles-with-demographics-by-month
+--- PAGE 4 ---
+Student Data Guide  ·  Page 4 
+Group Paid by 
+the plan? 
+Paid 
+directly by 
+the state? 
+Moved members on January 1, 2027 
+network and 
+enrolled in FFS 
+B. Provider in 
+IEHP network 
+only  
+Yes No Lose this doctor unless the doctor enrolls in 
+fee-for-service in time 
+C. Provider in 
+FFS only 
+No Yes A possible new option, if the doctor is taking 
+new patients 
+D. Neither No No Not relevant 
+Group B matters most for this challenge. The state says: "Providers who only bill through 
+managed care and are not enrolled in Medi-Cal FFS will not be able to care for UIS members after 
+December 31, 2026" (Transition FAQs, Ref 2). 
+Source E lists the Medi-Cal FFS providers.  
+ 
+3.2 Other provider data 
+• Shortage areas: federally designated areas short of primary care, dental, or mental health 
+providers (Source G). 
+• Doctor pay: in 2024, Medicaid physician fees nationally were 0.75 of Medicare's, and 0.66 for 
+primary care (Medicaid-to-medicare fee index, Ref 6). A national study (2012, Ref 5) found 
+doctors were more likely to accept new Medicaid patients in states where Medicaid paid closer 
+to Medicare rates. California's value is on the same Medicaid-to-medicare fee index page. 
+ 
+4. Data sources and links 
+Links go to dataset pages. On each page, click "Download" next to the file you need.  
+Demand side 
+ Dataset Link 
+A Medi-Cal members by ZIP code 
+— download "Calendar Years 
+2020 to the Most Recent 
+Reportable Month" 
+https://data.chhs.ca.gov/dataset/medi-cal-certified-
+eligible-counts-by-month-of-eligibility-zip-code-and-
+sex 
+B Medi-Cal members by county, 
+with age, language, and plan 
+https://data.chhs.ca.gov/dataset/medi-cal-certified-
+eligibles-with-demographics-by-month 
+C Inland Empire Health Plan fact 
+sheet 
+https://www.iehp.org/en/our-organization/who-we-
+are/fact-sheet LINK: https://www.dhcs.ca.gov/hm/wp-content/uploads/2026/08/Fee-for-Service-Transition-Provider-FAQ.pdfLINK: https://data.chhs.ca.gov/dataset/profile-of-enrolled-medi-cal-fee-for-service-ffs-providersLINK: https://www.kff.org/medicaid/state-indicator/medicaid-to-medicare-fee-indexLINK: https://www.commonwealthfund.org/publications/newsletter-article/study-shows-patients-insurance-still-determines-physician-accessLINK: https://www.kff.org/medicaid/state-indicator/medicaid-to-medicare-fee-indexLINK: https://data.chhs.ca.gov/dataset/medi-cal-certified-eligible-counts-by-month-of-eligibility-zip-code-and-sexLINK: https://data.chhs.ca.gov/dataset/medi-cal-certified-eligible-counts-by-month-of-eligibility-zip-code-and-sexLINK: https://data.chhs.ca.gov/dataset/medi-cal-certified-eligible-counts-by-month-of-eligibility-zip-code-and-sexLINK: https://data.chhs.ca.gov/dataset/medi-cal-certified-eligibles-with-demographics-by-monthLINK: https://data.chhs.ca.gov/dataset/medi-cal-certified-eligibles-with-demographics-by-monthLINK: https://www.iehp.org/en/our-organization/who-we-are/fact-sheetLINK: https://www.iehp.org/en/our-organization/who-we-are/fact-sheet
+--- PAGE 5 ---
+Student Data Guide  ·  Page 5 
+ Dataset Link 
+D Medi-Cal managed care 
+enrollment by plan and county 
+https://data.chhs.ca.gov/dataset/medi-cal-managed-
+care-enrollment-report 
+Supply (Provider) side 
+ Dataset Link 
+E Medi-Cal fee-
+for-service 
+providers — 
+download the 
+provider list  
+https://data.chhs.ca.gov/dataset/profile-of-enrolled-medi-cal-fee-for-service-ffs-providers 
+F Dental fee-for-
+service 
+providers and 
+safety net 
+clinics 
+https://data.chhs.ca.gov/dataset/profile-of-enrolled-medi-cal-dental-fee-for-service-ffs-
+providers-and-safety-net-clinics-sncs 
+G Federal 
+shortage areas 
+— see the 
+"Shortage 
+Areas" section 
+https://data.hrsa.gov/topics/health-workforce/shortage-areas/hpsa-find 
+ 
+https://data.hrsa.gov/data/download 
+ 
+(Optional source, this does not give zip code level shortage designation) 
+ 
+H ZIP code to 
+county 
+crosswalk 
+(U.S. 
+Department of 
+Housing and 
+Urban 
+Development) 
+— download the 
+"ZIP - County" 
+file; free, but 
+requires 
+registering an 
+account 
+https://www.huduser.gov/portal/datasets/usps_crosswalk.html 
+ 
+San Bernardino county is Geoid 06071 
+ 
+Riverside county is Geoid 06065 
+ 
+(you may find a zip code listed in both counties) 
+ 
+5. Explanations and how to use the data 
+5.1 Steps for the main analysis 
+1. Keep only the Inland Empire. Filter the member file (A) and the provider file (E) to Riverside 
+and San Bernardino counties. LINK: https://data.chhs.ca.gov/dataset/medi-cal-managed-care-enrollment-reportLINK: https://data.chhs.ca.gov/dataset/medi-cal-managed-care-enrollment-reportLINK: https://data.chhs.ca.gov/dataset/profile-of-enrolled-medi-cal-fee-for-service-ffs-providersLINK: https://data.chhs.ca.gov/dataset/profile-of-enrolled-medi-cal-dental-fee-for-service-ffs-providers-and-safety-net-clinics-sncsLINK: https://data.chhs.ca.gov/dataset/profile-of-enrolled-medi-cal-dental-fee-for-service-ffs-providers-and-safety-net-clinics-sncsLINK: https://data.hrsa.gov/topics/health-workforce/shortage-areas/hpsa-findLINK: https://data.hrsa.gov/data/downloadLINK: https://www.huduser.gov/portal/datasets/usps_crosswalk.html
+--- PAGE 6 ---
+Student Data Guide  ·  Page 6 
+2. Count members by ZIP code for one complete month (see Source A notes). 
+3. Count fee-for-service providers by ZIP code, separately for primary care, key specialties, 
+mental health, and dental. 
+4. Calculate fee-for-service providers per 1,000 Medi-Cal members for each ZIP code. 
+5. Rank and map. The lowest ratios are your likely gap areas. 
+ 
+Treat enrollment as a best case. The provider list shows who can bill fee-for-service. It does not 
+show who is taking new patients. 
+ZIP code City Medi-Cal 
+members 
+Fee-for-service 
+primary care 
+providers  
+Providers 
+per 1,000 
+members 
+… … … … … 
+A possible results table. 
+(You may choose to analyze at City level rather than Zip code level) 
+ 
+5.2 Notes on each data source 
+Source A: Medi-Cal members by ZIP code 
+What it is: Monthly counts of people certified eligible for Medi-Cal, by ZIP code and sex, from 2005 
+to the most recent month. Counts only, not individual records. Published by the California 
+Department of Health Care Services. 
+What to look at: 
+• Download only "Calendar Years 2020 to the Most Recent Reportable Month." 
+• Use August or September 2026 data. 
+• Add the counts for both sexes to get total members per ZIP code. 
+Notes: 
+• Blank cells are values hidden to protect confidentiality (dataset page). Treat them as "not 
+shown," not zero. 
+• Store ZIP codes as text, not numbers, or matches with other files will fail. 
+• If the file has no county column, use the HUD-USPS ZIP code to county crosswalk (Source H) 
+to find the ZIP codes in Riverside and San Bernardino counties. 
+ 
+Source B: Medi-Cal members by county, with demographics 
+What it is: Monthly county-level counts in separate files by age group and sex, primary language, 
+delivery system and plan, and other traits. 
+What to look at: 
+• By Age Group and Sex and By Primary Language to see which groups are most affected 
+and which languages members speak. 
+• By Delivery System and Plan for managed care versus fee-for-service counts by county and 
+plan. 
+--- PAGE 7 ---
+Student Data Guide  ·  Page 7 
+Notes: 
+• Do not use "By Aid Category". It mentions immigration-status (dataset page). 
+• County level only: no differences within a county. 
+ 
+Source C: Inland Empire Health Plan fact sheet 
+What it is: The plan's published membership counts by program, and # of providers in their network  
+What to look at: 
+• Membership size, and the share in Medi-Cal; # of providers 
+Notes: 
+• Dated October 2026; the count month is not stated. 
+ 
+Source D: Medi-Cal managed care enrollment report 
+What it is: Monthly managed care enrollment by plan type, county, and health plan. 
+What to look at: 
+• The plan's enrollment trend by county; comparison with the other plan in the region. 
+Notes: 
+• May count dual members differently from the fact sheet. 
+ 
+Source E: Medi-Cal fee-for-service providers 
+What it is: The state's list of enrolled fee-for-service providers, with provider number, name, type, 
+specialty, and location. Excludes managed care providers.  
+What to look at: 
+• Record the "as of" date. 
+Notes: 
+• Enrolled does not mean accepting new fee-for-service patients. 
+• One provider can appear at several addresses. Check for repeats and do not double count. 
+ 
+Source F: Dental fee-for-service providers and safety net clinics 
+What it is: Dentists enrolled in Medi-Cal fee-for-service dental and safety net clinics that provide 
+dental services, with ZIP codes. 
+What to look at: 
+• Repeat the Section 5.1 match for dental care. 
+Notes: 
+• Updated about twice a year; the current version is as of October 2025 (dataset page).  
+ 
+Source G: Federal shortage areas 
+What it is: Areas designated by the Health Resources and Services Administration as short of 
+primary care, dental, or mental health providers.  
+--- PAGE 8 ---
+Student Data Guide  ·  Page 8 
+What to look at: 
+• Download the primary care, dental, and mental health files; filter to the two counties. 
+• Use the shortage score to compare areas: scores range from 1 to 25 for primary care and 
+mental health and 1 to 26 for dental, and "the higher the HPSA score, the greater the need" 
+(Ref 4). 
+Notes: 
+• Shortages are measured for all providers, not fee-for-service only. 
+• Consider this source as optional, it does not give zip code or city level shortage area 
+designations 
+• https://www.chcf.org/wp-
+content/uploads/2020/07/ShortchangedHealthWorkforceGapsRiversideSanBernardino.pdf (Ref 
+8) gives county level numbers on people in shortage areas 
+ 
+ 
+Source H: ZIP code to county crosswalk 
+What it is: Files from the U.S. Department of Housing and Urban Development that link postal ZIP 
+codes to counties and other Census areas, updated quarterly (dataset page). 
+What to look at: 
+• Download the "ZIP - County" file and keep the rows for Riverside and San Bernardino 
+counties. Use this list to filter Sources A and E. 
+Notes: 
+• The files are free, but the page asks you to register an account first. 
+• Some ZIP codes cross county lines. Use your judgement on how to handle. 
+6. References 
+1. Census Quick Facts https://www.census.gov/quickfacts/ 
+2. Inland Empire Health Plan, Fact Sheet, October 2026. https://www.iehp.org/en/our-
+organization/who-we-are/fact-sheet 
+3. California Department of Health Care Services, Fee-for-Service Transition: Frequently Asked 
+Questions for Providers, September 2026. https://www.dhcs.ca.gov/hm/file/ffs-transition-
+provider-faq-pdf/ 
+4. California Health Care Foundation, Inland Empire Regional Market Report, June 2026 (slides). 
+https://www.chcf.org/wp-content/uploads/2026/06/InlandEmpireRMR2026_Slides.pdf 
+5. 3RNET, Health Professional Shortage Areas (employer guide). https://3rnet.org/employers-
+guide/hpsa 
+6. Decker, S. (2012), study in Health Affairs on physicians' acceptance of new Medicaid patients, as 
+summarized by the Commonwealth Fund. 
+https://commonwealthfund.org/publications/newsletter-article/study-shows-patients-
+insurance-still-determines-physician-access 
+7. KFF, Medicaid-to-Medicare Fee Index (from Urban Institute, May 2025). 
+https://www.kff.org/medicaid/state-indicator/medicaid-to-medicare-fee-index/ 
+8. Health workforce gaps (2020 update) https://www.chcf.org/wp-
+content/uploads/2020/07/ShortchangedHealthWorkforceGapsRiversideSanBernardino.pdf 
+ LINK: https://www.3rnet.org/employers-guide/hpsaLINK: https://www.chcf.org/wp-content/uploads/2020/07/ShortchangedHealthWorkforceGapsRiversideSanBernardino.pdfLINK: https://www.chcf.org/wp-content/uploads/2020/07/ShortchangedHealthWorkforceGapsRiversideSanBernardino.pdfLINK: https://www.iehp.org/en/our-organization/who-we-are/fact-sheetLINK: https://www.iehp.org/en/our-organization/who-we-are/fact-sheetLINK: https://www.dhcs.ca.gov/hm/file/ffs-transition-provider-faq-pdf/LINK: https://www.dhcs.ca.gov/hm/file/ffs-transition-provider-faq-pdf/LINK: https://www.chcf.org/wp-content/uploads/2026/06/InlandEmpireRMR2026_Slides.pdfLINK: https://3rnet.org/employers-guide/hpsaLINK: https://3rnet.org/employers-guide/hpsaLINK: https://commonwealthfund.org/publications/newsletter-article/study-shows-patients-insurance-still-determines-physician-accessLINK: https://commonwealthfund.org/publications/newsletter-article/study-shows-patients-insurance-still-determines-physician-accessLINK: https://www.kff.org/medicaid/state-indicator/medicaid-to-medicare-fee-index/LINK: https://www.chcf.org/wp-content/uploads/2020/07/ShortchangedHealthWorkforceGapsRiversideSanBernardino.pdfLINK: https://www.chcf.org/wp-content/uploads/2020/07/ShortchangedHealthWorkforceGapsRiversideSanBernardino.pdf
+--- PAGE 9 ---
+Student Data Guide  ·  Page 9 
+ 

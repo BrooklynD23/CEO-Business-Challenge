@@ -1,0 +1,10 @@
+step,rows_or_npizip
+All IE rows,36470.0
+"Physician/NP-type rows that could be primary care (PC specialty, unknown specialty, NP)",9778.0
+... drop unknown-specialty physicians,8077.0
+... drop Provider_Source 3,7507.0
+... drop group entities,6481.0
+... dedupe NPI-ZIP (definition b),6261.0
+"definition c (Source 1, not self-reported N/M)",6254.0
+definition d (billable at site),5086.0
+"definition e (address cap 25, from b)",3974.0

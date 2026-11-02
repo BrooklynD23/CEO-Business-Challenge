@@ -1,0 +1,11 @@
+# Over GitHub's 100 MB file limit. Restore with scripts/download_data.py (see README).
+data/raw/E_ffs_providers/medi-cal-ffs-provider-listing_10_26_26.csv
+data/raw/X_acs5_zcta/acsdt5y2024-b01001.dat
+data/raw/X_acs5_zcta/acsdt5y2024-b17001.dat
+data/raw/X_acs5_zcta/acsdt5y2024-b27001.dat
+
+# Local tooling
+.venv/
+__pycache__/
+*.pyc
+.superpowers/

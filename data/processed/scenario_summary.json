@@ -1,0 +1,136 @@
+{
+  "guide_check": {
+    "guide_text": "about 190,000 at about 14% (1 in 7)",
+    "at_14_0_pct": 185078,
+    "at_1_in_7": 188855,
+    "guide_190k_implies_share": 0.1437234820720085,
+    "diff_190k_vs_14pct": 4922,
+    "diff_190k_vs_1_in_7": 1145,
+    "rounding_note": "190,000 implies 14.37%; 14.0% gives 185,078 (about 185,000); exactly 1/7 gives 188,855 (about 189,000). The guide overstates its own 'about 14%' row by 1,100-5,000 members."
+  },
+  "vintage": {
+    "ffs_two_counties_2026_09_as_published": 99206.0,
+    "ffs_two_counties_2026_08": 111790.0,
+    "ffs_two_counties_2026_10": 66869.0,
+    "mature_proxy_mean_2026_06_to_08": 112539.0,
+    "sep_vs_mature_shortfall_pct": 11.84744844009632,
+    "oct_vs_mature_shortfall_pct": 40.58148730662259,
+    "statewide_ffs_2026_04_in_oct7_snapshot": 745220.0,
+    "statewide_mc_2026_04_in_oct7_snapshot": 13228669.0,
+    "dhcs_quoted_2026_04": {
+      "ffs": 702547,
+      "mc": 13207633
+    },
+    "ffs_revision_pct_between_dhcs_quote_and_oct7_snapshot": 6.074042021387882,
+    "mc_revision_pct": 0.15927153639112568,
+    "older_vintages_available": "No. Only the 2026-10-07 snapshot of A/B was downloaded; the Internet Archive was offline (HTTP 'Temporarily Offline') on 2026-11-02, so no older B vintage could be fetched. Evidence of upward revision comes from (i) the within-snapshot recency profile and (ii) DHCS's own April-2026 figure (vintage date not stated) vs the same month in this snapshot."
+  },
+  "all_plan": {
+    "managed_care_total_B_2026_09": 1718022.0,
+    "iehp_members_B": 1340442.0,
+    "iehp_share_of_mc": 0.7802240017881028,
+    "non_iehp_exposed_members": 374181.0,
+    "statewide_implied_rate_multiples": {
+      "iehp_mover_share_5pct": 2.111111111111111,
+      "iehp_mover_share_7pct": 1.4761904761904758
+    },
+    "note": "Kaiser, Molina, SCAN and out-of-county plan members counted as exposed; PACE excluded (stays in PACE). Multiples 0.5-2.0 are a range, not an estimate. Statewide pattern (IEHP 10.0% of enrolment, 5-7% of movers) implies non-IEHP plans' per-member rate 1.5x-2.1x IEHP's [ESTIMATE: arithmetic on S35/S32]."
+  },
+  "medicaid_flag": {
+    "ie_rows": 36470,
+    "flagged_rows": 1614,
+    "flagged_share_of_rows": 0.04425555250891144,
+    "values": {
+      "B": 1283,
+      "N": 137,
+      "F": 118,
+      "M": 76
+    },
+    "share_accept_new_ffs_B_or_F": 0.8680297397769516,
+    "share_managed_care_only_M": 0.04708798017348203,
+    "share_no_new_medicaid_N": 0.0848822800495663,
+    "share_declining_new_ffs_M_or_N": 0.13197026022304834,
+    "audit_range": [
+      0.4,
+      0.65
+    ],
+    "gap_above_audit_top_pp": 21.80297397769516,
+    "gap_above_audit_bottom_pp": 46.80297397769516,
+    "accept_share_ci95": [
+      0.8505373518651649,
+      0.8841708902802372
+    ],
+    "billing_rows": 10497,
+    "flag_coverage_of_billing_rows": 0.1537582166333238,
+    "nonbilling_flagged_rows": 0,
+    "pcp_rows_b": 6261,
+    "pcp_b_rows_with_flag": 53,
+    "pcp_any_flagged_rows": 273,
+    "pcp_any_flag_values": {
+      "B": 240,
+      "N": 14,
+      "M": 12,
+      "F": 7
+    },
+    "pcp_any_accept_share": 0.9047619047619048,
+    "selection_logit_n": 10497,
+    "selection_logit": {
+      "const": {
+        "coef": -1.8402,
+        "or": 0.1588,
+        "ci_lo": 0.1321,
+        "ci_hi": 0.1909,
+        "p": 0.0
+      },
+      "org": {
+        "coef": 0.1891,
+        "or": 1.2081,
+        "ci_lo": 1.0137,
+        "ci_hi": 1.4398,
+        "p": 0.0347
+      },
+      "sb": {
+        "coef": -0.0618,
+        "or": 0.9401,
+        "ci_lo": 0.8442,
+        "ci_hi": 1.0468,
+        "p": 0.2599
+      },
+      "log_addr_npi": {
+        "coef": 0.0789,
+        "or": 1.0821,
+        "ci_lo": 1.035,
+        "ci_hi": 1.1314,
+        "p": 0.0005
+      },
+      "phys": {
+        "coef": -0.6776,
+        "or": 0.5079,
+        "ci_lo": 0.4121,
+        "ci_hi": 0.6258,
+        "p": 0.0
+      },
+      "mh": {
+        "coef": -1.1814,
+        "or": 0.3068,
+        "ci_lo": 0.2253,
+        "ci_hi": 0.4179,
+        "p": 0.0
+      },
+      "clinic": {
+        "coef": 0.9201,
+        "or": 2.5095,
+        "ci_lo": 1.9402,
+        "ci_hi": 3.246,
+        "p": 0.0
+      }
+    },
+    "accept_share_by_county": {
+      "Riverside": 0.8559907834101382,
+      "San Bernardino": 0.8863328822733424
+    },
+    "known_accepting_new_ffs_rows": 1401,
+    "interpretation_M": "M = accepts new managed-care Medicaid patients only. These records are FFS-enrolled (they are in E) but declare no new FFS patients: a partial view of providers on the guide's Group A list who would not take moving members. N = no new Medicaid at all. Because the flag is self-reported, present on 15% of billing rows and on no non-billing IE row, M+N is a floor on declining providers, not a rate."
+  },
+  "age_shares_note": "Statewide shares (251,000 of 1.9 million under 21; 28.8% age 50+ of the expansion group) applied to IEHP scenarios; ESTIMATE, not an IE count; no age restriction on demand."
+}
